@@ -4,6 +4,8 @@ title: Mangroves Fellows
 permalink: /fellows/
 ---
 
+<link rel="stylesheet" type="text/css" href="/_site/css/styles.css" />
+
 <h1> Mangroves Fellows 2022-2023 HEEHEE </h1>
 
 Baldiez

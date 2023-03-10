@@ -4,7 +4,7 @@ title: Mangroves Fellows
 permalink: /fellows/
 ---
 
-<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
 
 <h1> Mangroves Fellows 2022-2023 HEEHEE </h1>
 

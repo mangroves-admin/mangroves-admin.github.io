@@ -1,5 +1,5 @@
 ---
-layout: fellows
+layout: page
 title: Mangroves Fellows
 permalink: /fellows/
 ---

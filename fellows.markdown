@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mangroves Fellows
-permalink: /contact/
+permalink: /fellows/
 ---
 
 <h1> Mangroves Fellows 2022-2023 </h1>

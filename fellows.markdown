@@ -11,14 +11,8 @@ permalink: /fellows/
 
 
 <h1> Mangroves Fellows 2022-2023 HEEHEE HO HO</h1>
+<h1>AYA ROXAHARYNARRRRR!!!! the dwarves delved too deep and too grreedily.</h1>
 
-Baldiez
-
-Crawldiez
-
-Schmaldiez
-
-brought to you by His Supreme Excellence The Oba.
 
 
 

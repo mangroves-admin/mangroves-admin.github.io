@@ -1,4 +1,135 @@
-h1 {
-    color: purple;
-    text-transform: lowercase;
+body {
+    /* background-color: #1D2042; */
+    background-color: yellow;
+
+}
+
+p {
+    color: #F8F8F8;
+}
+
+
+#wrapper {
+    margin: 30px;
+    border: 1px solid #F8F8F8;
+    border-left: none;
+    border-bottom: none;
+}
+
+#fellows-title {
+    position: relative;
+    border-bottom: 1px solid #F8F8F8;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#fellows-title h1 {
+    font-size: 40px;
+    /* border: 1px solid red; */
+
+}
+
+#fellows-title h3 {
+    font-size: 25px;
+    margin: 30px 10px;
+    /* border: 1px solid yellow; */
+}
+
+#fellows-title h1, h3 {
+    color: #F8F8F8;
+    font-family: 'Candara';
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#curly-left {
+    /* border: 1px solid yellow; */
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    transform: scale(-1, -1);
+}
+
+#curly-right {
+    /* border: 1px solid yellow; */
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    transform: scaleY(-1);
+}
+
+#title {
+    position: relative;
+}
+
+#year {
+    position: relative;
+
+}
+
+#main-copy {
+    margin: 0px 30px 30px 30px;
+    height: 1000px;
+}
+
+#main-copy img {
+    height: 400px;
+    width: 400px;
+    float: left;
+    position: absolute;
+    left: -70px;
+    top: 80vh;
+    opacity: 50%;
+}
+
+.fellow {
+     border: solid 1px yellow;
+    height: 200px;
+    width: 80vw;
+}
+
+#ameen-ahmed {
+    background-image: url("../design/img/bio-headshots/ameen-ahmed.jpg");
+    /* background-size: cover; */
+    height: 90px;
+    width: 121px;
+    padding: 10px;
+    border: #F8F8F8;
+    border-style: double;
+    float: left;
+    margin: 0px;
+
+  /* background-color: #ccc;
+  border: 4px solid #fff;
+  padding: 2em;
+  width: 16em;
+  height: 16em;
+  position: relative;
+  margin: 0 auto; */
+
+}
+
+.fellow-bio {
+    float: left;
+    clear: left;
+    width: 2%;
+    text-align: left;
+    border: solid 1px red;
+    text-align: left;
+}
+
+.fellow-bio h3 {
+    border: solid 1px green;
+    font-size: 25px;
 }

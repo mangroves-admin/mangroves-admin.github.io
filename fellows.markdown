@@ -1,20 +1,17 @@
 ---
-layout: page
-title: Mangroves Fellows
+layout: fellows
+title: Mangroves Pilot Fellows
+year: 2022/2023
 permalink: /fellows/
 ---
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
 
-
-<h1> Mangroves Fellows 2022-2023 HEEHEE HO HO</h1>
-<h1>AYA ROXAHARYNARRRRR!!!! the dwarves delved too deep and too grreedily.</h1>
+<body>
 
 
-
-
-
-Testing new branch & page structure 3.10.23
+</body>

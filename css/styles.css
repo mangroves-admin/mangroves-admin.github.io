@@ -1,135 +1,155 @@
 body {
-    /* background-color: #1D2042; */
-    background-color: yellow;
-
+  background-color: #1d2042;
+  display: table;
+  font-family: "Candara";
+  align-content: center;
 }
 
 p {
-    color: #F8F8F8;
+  color: #f8f8f8;
 }
 
-
 #wrapper {
-    margin: 30px;
-    border: 1px solid #F8F8F8;
-    border-left: none;
-    border-bottom: none;
+  margin: 0 auto;
+  border: 1px solid #f8f8f8;
+  border-left: none;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #fellows-title {
-    position: relative;
-    border-bottom: 1px solid #F8F8F8;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  border-top: 1px solid #f8f8f8;
+  border-right: 1px solid #f8f8f8;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid yellow; */
 }
 
 #fellows-title h1 {
-    font-size: 40px;
-    /* border: 1px solid red; */
-
+  font-size: 40px;
+  /* border: 1px solid yellow; */
 }
 
 #fellows-title h3 {
-    font-size: 25px;
-    margin: 30px 10px;
-    /* border: 1px solid yellow; */
+  font-size: 25px;
+  margin-top: -25px;
+  /* border: 1px solid yellow; */
 }
 
-#fellows-title h1, h3 {
-    color: #F8F8F8;
-    font-family: 'Candara';
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#curly-left {
-    /* border: 1px solid yellow; */
-    height: 40px;
-    width: 40px;
-    float: right;
-    position: absolute;
-    left: 0px;
-    top: -5px;
-    transform: scale(-1, -1);
-}
-
-#curly-right {
-    /* border: 1px solid yellow; */
-    height: 40px;
-    width: 40px;
-    float: right;
-    position: absolute;
-    right: 10px;
-    top: -5px;
-    transform: scaleY(-1);
+#fellows-title h1,
+h3 {
+  color: #f8f8f8;
+  font-weight: 500;
 }
 
 #title {
-    position: relative;
+  float: left;
 }
 
 #year {
-    position: relative;
+  float: left;
+  clear: left;
+}
 
+#curly-left {
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  float: right;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+  transform: scale(-1, -1);
+}
+
+#curly-right {
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  transform: scaleY(-1);
 }
 
 #main-copy {
-    margin: 0px 30px 30px 30px;
-    height: 1000px;
+  margin: 0 auto;
+  border: 1px solid #f8f8f8;
+  border-left: none;
+  border-bottom: none;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #main-copy img {
-    height: 400px;
-    width: 400px;
-    float: left;
-    position: absolute;
-    left: -70px;
-    top: 80vh;
-    opacity: 50%;
+  height: 400px;
+  width: 400px;
+  float: left;
+  position: absolute;
+  left: -70px;
+  top: 80vh;
+  opacity: 50%;
 }
 
 .fellow {
-     border: solid 1px yellow;
-    height: 200px;
-    width: 80vw;
+  /* border: solid 1px yellow; */
+  margin-top: 120px;
+  /* margin-left: 180px; */
+  min-width: 800px;
+  height: 240px;
+  width: 66.67%;
+  clear: left;
+  display: flex;
+  z-index: 1;
+  position: relative;
 }
 
-#ameen-ahmed {
-    background-image: url("../design/img/bio-headshots/ameen-ahmed.jpg");
-    /* background-size: cover; */
-    height: 90px;
-    width: 121px;
-    padding: 10px;
-    border: #F8F8F8;
-    border-style: double;
-    float: left;
-    margin: 0px;
-
-  /* background-color: #ccc;
-  border: 4px solid #fff;
-  padding: 2em;
-  width: 16em;
-  height: 16em;
-  position: relative;
-  margin: 0 auto; */
+.fellow-headshot {
+  background-size: cover;
+  height: 200px;
+  width: 151px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #f8f8f8;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  outline: 1px solid #f8f8f8;
+  outline-offset: 5px;
+  float: left;
 
 }
 
 .fellow-bio {
-    float: left;
-    clear: left;
-    width: 2%;
-    text-align: left;
-    border: solid 1px red;
-    text-align: left;
+  /* margin-top: 30px; */
+  float: right;
+  width: 80%;
+  text-align: left;
+  /* border: 1px solid red; */
 }
 
 .fellow-bio h3 {
-    border: solid 1px green;
-    font-size: 25px;
+  margin-top: -10px;
+  margin-left: 60px;
+  font-size: 45px;
+}
+
+.fellow-bio p {
+  margin: -30px 0px 0px 60px;
+}
+
+#ameen-ahmed {
+  background-image: url("../design/img/bio-headshots/ameen-ahmed.jpg");
+  background-size: cover;
+  float: left;
+  clear: left;
 }

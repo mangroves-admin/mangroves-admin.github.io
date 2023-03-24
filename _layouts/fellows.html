@@ -4,16 +4,27 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <title>{{ page.title }}</title>
-    {% include fellows-head.html %}
   </head>
   <body>
+    {% include fellows-head.html %}
+    <nav>
+      <div class="nav-links">
+      {% for item in site.data.navigation %}
+        <div class="nav-item">
+        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+          {{ item.name }}
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    </nav>
     {{ content }}
 
-    
-        <div id="blue-flower">
-          <img src="../design/img/leaf-corner.svg" alt="curlicue-top-right" />
-        </div>
-      </div>
-    </div>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+
   </body>
 </html>
+

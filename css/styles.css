@@ -1,5 +1,8 @@
 body {
   background-color: #1d2042;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   display: table;
   font-family: "Candara";
   align-content: center;
@@ -9,19 +12,48 @@ p {
   color: #f8f8f8;
 }
 
+.nav-links {
+  margin: 0px 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #f8f8f8;
+}
+
+.nav-item a {
+  /* border-right: 1px solid #f8f8f8; */
+  padding: 0px 50px;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
 #wrapper {
-  margin: 0 auto;
+  margin: 0px 15px;
   border: 1px solid #f8f8f8;
   border-left: none;
   border-bottom: none;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+#fellows {
+  /* border: 1px solid yellow; */
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #fellows-title {
-  border-top: 1px solid #f8f8f8;
-  border-right: 1px solid #f8f8f8;
+  margin: 15px 15px 0px 15px;
+  padding: 10px;
+  border: 1px solid #f8f8f8;
+  border-left: none;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -63,8 +95,8 @@ h3 {
   width: 40px;
   float: right;
   position: absolute;
-  left: 0px;
-  top: -5px;
+  left: 5px;
+  top: 0px;
   transform: scale(-1, -1);
 }
 
@@ -73,10 +105,10 @@ h3 {
   padding: 10px;
   height: 40px;
   width: 40px;
-  float: right;
+  float: left;
   position: absolute;
-  right: 10px;
-  top: -5px;
+  right: 15px;
+  top: 0px;
   transform: scaleY(-1);
 }
 
@@ -116,6 +148,7 @@ h3 {
 
 .fellow-headshot {
   background-size: cover;
+  background-position: center;
   height: 200px;
   width: 151px;
   margin: 10px;
@@ -152,4 +185,40 @@ h3 {
   background-size: cover;
   float: left;
   clear: left;
+}
+
+#blue-flower {
+  background-image: url("../design/img/quadrifoil.svg");
+  background-size: cover;
+  height: 600px;
+  width: 650px;
+  top: 500px;
+  left: -50px;
+  float: left;
+  position: absolute;
+  z-index: -1;
+  opacity: 50%;
+}
+
+#bluespace {
+  /* height: 40px; */
+}
+
+#footer-base {
+  /* margin-top: 40px; */
+  background-color: #080A24;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+#footer-inside {
+  margin-right: 15px;
+  border-right: 1px solid #f8f8f8;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }

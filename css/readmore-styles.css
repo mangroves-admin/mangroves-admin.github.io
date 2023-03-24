@@ -1,0 +1,88 @@
+body {
+  background-color: #001f0f;
+  display: table;
+  font-family: "Candara";
+  align-content: center;
+}
+
+p {
+  color: #f8f8f8;
+}
+
+.nav-links {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #f8f8f8;
+}
+
+.nav-item a {
+  /* border-right: 1px solid #f8f8f8; */
+  padding: 0px 50px;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+#branch-border {
+  background-image: url("../design/img/roots-border.svg");
+}
+
+#wrapper {
+  margin: 0 auto;
+  border: 1px solid #f8f8f8;
+  border-left: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#curly-right {
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  transform: scaleY(-1);
+}
+
+#main-copy {
+  margin: 0 auto;
+  border: 1px solid #f8f8f8;
+  border-left: none;
+  border-bottom: none;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-copy img {
+  height: 400px;
+  width: 400px;
+  float: left;
+  position: absolute;
+  left: -70px;
+  top: 80vh;
+  opacity: 50%;
+}
+
+#blue-flower {
+  background-image: url("../design/img/quadrifoil.svg");
+  background-size: cover;
+  height: 600px;
+  width: 650px;
+  top: 500px;
+  left: -50px;
+  float: left;
+  position: absolute;
+  z-index: -1;
+  opacity: 50%;
+}

@@ -219,7 +219,7 @@ h3 {
   float: left;
   position: relative;
   z-index: -1;
-  opacity: 20%;
+  opacity: 30%;
   float: left;
 }
 
@@ -233,23 +233,26 @@ h3 {
 
 #flower-2 {
   rotate: -5deg;
-  top: 100px;
+  top: 300px;
+  display
 }
 
 #flower-3 {
   rotate: 20deg;
-  top: -100px;
+  top: -50px;
   left: 150px;
 }
 
 #flower-4 {
   rotate: 49deg;
-  top: 500px;
+  top: 50px;
+  display: none;
 }
 
 #flower-5 {
   rotate: 24deg;
   top: 550px;
+  display: none;
 }
 
 #flower-6 {

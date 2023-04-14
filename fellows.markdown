@@ -26,7 +26,7 @@ permalink: /fellows/
         {% endfor %}
       </div>
     </div>
-  <div id="flower-box">
+  <!-- <div id="flower-box">
     <div class="blue-flower left-flower" id="flower-1"></div>
     <div class="blue-flower" id="flower-2"></div>
     <div class="blue-flower" id="flower-3"></div>
@@ -35,9 +35,9 @@ permalink: /fellows/
     <div class="blue-flower" id="-flower-6"></div>
     <div class="blue-flower" id="-flower-7"></div>
     <div class="blue-flower" id="-flower-8"></div>
-     <div class="blue-flower" id="-flower-7"></div>
+    <div class="blue-flower" id="-flower-7"></div>
     <div class="blue-flower" id="-flower-8"></div>
-  </div>
+  </div> -->
 </div>
 
 

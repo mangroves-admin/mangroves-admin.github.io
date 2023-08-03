@@ -377,6 +377,51 @@ h3 {
   line-height: 2em;
 }
 
+#meet-section {
+  line-height: 1.5em;
+  /* border: 1px solid red; */
+  background-color: #151739;
+}
+
+#meet-border-box {
+  padding: 30px;
+}
+
+#meet-text {
+  max-width: 40em;
+  background-color: #151739;
+  border-right: none;
+}
+
+#reach-section {
+  line-height: 1.5em;
+  background-color: #151739;
+}
+
+#reach-border-box {
+  padding: 30px;
+}
+
+#reach-text {
+  max-width: 40em;
+  background-color: #151739;
+  border-right: none;
+}
+
+#give-section {
+  line-height: 1.5em;
+  background-color: #151739;
+}
+
+#give-border-box {
+  padding: 30px;
+}
+
+#give-text {
+  max-width: 40em;
+  background-color: #151739;
+  border-right: none;
+}
 
 
 

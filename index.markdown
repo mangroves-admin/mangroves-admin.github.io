@@ -68,73 +68,71 @@ permalink: /home/
     <div class="info-block" id="stretching-forth">
         <div class="right-border-box">
             <div class="intro" id="stretching-forth-text">
-                <h3>Stretching forth...</h3>
                 {% for item in site.data.stretching-forth %}
+                    <h3>{{ item.title }}</h3>
                     <p>{{ item.copy }}</p>
                 {% endfor %}
             </div>
         </div>
     </div>
 
-
     <div class="info-block" id="meet-section">
-        <div class="right-border-box">
-            <div class="section-title">
-                <h3>Meet</h3>
-            </div>
-            {% for item in site.data.do %}
+        <div class="right-border-box" id="meet-border-box">
+            <div class="intro" id="meet-text">
+                {% for item in site.data.meet %}
+                <div class="section-title">
+                    <h3>{{ item.title }}</h3>
+                </div>
                 <div id="do-item">
-                    <div class="do-title">
-                        <h3>{{ item.title }}</h3>
-                    </div>
                     <div class="do-info">
                         <p>{{ item.copy }}</p>
                         <a href="{{ item.url }}"><h4>Read more |</h4></a>
                     </div>
                 </div>
             {% endfor %}
+            </div>
         </div>
     </div>
-
 
     <div class="info-block" id="reach-section">
-        <div class="right-border-box">
-            <div class="section-title">
-                <h3>Reach</h3>
-            </div>
-            {% for item in site.data.do %}
+        <div class="right-border-box" id="reach-border-box">
+            <div class="intro" id="reach-text">
+                {% for item in site.data.reach %}
+                <div class="section-title">
+                    <h3>{{ item.title }}</h3>
+                </div>
                 <div id="do-item">
-                    <div class="do-title">
-                        <h3>{{ item.title }}</h3>
-                    </div>
                     <div class="do-info">
                         <p>{{ item.copy }}</p>
-                        <a href="{{ item.url }}"><h4>Read more |</h4></a>
                     </div>
                 </div>
             {% endfor %}
+            </div>
         </div>
     </div>
-
 
     <div class="info-block" id="give-section">
-        <div class="right-border-box">
-            <div class="section-title">
-                <h3>GIve</h3>
-            </div>
-            {% for item in site.data.do %}
+        <div class="right-border-box" id="give-border-box">
+            <div class="intro" id="give-text">
+                {% for item in site.data.give %}
+                <div class="section-title">
+                    <h3>{{ item.title }}</h3>
+                </div>
                 <div id="do-item">
-                    <div class="do-title">
-                        <h3>{{ item.title }}</h3>
-                    </div>
                     <div class="do-info">
                         <p>{{ item.copy }}</p>
-                        <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                        <a href="{{ item.url }}"><h4>Give |</h4></a>
                     </div>
                 </div>
             {% endfor %}
+            </div>
         </div>
     </div>
+
+
+
+
+
 
     
 

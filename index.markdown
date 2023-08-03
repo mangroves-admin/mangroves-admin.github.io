@@ -14,8 +14,21 @@ permalink: /home/
 </head>
 
 <div id="wrapper">
+
+    <div class="intro">
+        <div class="right-border-box">
+            <div class="intro-text">
+                <p><span>Mangroves</span> is a do-think tank. We are small, dreaming big - though never alone. We are concerned with long planetary futures. Our model of a collaboratory is to engender coworking in-house with staff and annual fellows, with persons and organizations outside of our collab, as well as non-human <i>coactants</i> - always!</p>
+            </div>
+        </div>
+    </div>
+
+
     <div id="think-section">
         <div class="right-border-box">
+            <div class="section-title">
+                <h3>Think</h3>
+            </div>
             {% for item in site.data.think %}
                 <div id="think-item">
                     <div class="think-title">
@@ -32,6 +45,10 @@ permalink: /home/
 
     <div id="do-section">
         <div class="right-border-box">
+            <div class="section-title">
+                <h3>Do</h3>
+                <h4>Current Projects</h4>
+            </div>
             {% for item in site.data.do %}
                 <div id="do-item">
                     <div class="do-title">

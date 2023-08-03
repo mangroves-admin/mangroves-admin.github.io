@@ -3,17 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
     <title>{{ page.title }}</title>
-    {% include readmore-head.html %}
+    {% include home-head.html %}
   </head>
   <body>
-    {% include idea-head.html %}
     <nav>
       <div class="nav-links">
       {% for item in site.data.navigation %}
         <div class="nav-item">
-        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
           {{ item.name }}
         </a>
       </div>
@@ -23,7 +21,7 @@
     {{ content }}
 
     <footer>
-      {% include green-footer.html %}
+      {% include footer.html %}
     </footer>
 
     

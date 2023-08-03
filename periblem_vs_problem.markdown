@@ -1,7 +1,7 @@
 ---
 layout: readmore
-title: Basal Thought
-permalink: /basal-thought/
+title: Periblem vs. Problem
+permalink: /periblem-vs-problem/
 ---
 
 <head>
@@ -14,12 +14,9 @@ permalink: /basal-thought/
   <div id="wrapper">
   <div class="idea">
       <div id="idea-copy">
-    <p>{{ site.data.basal-thought.copy }}</p>
+    <p>{{ site.data.periblem-vs-problem.copy }}</p>
     </div>
     </div>
 
       <div id="blue-flower"></div>
   </div>
-
-
-

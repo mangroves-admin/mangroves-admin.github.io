@@ -1,7 +1,7 @@
 ---
 layout: readmore
-title: Basal Thought
-permalink: /basal-thought/
+title: Deep Counterdesign
+permalink: /deep-counterdesign/
 ---
 
 <head>
@@ -11,15 +11,15 @@ permalink: /basal-thought/
 </head>
 
 
+
   <div id="wrapper">
   <div class="idea">
       <div id="idea-copy">
-    <p>{{ site.data.basal-thought.copy }}</p>
+    <p>{{ site.data.deep-counterdesign.copy }}</p>
     </div>
     </div>
 
       <div id="blue-flower"></div>
   </div>
-
 
 

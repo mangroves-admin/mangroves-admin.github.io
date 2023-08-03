@@ -13,23 +13,6 @@ permalink: /home/
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
 
- <div id="wrapper">
-    <div id="think-section">
-        {% for item in site.data.think %}
-        <div id="think-item">
-            <div class="yay">
-                <div class="think-title">
-                     <h3>{{ item.title }}</h3>
-                </div>
-                <div class="think-info">
-                    <p>{{ item.copy }}</p>
-                    <a href="{{ item.url }}"><h4>Read more |</h4></a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
     <div id="do-section">
         {% for item in site.data.do %}
         <div id="do-item">

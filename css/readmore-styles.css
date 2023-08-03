@@ -14,7 +14,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid #f8f8f8;
+  /* border-right: 1px solid #f8f8f8; */
 }
 
 .nav-item a {
@@ -30,7 +30,7 @@ p {
 }
 
 #wrapper {
-  margin: 0 auto;
+  margin: 0px 15px;
   border: 1px solid #f8f8f8;
   border-left: none;
   border-bottom: none;
@@ -40,6 +40,16 @@ p {
   justify-content: center;
 }
 
+.idea {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 800px;
+  line-height: 2;
+}
+
+.idea p {
+  color: #dcdcdc;
+}
 
 #curly-right {
   /* border: 1px solid yellow; */
@@ -80,9 +90,29 @@ p {
   height: 600px;
   width: 650px;
   top: 500px;
-  left: -50px;
+  left: 10px;
   float: left;
   position: absolute;
   z-index: -1;
-  opacity: 50%;
+  opacity: 30%;
+}
+
+#footer-base {
+  /* margin-top: 40px; */
+  background-color:#080A24;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  box-shadow: inset 0px 0px 10px black;
+}
+
+#footer-inside {
+  margin-right: 15px;
+  border-right: 1px solid #f8f8f8;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }

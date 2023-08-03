@@ -233,6 +233,15 @@ h3 {
 
 
 
+.info-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
 .right-border-box {
   padding: 50px 0px;
   margin-right: 30px;
@@ -316,6 +325,7 @@ h3 {
   /* line-height: 25px; */
 }
 
+
 .do-title {
   margin-bottom: 0px;
   width: 100%;
@@ -350,6 +360,28 @@ h3 {
   align-items: center;
   flex-direction: column;
 }
+
+#stretching-forth {
+  background-color: #080A24
+}
+
+#stretching-forth-text {
+  max-width: 40em;
+}
+
+#stretching-forth h3 {
+  font-style: italic;
+}
+
+#stretching-forth p {
+  line-height: 2em;
+}
+
+
+
+
+
+
 
 
 

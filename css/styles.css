@@ -218,6 +218,67 @@ h3 {
   font-size: 3em;
 }
 
+#transmobility-intro h1 {
+  color: #f8f8f8;
+  text-transform: uppercase;
+}
+
+#transmobility-intro {
+  border-top: 1px solid #5a86ff;
+  border-bottom: 1px solid #5a86ff;
+}
+
+#transmobility-intro span {
+  font-size: 0.75em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#rome-border-box {
+  padding: 0 4rem;
+}
+
+#rome-main-copy {
+  background-color: #151739;
+}
+
+.three-column-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.responsive-three-columns {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.responsive-three-columns > * {
+  width: 100%;
+  padding: 2rem;
+  color: #f8f8f8;
+}
+
+@media (min-width:768px) {
+  .responsive-three-columns > * {
+      width:calc(100% / 3);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #think-section {
   background-color: #151739;
@@ -230,7 +291,6 @@ h3 {
   border-right: 1px solid black;
   /* line-height: 25px; */
 }
-
 
 
 .info-block {

@@ -65,7 +65,7 @@ permalink: /transmobility-rome/
                     <div id="rome-pedestrian-map">
                         <div id="pedestrian-map-image">
                             <img src="/design/img/pedestrian-map-closeup.jpg" alt="pedestrian-map">
-                            <p>Current construction of traditional invasive metro line in central Rome</p>
+                            <p>Red bounded area pedestrian only (corresponding to the grey area in the map on upper right)</p>
                         </div>
                     </div>
                     <div class="responsive-two-columns">

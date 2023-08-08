@@ -60,25 +60,32 @@ permalink: /transmobility-rome/
 
 
         <div class="right-border-box" id="rome-border-box-2">
-            <div class="responsive-three-columns" id="rome-page-2">
+            <div class="responsive-two-columns" id="rome-page-2">
                 <div id="rome-column-2-1">
-                    <p>Baldiez</p>
-
-                    <p>Crawldiez</p>
-
-                    <p>Schmaldiez</p>
-                </div>
-
-                <div id="rome-column-2-2">
-                    <p>Obez</p>
-
-                    <p>The Basketball Veteran</p>
-
-                    <p>The Champ</p>
+                    <div id="rome-pedestrian-map">
+                        <div id="pedestrian-map-image">
+                            <img src="/design/img/pedestrian-map-closeup.jpg" alt="pedestrian-map">
+                            <p>Current construction of traditional invasive metro line in central Rome</p>
+                        </div>
+                    </div>
+                    <div class="responsive-two-columns">
+                        <div id="rome-column-2-1-1">
+                            <h2>The Central Loop</h2>
+                            <p>The Strategic Plan for Sustainable Mobility, drafted by Antonio Tamburrino at the request of Rome's Mayor in 2012, proposes a <b>5 Ring</b> solution to Rome's transprotation challenges.</p>
+                            <p>The plan calls for the <b>elimination of private motor vehicles from the city center</b>, thought no from greater Rome, where a new generation of cleaner, autonomous and shard electric vehicles will continue to serve the city's residents and visitors thanks to improved surface and subsurface arteries (rings 1-3).</p>
+                            <p>Clean mobility solutions from bicycling to emerging electric micromobility options benefit from (and make feasible) the vast pedestrian zone served by the Tiber Tramway and the Central Loop (rings 4-5).</p>
+                        </div>
+                        <div id="rome-column-2-1-2">
+                            <p>Key to implementing the Five Rings plan and in particular the Central Loop is a technical solution to the problem of <b>non-invasive tunneling</b> below the city's rich archaeological strata.</p>
+                            <p>The Central Loop is conceived to weave its way at the minimum possible depth below the ruins (as little as 12 meters below the surface) through tunnels with a diameter of under five meters.</p>
+                            <p>With small cars (16-25 passengers) and frequent automated service (even every 60 seconds) stations can be virtually eliminated, replaced by elevators which provide direct access to vehicles, thus reducing archeological impact.</p>
+                            <p><b>The company which provides this solution will chart a crucial role in the next phase of Rome's ongoing history.</b></p>
+                        </div>
+                    </div>
                 </div>
 
         
-                <div id="rome-column-2-3">
+                <div id="rome-column-2-2">
                     <img src="/design/img/five-rings-map.jpg" alt="five-rings-map" width="100%/3">
                     <h2>Five Rings Proposal</h2>
                     <ol>

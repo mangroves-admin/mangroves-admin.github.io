@@ -2,19 +2,20 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: mangroves-home
-title: Mangroves
+layout: readmore
+title: Do
 permalink: /do/
 ---
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
 
  <div id="wrapper">
-    <div id="do-section">
+    <div class="right-border-box">
+    <div id="do-page-section">
         {% for item in site.data.do %}
         <div id="do-item">
             <div class="yay">
@@ -28,5 +29,6 @@ permalink: /do/
             </div>
         </div>
         {% endfor %}
+    </div>
     </div>
 </div>

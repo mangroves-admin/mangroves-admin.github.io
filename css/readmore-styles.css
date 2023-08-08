@@ -1,5 +1,5 @@
 body {
-  background-color: #001f0f;
+  background-color: #001f0f !important;
   display: table;
   font-family: "Candara";
   align-content: center;
@@ -7,6 +7,10 @@ body {
 
 p {
   color: #f8f8f8;
+}
+
+#title h1 {
+  font-size: 3em !important;
 }
 
 .nav-links {
@@ -31,7 +35,7 @@ p {
 
 #wrapper {
   margin: 0px 15px;
-  border: 1px solid #f8f8f8;
+  /* border: 1px solid #f8f8f8; */
   border-left: none;
   border-bottom: none;
   display: flex;
@@ -41,10 +45,11 @@ p {
 }
 
 .idea {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
+  padding: 0 5em;
   width: 800px;
-  line-height: 2;
+  line-height: 2; 
 }
 
 .idea p {
@@ -61,6 +66,22 @@ p {
   right: 10px;
   top: -5px;
   transform: scaleY(-1);
+}
+
+#do-page-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#think-page-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #main-copy {

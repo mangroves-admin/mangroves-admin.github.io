@@ -14,6 +14,7 @@ permalink: /connival-on-growth/
 </head>
 
  <div id="wrapper">
+ <div class="right-border-box">
     <div id="think-section">
         {% for item in site.data.think %}
         <div id="think-item">

@@ -12,10 +12,12 @@ permalink: /periblem-vs-problem/
 
 
   <div id="wrapper">
-  <div class="idea">
-      <div id="idea-copy">
-    <p>{{ site.data.periblem-vs-problem.copy }}</p>
-    </div>
+    <div class="right-border-box">
+      <div class="idea">
+        <div id="idea-copy">
+          <p>{{ site.data.periblem-vs-problem.copy }}</p>
+        </div>
+      </div>
     </div>
 
       <div id="blue-flower"></div>

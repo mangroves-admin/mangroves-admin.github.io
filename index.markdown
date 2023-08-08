@@ -139,7 +139,8 @@ permalink: /home/
 
 
 
-    <div id="contact-section">
+    <div class="info-block" id="contact-section">
+        <div class="right-border-box" id="contact-border-box">
         <div id="blue-flower-contact">
         </div>  
         <div id="contact-us">
@@ -165,6 +166,7 @@ permalink: /home/
                 <div class="social-icon" id="twitter"></div>
                 <div class="social-icon" id="mastodon"></div>
             </div>
+        </div>
         </div>
     </div>
 </div>

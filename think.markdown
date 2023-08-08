@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: mangroves-home
-title: Mangroves
+layout: readmore
+title: Think
 permalink: /think/
 ---
 
@@ -14,7 +14,8 @@ permalink: /think/
 </head>
 
  <div id="wrapper">
-    <div id="think-section">
+    <div class="right-border-box">
+    <div id="think-page-section">
         {% for item in site.data.think %}
         <div id="think-item">
             <div class="yay">
@@ -28,5 +29,6 @@ permalink: /think/
             </div>
         </div>
         {% endfor %}
+    </div>
     </div>
 </div>

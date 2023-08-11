@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: transmobility-rome
-title: Transmobility Rome
-permalink: /transmobility-rome/
+layout: carless-rome
+title: Carless Rome
+permalink: /carless-rome/
 ---
 
 <head>
@@ -17,9 +17,9 @@ permalink: /transmobility-rome/
 
     <div class="intro">
         <div class="right-border-box">
-            <div class="intro-text" id="transmobility-intro">
+            <div class="intro-text" id="carless-intro">
                 <h1>Rome Strategic Plan for Urban Mobility</h1>
-                <img src="/design/img/transmobility-rome.jpg " alt="rome-street" height="400" width="600">
+                <img src="/design/img/carless-rome.jpg " alt="rome-street" height="400" width="600">
                 <h1><span>Objective:</span> <br>Revive Rome as a Creative Knowledge Hub</h1>
             </div>
         </div>

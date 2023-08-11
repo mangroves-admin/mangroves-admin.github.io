@@ -1,14 +1,14 @@
 - name: Home
   link: /home/
-- name: About
-  link: /about.html
+# - name: About
+#   link: /about.html
 - name: Think
   link: /think/index.html
 - name: Do
   link: /do/index.html
 - name: Meet
   link: /meet/index.html
-- name: Reach
-  link: /reach/index.html
 - name: Give
   link: /give/index.html
+- name: Reach
+  link: /reach/index.html

@@ -158,7 +158,7 @@ permalink: /home/
                     <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
                 </div>
                 <h4>contact us at:</h4>
-                <h3>info@mangroves.life</h3>
+                <h3>tidings@mangroves.life</h3>
             </div>
 
             <div id="social-media">

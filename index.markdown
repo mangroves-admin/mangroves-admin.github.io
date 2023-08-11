@@ -9,7 +9,7 @@ permalink: /home/
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
 
@@ -67,6 +67,8 @@ permalink: /home/
 
     <div class="info-block" id="stretching-forth">
         <div class="right-border-box">
+        <div id="blue-flower-contact">
+        </div>
             <div class="intro" id="stretching-forth-text">
                 {% for item in site.data.stretching-forth %}
                     <h3>{{ item.title }}</h3>
@@ -76,7 +78,7 @@ permalink: /home/
         </div>
     </div>
 
-    <div class="info-block" id="meet-section">
+    <!-- <div class="info-block" id="meet-section">
         <div class="right-border-box" id="meet-border-box">
             <div class="intro" id="meet-text">
                 {% for item in site.data.meet %}
@@ -127,7 +129,7 @@ permalink: /home/
             {% endfor %}
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -141,8 +143,6 @@ permalink: /home/
 
     <div class="info-block" id="contact-section">
         <div class="right-border-box" id="contact-border-box">
-        <div id="blue-flower-contact">
-        </div>  
         <div id="contact-us">
             <div id="mailbox">
                 <div class="corner-art" id="curly-mailbox-top-left">

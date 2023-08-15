@@ -30,7 +30,7 @@ permalink: /home/
                 <h3>Think</h3>
             </div>
             {% for item in site.data.think %}
-                <div id="think-item">
+                <div class="think-item">
                     <div class="think-title">
                         <h3>{{ item.title }}</h3>
                     </div>
@@ -50,7 +50,7 @@ permalink: /home/
                 <h4>Current Projects</h4>
             </div>
             {% for item in site.data.do %}
-                <div id="do-item">
+                <div class="do-item">
                     <div class="do-title">
                         <h3>{{ item.title }}</h3>
                     </div>

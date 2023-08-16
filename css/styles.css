@@ -62,6 +62,10 @@
     /* font-size: 400px; */
   }  
 
+  #meet-text, #stretching-forth-text, #give-text, #reach-text {
+    max-width: 40em !important;
+  }
+
   #home-title > * {
     width: 100%;
   }
@@ -141,6 +145,7 @@ p {
 }
 
 .nav-links {
+  /* max-width: 100vw; */
   margin: 0px 15px;
   padding: 10px;
   display: flex;
@@ -150,9 +155,18 @@ p {
   border-bottom: 1px solid #f8f8f8;
 }
 
+.nav-item {
+  padding: 5px 0px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12em;
+}
+
 .nav-item a {
   /* border-right: 1px solid #f8f8f8; */
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
   text-transform: uppercase;
   color: #f8f8f8;
   text-decoration: none;
@@ -678,7 +692,7 @@ h3 {
 }
 
 #stretching-forth-text {
-  max-width: 40em;
+  max-width: 60em;
   margin: 4em 0;
   background-color: transparent;
 }
@@ -697,17 +711,14 @@ h3 {
 
 #meet-section {
   line-height: 1.5em;
+  /* padding: 0; */
   /* border: 1px solid red; */
   background-color: #151739;
   z-index: 1;
 }
 
-#meet-border-box {
-  padding: 30px 0px;
-}
-
 #meet-text {
-  max-width: 40em;
+  /* max-width: 40em; */
   background-color: #151739;
   border-right: none;
 }
@@ -717,12 +728,9 @@ h3 {
   background-color: #151739;
 }
 
-#reach-border-box {
-  padding: 30px 0px;
-}
 
 #reach-text {
-  max-width: 40em;
+  /* max-width: 40em; */
   background-color: #151739;
   border-right: none;
 }
@@ -730,14 +738,12 @@ h3 {
 #give-section {
   line-height: 1.5em;
   background-color: #151739;
+  z-index: 1;
 }
 
-#give-border-box {
-  padding: 30px 0px;
-}
 
 #give-text {
-  max-width: 40em;
+  /* max-width: 40em; */
   background-color: #151739;
   border-right: none;
 }
@@ -764,6 +770,11 @@ h3 {
   /* border: 1px solid red; */
 }
 
+#contact-wrapper {
+  margin: 3em 0;
+  /* border: 1px solid red; */
+}
+
 
 #contact-us {
   /* width: 20em; */
@@ -781,7 +792,7 @@ h3 {
   background-image: url("../design/img/quadrifoil.svg");
   background-repeat: no-repeat;
   /* left: -80px; */
-  left: -13em;
+  left: 0;
   bottom: -15em;
   /* bottom: 57em; */
   /* height: 600px; */
@@ -822,9 +833,6 @@ h3 {
   font-size: var(--fs-400);
 }
 
-#contact-info {
-  /* border: 1px solid red; */
-}
 
 #contact-info h3, h4 {
   padding: 5px;

@@ -14,7 +14,7 @@
 
 }
 
-@media (min-width:40em) {
+@media (min-width:30em) {
 
   :root {
     --fs-600: 2rem;
@@ -27,21 +27,29 @@
     --ht-200: 30px;
   }
 
-  #wrapper {
-    width: 100%;
+  html, body {
+    /* width: 100vw; */
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
-  .nav-links >* {
-    width: 100%;
+
+  .home-title, .nav-links {
+    width: 100vw;
   }
 
-  .intro > * {
-    width: 100%;
+  .intro-text, .info-block, .right-border-box, .section-title, .think-item, .think-info, .do-item, .do-info {
+    width: 70vw;
+  }
+
+  .think-info, .do-info {
+    max-width: 60em;
   }
 
   .intro-text {
     margin: 30px;
     /* background-color: yellow; */
+    /* width: 100vw; */
   }
 
   .intro-text p {
@@ -49,11 +57,11 @@
     /* border: 1px solid red; */
   }
 
-  .right-border-box > * {
+  .right-border-box {
     width: 100%;
   }
 
-  .info-block > * {
+  .info-block {
     width: 100%;
   }
 
@@ -250,7 +258,7 @@ p {
   /* min-width: 100vw; */
   border: 1px solid #f8f8f8;
   border-left: none;
-  height: 150px;
+  height: 10em;
   /* display: flex; */
   /* flex-direction: column; */
   /* display: inline-block; */
@@ -369,7 +377,7 @@ h3 {
     /* margin-right: 15px; */
     /* border-right: 1px solid #f8f8f8; */
     max-width: 50em;
-    min-width: 1em;
+    /* min-width: 1em; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -535,7 +543,7 @@ h3 {
 
 .right-border-box {
   padding: 1em 6em;
-  margin-right: 31px;
+  margin-right: 30px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -575,7 +583,7 @@ h3 {
   width: 100%;
   /* height: 1em; */
   /* padding: 2em 0; */
-  min-width: 40vw;
+  /* min-width: 40vw; */
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
@@ -615,7 +623,7 @@ h3 {
   /* margin-right: 15px; */
   /* border: 1px solid red; */
   max-width: 60em;
-  min-width: 1em;
+  /* min-width: 1em; */
   /* display: flex; */
   align-items: center;
   flex-direction: column;
@@ -641,7 +649,7 @@ h3 {
   width: 100%;
   /* height: 1em; */
   /* padding: 2em 0; */
-  min-width: 40vw;
+  /* min-width: 40vw; */
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
@@ -677,7 +685,7 @@ h3 {
   /* margin-right: 15px; */
   /* border: 1px solid red; */
   max-width: 60em;
-  min-width: 1em;
+  /* min-width: 1em; */
   /* display: flex; */
   align-items: center;
   flex-direction: column;

@@ -137,11 +137,6 @@ permalink: /home/
 
 
 
-    
-
-
-
-
     <div class="info-block" id="contact-section">
         <div class="right-border-box" id="contact-border-box">
         <div id="contact-us">
@@ -158,16 +153,18 @@ permalink: /home/
                     <div class="corner-art" id="curly-mailbox-bottom-right">
                     <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
                 </div>
-                <h4>contact us at:</h4>
-                <h3>tidings@mangroves.life</h3>
+                <div id="contact-info">
+                    <h4>contact us at:</h4>
+                    <h3>tidings@mangroves.life</h3>
+                </div>
             </div>
+        </div>
 
-            <div id="social-media">
+           <div id="social-media">
                 <div class="social-icon" id="linkedin"></div>
                 <div class="social-icon" id="twitter"></div>
                 <div class="social-icon" id="mastodon"></div>
             </div>
-        </div>
         </div>
     </div>
 </div>

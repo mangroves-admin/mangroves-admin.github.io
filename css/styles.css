@@ -658,20 +658,28 @@ h3 {
 }
 
 #stretching-forth {
-  background-color: #080A24
+  background-color: #080A24;
+  /* background-image: url("../design/img/quadrifoil.svg");
+  background-repeat: no-repeat;
+  background-position:0rcap  ; */
+  position: relative;
 }
 
 #stretching-forth-text {
   max-width: 40em;
+  margin: 4em 0;
+  background-color: transparent;
 }
 
 #stretching-forth h3 {
+  font-size: var(--fs-200);
   font-style: italic;
   z-index: 1;
 }
 
 #stretching-forth p {
-  line-height: 2em;
+  font-size: var(--fs-200);
+  line-height: 1.5em;
   z-index: 1;
 }
 
@@ -679,6 +687,7 @@ h3 {
   line-height: 1.5em;
   /* border: 1px solid red; */
   background-color: #151739;
+  z-index: 1;
 }
 
 #meet-border-box {
@@ -760,14 +769,16 @@ h3 {
   background-image: url("../design/img/quadrifoil.svg");
   background-repeat: no-repeat;
   /* left: -80px; */
-  left: -12em;
-  /* bottom: 14em; */
+  left: -13em;
+  bottom: -15em;
+  /* bottom: 57em; */
   /* height: 600px; */
   height: 37.5em;
   /* width: 600px; */
   width: 37.5em;
   opacity: 30%;
   /* z-index: 1; */
+  
 }
 
 #mailbox {

@@ -74,6 +74,11 @@
     max-width: 40em !important;
   }
 
+
+  #meet-text .do-info, #give-text .do-info, #reach-text .do-info {
+    max-width: 40em;
+  }
+
   #home-title > * {
     width: 100%;
   }
@@ -729,6 +734,13 @@ h3 {
   /* max-width: 40em; */
   background-color: #151739;
   border-right: none;
+  
+}
+
+#meet-text .do-item, #give-text .do-item, #reach-text .do-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #reach-section {

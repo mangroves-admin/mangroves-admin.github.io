@@ -1248,3 +1248,35 @@ h3 {
   color: #f8f8f8;
   font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE HAMBURFER NAV */
+

@@ -1,22 +1,24 @@
 :root {
   
   --fs-xl: ;
-  --fs-800: 40px;
-  --fs-600: 60px;
-  --fs-400: 50px;
-  --fs-200: 40px;
+  --fs-800: 100px;
+  --fs-600: 80px;
+  --fs-400: 70px;
+  --fs-200: 60px;
 
 
   --px-400: 100vw;
-  --px-600: 180vw;
+  --px-600: 240vw;
 
-  --ht-200: 20vw;
+  --ht-200: 30vw;
+  --ht-400: 10em;
 
 }
 
 @media (min-width:30em) {
 
   :root {
+    --fs-800: 4rem;
     --fs-600: 2rem;
     --fs-400: 1.5rem;
     --fs-200: 1rem;
@@ -25,6 +27,7 @@
     --px-600: 24em;
 
     --ht-200: 30px;
+    --ht-400: 10em;
   }
 
   html, body {
@@ -87,8 +90,8 @@
     width: 100%;
   }
 
-  #footer-base > * {
-    width: 100%;
+  #footer-base {
+    height: var(--ht-400);
   }
 
   /* #fellows-title > * {
@@ -279,7 +282,7 @@ p {
   /* min-width: 100vw; */
   border: 1px solid #f8f8f8;
   border-left: none;
-  height: 10em;
+  /* height: 10em; */
   /* display: flex; */
   /* flex-direction: column; */
   /* display: inline-block; */
@@ -291,7 +294,7 @@ p {
 }
 
 #home-title h1 {
-  font-size: 5em;
+  font-size: var(--fs-800);
   /* border: 1px solid yellow; */
 }
 
@@ -1160,7 +1163,7 @@ h3 {
 #footer-base {
   /* margin-top: 40px; */
   background-color: #080A24;
-  height: 200px;
+  /* height: 5em; */
   display: flex;
   align-items: center;
   justify-content: center;  

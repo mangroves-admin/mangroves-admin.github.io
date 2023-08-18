@@ -10,16 +10,38 @@
     <nav>
       <div class="nav-border-box">
         <div class="nav-links">
-        {% for item in site.data.navigation %}
-          <div class="nav-item">
-          <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
-            {{ item.name }}
-          </a>
-        </div>
-        {% endfor %}
+          <!-- <div id="hamburger-div"> -->
+            <label for="hamburger"><img src="../design/img/carless-rome.jpg"></label>
+            <input type="checkbox" id="hamburger"/>
+            {% for item in site.data.navigation %}
+            <div class="nav-item">
+              <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
+              {{ item.name }}
+              </a>
+            </div>
+            {% endfor %}
+          <!-- </div> -->
         </div>
       </div>
     </nav>
+
+    <!-- <nav class="ham-nav">
+      <div class="nav-border-box" id="ham-nav-box">
+        <div class="ham-items">
+          <label for="hamburger">&#9776;</label>
+          <label for="hamburger"><img src="../design/img/carless-rome.jpg"></label>
+          <input type="checkbox" id="hamburger"/>
+          {% for item in site.data.navigation %}
+          <div class="ham-item">
+            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
+            {{ item.name }}
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </nav> -->
+
     {{ content }}
 
     <footer>

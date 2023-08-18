@@ -11,13 +11,17 @@
     <nav>
       <div class="nav-border-box">
         <div class="nav-links">
-        {% for item in site.data.navigation %}
-          <div class="nav-item">
-          <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
-            {{ item.name }}
-          </a>
-        </div>
-        {% endfor %}
+          <!-- <div id="hamburger-div"> -->
+            <label for="hamburger"><img src="../design/img/hamburger-nav.png"></label>
+            <input type="checkbox" id="hamburger"/>
+            {% for item in site.data.navigation %}
+            <div class="nav-item">
+              <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
+              {{ item.name }}
+              </a>
+            </div>
+            {% endfor %}
+          <!-- </div> -->
         </div>
       </div>
     </nav>

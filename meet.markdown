@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: readmore
+layout: meet
 title: Meet
 permalink: /meet/
 ---
@@ -13,22 +13,24 @@ permalink: /meet/
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
 
- <div id="wrapper">
-    <div class="right-border-box">
-    <div id="do-page-section">
-        {% for item in site.data.meet %}
-        <div id="do-item">
-            <div class="yay">
-                <div class="do-title">
-                     <h3>{{ item.title }}</h3>
+<body id="meet-body">
+    <div id="wrapper">
+        <div class="right-border-box" id="meet-border-box">
+            <div id="do-page-section">
+                {% for item in site.data.meet %}
+                <div id="do-item">
+                    <div class="yay">
+                        <div class="do-title">
+                            <h3>{{ item.title }}</h3>
+                        </div>
+                        <div class="do-info">
+                            <p>{{ item.copy }}</p>
+                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="do-info">
-                    <p>{{ item.copy }}</p>
-                    <a href="{{ item.url }}"><h4>Read more |</h4></a>
-                </div>
+                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
-    </div>
-</div>
+</body>

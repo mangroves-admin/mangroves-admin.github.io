@@ -13,22 +13,24 @@ permalink: /reach/
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
 
- <div id="wrapper">
-    <div class="right-border-box">
-    <div id="do-page-section">
-        {% for item in site.data.reach %}
-        <div id="do-item">
-            <div class="yay">
-                <div class="do-title">
-                     <h3>{{ item.title }}</h3>
+<body id="reach-body">
+    <div id="wrapper">
+        <div class="right-border-box" id="reach-border-box">
+            <div id="do-page-section">
+                {% for item in site.data.reach %}
+                <div id="do-item">
+                    <div class="yay">
+                        <div class="do-title">
+                            <h3>{{ item.title }}</h3>
+                        </div>
+                        <div class="do-info">
+                            <p>{{ item.copy }}</p>
+                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="do-info">
-                    <p>{{ item.copy }}</p>
-                    <a href="{{ item.url }}"><h4>Read more |</h4></a>
-                </div>
+                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
-    </div>
-</div>
+</body>

@@ -13,22 +13,24 @@ permalink: /think/
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
 
- <div id="wrapper">
-    <div class="right-border-box">
-    <div id="think-page-section">
-        {% for item in site.data.think %}
-        <div id="think-item">
-            <div class="yay">
-                <div class="think-title">
-                     <h3>{{ item.title }}</h3>
+<body id="think-body">
+    <div id="wrapper">
+        <div class="right-border-box" id="think-border-box">
+            <div id="think-page-section">
+                {% for item in site.data.think %}
+                <div id="think-item">
+                    <div class="yay">
+                        <div class="think-title">
+                            <h3>{{ item.title }}</h3>
+                        </div>
+                        <div class="think-info">
+                            <p>{{ item.copy }}</p>
+                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="think-info">
-                    <p>{{ item.copy }}</p>
-                    <a href="{{ item.url }}"><h4>Read more |</h4></a>
-                </div>
+                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
-    </div>
-</div>
+</body>

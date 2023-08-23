@@ -87,7 +87,7 @@
   }
 
   #home-title > * {
-    width: 100%;
+    /* width: 100%; */
   }
 
   #footer-base {
@@ -562,6 +562,10 @@ h3 {
   /* border: 1px solid red; */
 }
 
+#think-border-box {
+  background-color: #151739;
+}
+
 .think-title {
   /* margin-bottom: 1em; */
   width: 100%;
@@ -613,6 +617,9 @@ h3 {
   flex-direction: column;
 }
 
+#do-border-box {
+  background-color: #080A24;
+}
 
 #do-section {
   background-color: #1d2042;
@@ -699,6 +706,10 @@ h3 {
   font-size: var(--fs-200);
   line-height: 1.5em;
   z-index: 1;
+}
+
+#meet-border-box {
+  /* background-color: #4b0082; */
 }
 
 #meet-section {

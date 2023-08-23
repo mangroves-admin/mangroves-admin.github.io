@@ -1,9 +1,33 @@
 body {
-  background-color: #001f0f !important;
+  /* background-color: #001f0f !important; */
+  /* background-color: red !important; */
   display: table;
   font-family: "Candara";
   align-content: center;
 }
+
+ #meet-body {
+  background-color: #4b0082;
+}
+
+#reach-body {
+  /* background-color: #4b0082; */
+}
+
+#give-body {
+  background-color: #e6e6fa;
+  /* color: black; */
+}
+
+#give-border-box h3, #give-body p {
+  color: black;
+
+}
+
+#connival-body {
+  background-color: #4b0082;
+}
+
 
 p {
   color: #f8f8f8;

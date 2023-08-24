@@ -916,7 +916,6 @@ h3 {
 
 
 
-
 /* 
 
 #think {
@@ -962,7 +961,7 @@ h3 {
  */
 
 
-#fellows-backdrop {
+/* #fellows-backdrop {
   background-color: #080A24;
   width: 1000px;
   opacity: 80%;
@@ -973,7 +972,7 @@ h3 {
 }
 
 #fellows {
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   margin-bottom: 40px;
   display: flex;
   align-items: center;
@@ -993,25 +992,25 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
 }
 
 #fellows-title h1 {
   font-size: 40px;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
 }
 
 #fellows-title h3 {
   font-size: 25px;
   margin-top: -25px;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
 }
 
 #fellows-title h1,
 h3 {
   color: #f8f8f8;
   font-weight: 500;
-}
+} */
 
 #title {
   float: left;
@@ -1022,19 +1021,17 @@ h3 {
   clear: left;
 }
 
-.fellow {
-  /* border: solid 1px yellow; */
+/* .fellow {
   margin-top: 120px;
-  /* margin-left: 180px; */
   min-width: 800px;
   height: 240px;
   width: 66.67%;
   clear: left;
   display: flex;
   position: relative;
-}
+} */
 
-.fellow-headshot {
+/* .fellow-headshot {
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -1043,7 +1040,7 @@ h3 {
   padding: 10px;
   border: 1px solid #f8f8f8;
   padding: 5px;
-  background-clip: content-box; /* support: IE9+ */
+  background-clip: content-box;
   outline: 1px solid #f8f8f8;
   outline-offset: 5px;
   float: left;
@@ -1051,11 +1048,9 @@ h3 {
 }
 
 .fellow-bio {
-  /* margin-top: 30px; */
   float: right;
   width: 80%;
   text-align: left;
-  /* border: 1px solid red; */
 }
 
 .fellow-bio h3 {
@@ -1079,12 +1074,10 @@ h3 {
   width: 1400px;
   margin-top: 200px;
   position: absolute;
-  /* overflow: hidden; */
-  /* z-index: 0; */
 }
 
 .blue-flower {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   background-image: url("../design/img/quadrifoil.svg");
   background-repeat: no-repeat;
   margin-top: 200px;
@@ -1147,7 +1140,7 @@ h3 {
   rotate: 11deg;
   top: -10px;
   left: 700px;
-}
+} */
 
 
 

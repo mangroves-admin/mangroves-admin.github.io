@@ -6,6 +6,9 @@ body {
   align-content: center;
 }
 
+
+/* easily set different theme colors for each subpage here*/
+
 #think-body {
   background-color: #151739;
 }
@@ -14,7 +17,7 @@ body {
   background-color: #080A24;
 }
 
- #meet-body {
+#meet-body {
   background-color: #4b0082;
 }
 
@@ -30,6 +33,12 @@ body {
 #connival-body {
   background-color: #4b0082;
 }
+
+#fellows-body {
+  background-color: #57af55;
+}
+
+
 
 
 p {
@@ -261,6 +270,14 @@ p {
   font-size: 3em !important;
 }
 
+#give-main-section {
+  margin: 30px 0px;
+}
+
+#give-main-section a {
+  color: #3465eb;
+}
+
 
 
 /* Reach subpage */
@@ -276,4 +293,186 @@ p {
 
 .reach-title {
   
+}
+
+
+/* Pilot Fellowship Subpage*/
+
+#fellows-backdrop {
+  background-color: #a1dd87;
+  width: 1000px;
+  opacity: 80%;
+  box-shadow: inset 0px 0px 15px #1c551c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fellows {
+  /* border: 1px solid yellow; */
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#fellows-title {
+  margin: 15px 15px 0px 15px;
+  padding: 10px;
+  min-width: 800px;
+  border: 1px solid #f8f8f8;
+  border-left: none;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid yellow; */
+}
+
+#fellows-title h1 {
+  font-size: 40px;
+  /* border: 1px solid yellow; */
+}
+
+#fellows-title h3 {
+  font-size: 25px;
+  margin-top: -25px;
+  /* border: 1px solid yellow; */
+}
+
+#fellows-title h1,
+h3 {
+  font-weight: 500;
+}
+
+.fellow {
+  /* border: solid 1px yellow; */
+  margin-top: 120px;
+  /* margin-left: 180px; */
+  min-width: 800px;
+  height: 240px;
+  width: 66.67%;
+  clear: left;
+  display: flex;
+  position: relative;
+}
+
+.fellow-headshot {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 151px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #080A24;;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  outline: 1px solid #080A24;;
+  outline-offset: 5px;
+  float: left;
+  z-index: 9;
+}
+
+.fellow-bio {
+  /* margin-top: 30px; */
+  float: right;
+  width: 80%;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+
+.fellow-bio h3 {
+  margin-top: -10px;
+  margin-left: 60px;
+  font-size: 45px;
+  color: #080A24;;
+}
+
+.fellow-bio p {
+  margin: -30px 0px 0px 60px;
+  color: #080A24;
+}
+
+#ameen-ahmed {
+  background-image: url("../design/img/bio-headshots/ameen-ahmed.jpg");
+  background-size: cover;
+  float: left;
+  clear: left;
+}
+
+#flower-box {
+  width: 1400px;
+  margin-top: 200px;
+  position: absolute;
+  /* overflow: hidden; */
+  /* z-index: 0; */
+}
+
+.blue-flower {
+  /* border: 1px solid red; */
+  background-image: url("../design/img/quadrifoil.svg");
+  background-repeat: no-repeat;
+  margin-top: 200px;
+  height: 660px;
+  width: 660px;
+  float: left;
+  position: relative;
+  z-index: -1;
+  opacity: 30%;
+  float: left;
+}
+
+#flower-1 {
+  rotate: 30deg;
+  top: 100px;
+}
+
+#flower-2 {
+  rotate: -5deg;
+  top: 300px;
+}
+
+#flower-3 {
+  rotate: 20deg;
+  top: -50px;
+  left: 150px;
+}
+
+#flower-4 {
+  rotate: 49deg;
+  top: 50px;
+  display: none;
+}
+
+#flower-5 {
+  rotate: 24deg;
+  top: 550px;
+  display: none;
+}
+
+#flower-6 {
+  rotate: 16deg;
+  top: 120px;
+  left: -80px;
+}
+
+#flower-7 {
+  rotate: 94deg;
+  top: 10px;
+  left: 600px;
+}
+
+#flower-8 {
+  rotate: 21deg;
+  top: 400px;
+  left: -650px;
+}
+
+#flower-9 {
+  rotate: 11deg;
+  top: -10px;
+  left: 700px;
 }

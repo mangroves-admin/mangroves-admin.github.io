@@ -16,7 +16,7 @@ permalink: /give/
 <body id="give-body">
     <div id="wrapper">
         <div class="right-border-box" id="give-border-box">
-            <div id="do-page-section">
+            <div class="do-page-section" id="give-main-section">
                 {% for item in site.data.give %}
                 <div id="do-item">
                     <div class="yay">

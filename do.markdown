@@ -13,22 +13,24 @@ permalink: /do/
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
 
- <div id="wrapper">
-    <div class="right-border-box" id="do-border-box">
-    <div id="do-page-section">
-        {% for item in site.data.do %}
-        <div id="do-item">
-            <div class="yay">
-                <div class="do-title">
-                     <h3>{{ item.title }}</h3>
-                </div>
-                <div class="do-info">
-                    <p>{{ item.copy }}</p>
-                    <a href="{{ item.url }}"><h4>Read more |</h4></a>
+<body id="do-body">
+    <div id="wrapper">
+        <div class="right-border-box" id="do-border-box">
+        <div id="do-page-section">
+            {% for item in site.data.do %}
+            <div id="do-item">
+                <div class="yay">
+                    <div class="do-title">
+                        <h3>{{ item.title }}</h3>
+                    </div>
+                    <div class="do-info">
+                        <p>{{ item.copy }}</p>
+                        <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
+        </div>
     </div>
-    </div>
-</div>
+</body>

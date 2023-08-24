@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: readmore
+layout: give
 title: Give
 permalink: /give/
 ---
@@ -25,7 +25,6 @@ permalink: /give/
                         </div>
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
                         </div>
                     </div>
                 </div>

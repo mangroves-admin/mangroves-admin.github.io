@@ -18,14 +18,15 @@ permalink: /reach/
         <div class="right-border-box" id="reach-border-box">
             <div id="do-page-section">
                 {% for item in site.data.reach %}
-                <div id="do-item">
+                <div class="reach-item">
                     <div class="yay">
                         <div class="do-title">
+                        <a href="{{ item.url }}">
                             <h3>{{ item.title }}</h3>
+                        </a>
                         </div>
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
                         </div>
                     </div>
                 </div>

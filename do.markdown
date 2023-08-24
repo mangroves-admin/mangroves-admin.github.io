@@ -16,7 +16,7 @@ permalink: /do/
 <body id="do-body">
     <div id="wrapper">
         <div class="right-border-box" id="do-border-box">
-        <div id="do-page-section">
+        <div class="do-page-section">
             {% for item in site.data.do %}
             <div id="do-item">
                 <div class="yay">

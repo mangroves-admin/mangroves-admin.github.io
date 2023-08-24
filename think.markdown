@@ -16,7 +16,7 @@ permalink: /think/
 <body id="think-body">
     <div id="wrapper">
         <div class="right-border-box" id="think-border-box">
-            <div id="think-page-section">
+            <div class="think-page-section">
                 {% for item in site.data.think %}
                 <div id="think-item">
                     <div class="yay">

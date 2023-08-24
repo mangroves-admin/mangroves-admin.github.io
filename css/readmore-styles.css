@@ -23,13 +23,8 @@ body {
 }
 
 #give-body {
-  background-color: #e6e6fa;
+  background-color: #d9c0f7;
   /* color: black; */
-}
-
-#give-border-box h3, #give-body p {
-  color: black;
-
 }
 
 #connival-body {
@@ -101,6 +96,7 @@ p {
 }
 
 .do-page-section {
+  margin-top: 4em;
   width: 100%;
   display: flex;
   align-items: center;
@@ -111,7 +107,8 @@ p {
 .do-page-section h3 {
 }
 
-#think-page-section {
+.think-page-section {
+  margin-top: 4em;
   width: 100%;
   display: flex;
   align-items: center;
@@ -241,6 +238,42 @@ p {
   background-color: #4b0082;
 }
 
-.section-title .meet-section {
-  color: yellow;
+#board-of-directors {
+  margin-top: 0px;
+}
+
+
+
+/* Give subpage*/
+
+#give-border-box {
+  /* border: 1px solid #080A24; */
+  color: #080A24;
+}
+
+
+#give-border-box h3, #give-body p {
+  color: #080A24;
+}
+
+#give-title h1 {
+  color: #080A24 !important;
+  font-size: 3em !important;
+}
+
+
+
+/* Reach subpage */
+
+#reach-border-box h3, a {
+  color: #5a86ff;
+  text-decoration: none;
+}
+
+.reach-item {
+  margin: 30px 0px;
+}
+
+.reach-title {
+  
 }

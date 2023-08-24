@@ -15,22 +15,60 @@ permalink: /meet/
 
 <body id="meet-body">
     <div id="wrapper">
-        <div class="right-border-box" id="meet-border-box">
-            <div id="do-page-section">
-                {% for item in site.data.meet %}
-                <div id="do-item">
-                    <div class="yay">
-                        <div class="do-title">
-                            <h3>{{ item.title }}</h3>
-                        </div>
-                        <div class="do-info">
-                            <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
-                        </div>
+
+        <div class="info-block" id="directors-border-box">
+            <div class="right-border-box">
+                <div class="section-title meet-section" >
+                    <h3>Board of Directors</h3>
+                </div>
+                <div class="do-page-section" id="board-of-directors">
+                    {% for item in site.data.directors %}
+                    <div class="faculty">
+                        <div class="faculty-headshot" style="background-image: url( {{ item.img }} );"></div>
+                        <div class="faculty-bio">
+                        <p><b>{{ item.name }}</b> {{ item.bio }}</p>
                     </div>
                 </div>
                 {% endfor %}
+                </div>
             </div>
         </div>
+
+        <div class="info-block" id="advisory-border-box">
+            <div class="right-border-box">
+                <div class="section-title">
+                    <h3>Advisory Board</h3>
+                </div>
+                <div class="do-page-section" id="board-of-directors">
+                    {% for item in site.data.advisory %}
+                    <div class="faculty">
+                        <div class="faculty-headshot" style="background-image: url( {{ item.img }} );"></div>
+                        <div class="faculty-bio">
+                        <p><b>{{ item.name }}</b> {{ item.bio }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="info-block" id="personnel-border-box">
+            <div class="right-border-box">
+            <div class="section-title">
+                <h3>Personnel</h3>
+            </div>
+                <div class="do-page-section" id="board-of-directors">
+                    {% for item in site.data.personnel %}
+                    <div class="faculty">
+                        <div class="faculty-headshot" style="background-image: url( {{ item.img }} );"></div>
+                        <div class="faculty-bio">
+                        <p><b>{{ item.name }}</b> {{ item.bio }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>

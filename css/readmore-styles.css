@@ -100,12 +100,15 @@ p {
   transform: scaleY(-1);
 }
 
-#do-page-section {
+.do-page-section {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.do-page-section h3 {
 }
 
 #think-page-section {
@@ -168,4 +171,76 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;  
+}
+
+
+
+/* Meet subpage */
+
+.faculty {
+  /* border: solid 1px yellow; */
+  margin-bottom: 3%;
+  /* margin-left: 180px; */
+  min-width: 80%;
+  height: 240px;
+  width: 66.67%;
+  clear: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.faculty-headshot {
+  background-size: cover;
+  background-position: center;
+  height: 75%;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: 0.5px solid #f8f8f8;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  /* outline: 0.5px solid #f8f8f8; */
+  /* outline-offset: 5px; */
+  float: left;
+  z-index: 9;
+}
+
+.faculty-bio {
+  /* margin-top: 5%; */
+  float: right;
+  height: 100%;
+  width: 80%;
+  text-align: left;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faculty-bio h3 {
+  margin-top: -10px;
+  margin-left: 60px;
+  font-size: 45px;
+}
+
+.faculty-bio p {
+  margin-left: 5%;
+}
+
+#directors-border-box {
+  background-color: #390061;
+}
+
+#advisory-border-box {
+  background-color: #450474;
+}
+
+#personnel-border-box{
+  background-color: #4b0082;
+}
+
+.section-title .meet-section {
+  color: yellow;
 }

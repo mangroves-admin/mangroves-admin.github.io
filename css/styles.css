@@ -771,6 +771,11 @@ h3 {
   z-index: 1;
 }
 
+#give-section a, #reach-section a {
+  text-decoration: none;
+  color: #5a86ff;
+}
+
 
 #give-text {
   /* max-width: 40em; */

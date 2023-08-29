@@ -17,7 +17,7 @@ permalink: /reach/
     <div id="wrapper">
         <div class="right-border-box" id="reach-border-box">
             <div id="do-page-section">
-                {% for item in site.data.reach %}
+                {% for item in site.data.reach-subpage %}
                 <div class="reach-item">
                     <div class="yay">
                         <div class="do-title">

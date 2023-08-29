@@ -17,7 +17,7 @@ permalink: /home/
     <div class="intro">
         <div class="right-border-box">
             <div class="intro-text">
-                <p><span>Mangroves</span> is a do-think tank. We are small, dreaming big - though never alone. We are concerned with long planetary futures. Our model of a collaboratory is to engender coworking in-house with staff and annual fellows, with persons and organizations outside of our collab, as well as non-human <i>coactants</i> - always!</p>
+                <p><span>Mangroves</span>: a do-think tank. We are small, but <i>dreaming</i> - though never alone. We are concerned with <i>l o n g</i> planetary lifewebs and how they might resprout. As a collaboratory, we stage coworking in-house with staff and annual Fellows, with folks all over, and non-human <i>coactants</i> - always.</p>
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@ permalink: /home/
         <div class="right-border-box">
             <div class="section-title">
                 <h3>Do</h3>
-                <h4>Current Projects</h4>
+                <h4>Going</h4>
             </div>
             {% for item in site.data.do %}
                 <div class="do-item">
@@ -124,6 +124,7 @@ permalink: /home/
                 <div class="do-item">
                     <div class="do-info">
                         <p>{{ item.copy }}</p>
+                        <a href="{{ item.url }}"><h4>Read more |</h4></a>
                     </div>
                 </div>
             {% endfor %}

@@ -191,6 +191,14 @@ p {
 }
 
 
+
+#connival-copy h4 {
+  font-style: italic;
+  color: #f8f8f8;
+  font-weight: 400;
+  /* text-align: center; */
+}
+
 /* Meet subpage */
 
 .faculty {

@@ -7,39 +7,6 @@ body {
 }
 
 
-/* easily set different theme colors for each subpage here*/
-
-#think-body {
-  background-color: #151739;
-}
-
-#do-body {
-  background-color: #080A24;
-}
-
-#meet-body {
-  background-color: #4b0082;
-}
-
-#reach-body {
-  /* background-color: #4b0082; */
-}
-
-#give-body {
-  background-color: #d9c0f7;
-  /* color: black; */
-}
-
-#connival-body {
-  background-color: #4b0082;
-}
-
-#fellows-body {
-  background-color: #57af55;
-}
-
-
-
 
 p {
   color: #f8f8f8;
@@ -84,7 +51,7 @@ p {
   /* margin-top: 80px; */
   /* margin-bottom: 80px; */
   padding: 0 5em;
-  width: 800px;
+  /* width: 800px; */
   line-height: 2; 
 }
 
@@ -104,17 +71,6 @@ p {
   transform: scaleY(-1);
 }
 
-.do-page-section {
-  margin-top: 4em;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.do-page-section h3 {
-}
 
 .think-page-section {
   margin-top: 4em;
@@ -183,6 +139,10 @@ p {
 
 /* Think subpage */
 
+#think-body {
+  background-color: #151739;
+}
+
 #periblem-problem-copy h4 {
   font-style: italic;
   color: #f8f8f8;
@@ -199,7 +159,31 @@ p {
   /* text-align: center; */
 }
 
+
+/* Do subpage */
+
+#do-body {
+  background-color: #080A24;
+}
+
+.do-page-section {
+  margin-top: 4em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.do-page-section h3 {
+}
+
+
 /* Meet subpage */
+
+#meet-body {
+  background-color: #4b0082;
+}
 
 .faculty {
   /* border: solid 1px yellow; */
@@ -273,6 +257,12 @@ p {
 
 /* Give subpage*/
 
+
+#give-body {
+  background-color: #d1abff;
+  /* color: black; */
+}
+
 #give-border-box {
   /* border: 1px solid #080A24; */
   color: #080A24;
@@ -300,6 +290,10 @@ p {
 
 /* Reach subpage */
 
+#reach-body {
+  /* background-color: #4b0082; */
+}
+
 #reach-border-box h3, a {
   color: #5a86ff;
   text-decoration: none;
@@ -315,6 +309,10 @@ p {
 
 
 /* Pilot Fellowship Subpage*/
+
+#fellows-body {
+  background-color: #57af55;
+}
 
 #fellows-backdrop {
   background-color: #a1dd87;
@@ -493,4 +491,15 @@ h3 {
   rotate: 11deg;
   top: -10px;
   left: 700px;
+}
+
+
+/* Connival subapge */
+
+#connival-body {
+  background-color: #8000ffaf;
+}
+
+#connival-body h4, #connival-body p {
+  color: #080A24;
 }

@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: mangroves-home
+layout: connival
 title: Connival On Growth
-permalink: /connival-on-growth/
+permalink: /connival/
 ---
 
 <head>
@@ -15,13 +15,14 @@ permalink: /connival-on-growth/
 </head>
 
 <body id="connival-body">
-     <div id="wrapper">
-    <div class="right-border-box">
-      <div class="idea">
-        <div id="connival-copy">
-          <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
-          <p>{{ site.data.periblem-vs-problem.copy }}</p>
-        </div>
-      </div>
+  <div id="wrapper">
+    <div class="right-border-box" id="right-border-box-dark">
+        <div class="idea">
+          <div id="connival-copy">
+            <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
+            <p>{{ site.data.periblem-vs-problem.copy }}</p>
+          </div>
     </div>
+    </div>
+  </div>
 </body>

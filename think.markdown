@@ -19,7 +19,7 @@ permalink: /think/
             <div class="think-page-section">
                 {% for item in site.data.think %}
                 <div id="think-item">
-                    <div class="yay">
+                    <div class="main-copy">
                         <div class="think-title">
                             <h3>{{ item.title }}</h3>
                         </div>

@@ -30,7 +30,11 @@ permalink: /think/
                     </div>
                 </div>
                 {% endfor %}
+                <div id="think-copyright">
+                    <p>© David U.B. Liu, 2021</p>
+                </div>
             </div>
+            
         </div>
     </div>
 </body>

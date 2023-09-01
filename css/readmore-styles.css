@@ -150,13 +150,15 @@ p {
   text-align: center;
 }
 
-
-
 #connival-copy h4 {
   font-style: italic;
   color: #f8f8f8;
   font-weight: 400;
   /* text-align: center; */
+}
+
+#think-copyright {
+  width: 60em;
 }
 
 

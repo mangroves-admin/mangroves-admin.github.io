@@ -45,6 +45,8 @@
     width: 70vw;
   }
 
+  
+
   .intro-text, .info-block, .right-border-box, .section-title, .think-item, .think-info, .do-item, .do-info {
     width: 70vw;
   }
@@ -1320,7 +1322,8 @@ h3 {
   }
 
 #nav-links-dark a {
-  color: #080A24;
+  color: #080A24;  
+  
 }
 
 

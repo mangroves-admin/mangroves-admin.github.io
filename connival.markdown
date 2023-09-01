@@ -20,7 +20,7 @@ permalink: /connival/
         <div class="idea">
           <div id="connival-copy">
             <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
-            <p>{{ site.data.periblem-vs-problem.copy }}</p>
+            <p>{{ site.data.connival.copy }}</p>
           </div>
     </div>
     </div>

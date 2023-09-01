@@ -17,7 +17,7 @@ permalink: /connival/
 <body id="connival-body">
   <div id="wrapper">
     <div class="right-border-box" id="right-border-box-dark">
-        <div class="idea">
+        <div class="idea" id="connival-main">
           <div id="connival-copy">
             <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
             <p>{{ site.data.connival.copy }}</p>

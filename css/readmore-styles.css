@@ -538,3 +538,7 @@ h3 {
 #connival-body h4, #connival-body p {
   color: #080A24;
 }
+
+#connival-main {
+  max-width: 70em;
+}

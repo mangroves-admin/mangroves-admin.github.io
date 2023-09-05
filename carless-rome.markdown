@@ -19,13 +19,15 @@ permalink: /carless-rome/
         <div class="right-border-box">
             <div class="intro-text" id="carless-intro">
                 <h1>Rome Strategic Plan for Urban Mobility</h1>
+                <h4>Antonio Tamburrino, engineer, with architect Thomas G. Rankin</h4>
                 <img src="/design/img/carless-rome.jpg " alt="rome-street" height="400" width="600">
                 <h1><span>Objective:</span> <br>Revive Rome as a Creative Knowledge Hub</h1>
             </div>
         </div>
     </div>
 
-    <div class="info-block" id="rome-main-copy">
+    <div class="info-block" id="rome-main-copy-1">
+
         <div class="right-border-box" id="rome-border-box-1">
             <div class="responsive-three-columns" id="rome-page-1">
                 <div id="rome-column-1-1">
@@ -35,6 +37,7 @@ permalink: /carless-rome/
 
                     <p>Its famous and vast archaeological remains buried up to a depth of 30-40 meters have so far constituted a critical obstacle to developing an eﬀective underground transport system, at least using traditional technologies. As of now, Rome only has two completed subway lines, and a third one in development, all using traditional heavy trains and infrequent service.</p>
                 </div>
+                
 
                 <div id="rome-column-1-2">
                     <p>The Strategic Plan for Urban Mobility proposes employing 100% electric and driverless people movers, small-diameter tunnels and small footprint elevators, and the digital optimization of the transportation system.</p>
@@ -57,8 +60,9 @@ permalink: /carless-rome/
                 </div>
             </div>
         </div>
+    </div>
 
-
+    <div class="info-block" id="rome-main-copy-2">
         <div class="right-border-box" id="rome-border-box-2">
             <div class="responsive-two-columns" id="rome-page-2">
                 <div id="rome-column-2-1">
@@ -90,7 +94,7 @@ permalink: /carless-rome/
                     <h2>Five Rings Proposal</h2>
                     <ol>
                         <li>The <b>Super GRA</b> (in green above) augments Rome's outmoded ring-road with a high speed circular light rail system.</li>
-                        <li>The <b>Middle Connector</b> (in purple and blue above) augments existing surface roadways with new vehicular tunnels.</li>
+                        <li>The <b>Middle Connector</b> (in purple and blue above) augments existing surface roadway s with new vehicular tunnels.</li>
                         <li>The <b>Inner Connector</b> (in red and blue above) resolves incomplete road network to divert motor vehicles from the city center.</li>
                         <li>The <b>Central Loop</b> (in green in above left plan and within the grey area above) is a high-frequency driverless sub-surface tram designed to move people in the historic center where modern transit is currently absent.</li>
                         <li>The <b>Tiber Tramway</b> (in blue in above left plan and within the grey area above) is an automated tramway designed to traverse the north-south axis of the historic center along the surface currently overrun by private vehicles..</li>
@@ -102,7 +106,25 @@ permalink: /carless-rome/
                 </div>
             </div>
         </div>
+        </div>
+    </div>
 
+    <div class="info-block" id="rome-main-copy-3">
+        <div class="right-border-box" id="rome-border-box-3">
+            <div class="idea">
+            <h3>{{ site.data.carless-rome-approach.title }}</h3>
+            <p>{{ site.data.carless-rome-approach.copy }}</p>
+            </div>
+        </div>
+    </div>
 
+    <div class="info-block" id="rome-questions">
+        <div class="right-border-box" id="rome-border-box-4">
+            <div class="idea" id="rome-questions-copy">
+            <p>{{ site.data.carless-rome-questions.copy }}</p>
+            </div>
+        </div>
+    </div>
+        
     </div>
 </div>

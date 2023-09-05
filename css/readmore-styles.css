@@ -541,6 +541,47 @@ h3 {
   color: #080A24;
 }
 
+#connival-body h4 {
+  font-size: var(--fs-400);
+  font-style: italic;
+  font-weight: 400;
+}
+
+#connival-main-info {
+  background-image: url(/design/img/rome-houses.jpg);
+  background-size: cover;
+  opacity: 40%;
+}
+
 #connival-main {
   max-width: 70em;
+  line-height: 1.5em;
+}
+
+
+#connival-copy p {
+  padding: 0;
+}
+
+#connival-proceedings {
+  width: 100%;
+}
+
+#connival-main img, #connival-proceedings img {
+padding: 0.33em;
+border: 1px solid #080A24;;
+background-clip: content-box; /* support: IE9+ */
+outline: 1px solid #080A24;;
+outline-offset: 5px;
+width: 80%;
+float: right;
+}
+
+#connival-main-img-container {
+  padding-top: 3em;
+}
+
+#draft-proc-img-container {
+  /* border: 1px solid red; */
+  padding: 3em;
 }

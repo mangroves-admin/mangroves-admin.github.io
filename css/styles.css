@@ -557,7 +557,7 @@ h3 {
   /* border: 1px solid red; */
 }
 
-#right-border-box-dark {
+.right-border-box-dark {
   border-right: 1px solid #080A24;
 }
 

@@ -49,13 +49,13 @@ permalink: /home/
 
         <div class="info-block" id="do-section">
             <div class="right-border-box">
-                <div class="section-title">
+                <div class="section-title" id="do-section-title">
                     <h3>Do</h3>
                     <h4>Going</h4>
                 </div>
                 {% for item in site.data.do %}
                     <div class="do-item">
-                        <div class="do-title">
+                        <div class="do-title-home">
                             <h3>{{ item.title }}</h3>
                         </div>
                         <div class="do-info">
@@ -71,13 +71,13 @@ permalink: /home/
 
         <div class="info-block" id="stretching-forth">
             <div class="right-border-box">
-            <div id="blue-flower-contact">
-            </div>
-                <div class="intro" id="stretching-forth-text">
-                    {% for item in site.data.stretching-forth %}
+                {% for item in site.data.stretching-forth %}
+                <div class="do-item" id="stretching-forth-text">
                         <h3>{{ item.title }}</h3>
                         <p>{{ item.copy }}</p>
-                    {% endfor %}
+                </div>
+                {% endfor %}
+                 <div id="blue-flower-contact">
                 </div>
             </div>
         </div>

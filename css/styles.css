@@ -209,7 +209,7 @@ p {
 
 .home-title {
   margin: 15px 15px 0px 15px;
-  padding: 10px;
+  /* padding: 10px; */
   /* min-width: 800px; */
   /* min-width: 100vw; */
   border: 1px solid #f8f8f8;
@@ -244,6 +244,7 @@ h3 {
 
 #dark-title {
   border: 1px solid #080A24;
+  border-left: none;
 }
 
 #dark-title h1 {

@@ -294,8 +294,8 @@ p {
 
 
 #give-body {
-  background-color: #d1abff;
-  /* color: black; */
+  background-color: #a88df7;
+  /* color: #d1abff; */
 }
 
 #give-border-box {
@@ -348,12 +348,35 @@ p {
 /* Pilot Fellowship Subpage*/
 
 #fellows-body {
-  background-color: #57af55;
+  background-color: #93dd87e0;
+}
+
+#fellows-body h3, #fellows-body p {
+  color: #080a24;
+}
+
+#fellows-border-box {
+  padding-top: 0;
+  background-color: #080a24 ;
+}
+
+#fellows-setup {
+  /* background-color: transparent; */
+  /* background-color: #080A24; */
+  padding: 0;
+}
+
+#fellows-setup h3, #fellows-setup p {
+  color: #f8f8f8;
+}
+
+#fellows-setup h3 {
+  font-size: var(--fs-400);
 }
 
 #fellows-backdrop {
-  background-color: #a1dd87;
-  width: 1000px;
+  /* background-color: #a1dd87e0; */
+  width: 60em;
   opacity: 80%;
   box-shadow: inset 0px 0px 15px #1c551c;
   display: flex;
@@ -440,7 +463,8 @@ h3 {
 .fellow-bio h3 {
   margin-top: -10px;
   margin-left: 60px;
-  font-size: 45px;
+  padding: 0.5em 0;
+  font-size: var(--fs-400);
   color: #080A24;;
 }
 

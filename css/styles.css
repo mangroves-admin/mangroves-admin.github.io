@@ -39,8 +39,12 @@
   }
 
   #logo {
-    height: 7em !important;
-    width: 7em !important;
+    height: 3.5em !important;
+    width: 3.5em !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0.5em 0 0.5em !important;
   }
 
   .nav-links {
@@ -226,10 +230,6 @@ p {
   font-size: var(--fs-800);
 }
 
-.home-title h3 {
-  font-size: 25px;
-  margin-top: -25px;
-}
 
 .home-title h1, h3 {
   color: #fefff1;
@@ -252,13 +252,15 @@ p {
   justify-content: center;
 }
 
-#title {
+/* #title {
   padding: 10px;
-}
+} */
 
 #logo {
-  width: 12em;
-  height: 12em;
+  width: 8em;
+  height: 8em;
+  padding: 4em 1em 0 1em;
+  
 }
 
 #logo img {

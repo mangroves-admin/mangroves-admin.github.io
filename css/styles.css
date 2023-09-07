@@ -19,7 +19,7 @@
 @media (min-width:30em) {
 
   :root {
-    --fs-800: 4rem;
+    --fs-800: 3rem;
     --fs-600: 2rem;
     --fs-400: 1.5rem;
     --fs-300: 1.25rem;
@@ -38,6 +38,10 @@
     overflow-x: hidden;
   }
 
+  #logo {
+    height: 7em !important;
+    width: 7em !important;
+  }
 
   .nav-links {
     width: 70vw;
@@ -110,6 +114,10 @@
 
   #contact-section > * {
     width: 100%;
+  }
+
+  #contact-wrapper {
+    margin: 3em 0 !important;
   }
 
   #contact-us > * {
@@ -210,8 +218,8 @@ p {
   border: 1px solid #fefff1;
   border-left: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center ;
+  justify-content: left;
 }
 
 .home-title h1 {
@@ -238,7 +246,7 @@ p {
 }
 
 #title-wrapper {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -249,13 +257,13 @@ p {
 }
 
 #logo {
-  width: 150px;
-  height: 150px;
+  width: 12em;
+  height: 12em;
 }
 
 #logo img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 #inner-wrapper {
@@ -736,7 +744,7 @@ p {
 }
 
 #contact-wrapper {
-  margin: 3em 0;
+  margin: 6em 0;
 }
 
 

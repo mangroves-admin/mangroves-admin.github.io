@@ -9,7 +9,7 @@ permalink: /home/
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
 
@@ -37,14 +37,20 @@ permalink: /home/
                         </div>
                         <div class="think-info">
                             <p>{{ item.copy }}</p>
+                            <!-- <a href="../think/index.html"><h4>Read more |</h4></a> -->
+                        </div>
+                        <div class="think-info">
+                            <p>{{ item.copy }}</p>
+                            <!-- <a href="../think/index.html"><h4>Read more |</h4></a> -->
                         </div>
                     </div>
                 {% endfor %}
-                <div class="think-info">
+                <div class="think-info" id="think-link">
                     <a href="../think/index.html"><h4>Read more |</h4></a>
                 </div>
             </div>
         </div>
+        
 
 
         <div class="info-block" id="do-section">

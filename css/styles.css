@@ -5,7 +5,7 @@
   --fs-600: 80px;
   --fs-400: 70px;
   --fs-300: 60px;
-  --fs-200: 60px;
+  --fs-200: 45px;
 
 
   --px-400: 100vw;
@@ -543,6 +543,10 @@ p {
   max-width: 60em;
   align-items: center;
   flex-direction: column;
+}
+
+#think-link {
+  float: right !important;
 }
 
 #do-section {

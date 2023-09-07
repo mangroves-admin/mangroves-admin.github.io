@@ -27,7 +27,7 @@ permalink: /home/
 
         <div class="info-block" id="think-section">
             <div class="right-border-box">
-                <div class="section-title">
+                <div class="section-title" id="think-section-title">
                     <h3>Think</h3>
                 </div>
                 {% for item in site.data.think %}

@@ -1,3 +1,9 @@
+/* @font-face {
+  font-family: 'Candara';
+  src:  url('candara.tff') format('woff2'),
+        url('candara.tff') format('woff');
+} */
+
 :root {
   
   --fs-xl: ;
@@ -143,7 +149,7 @@ body {
 }
 
 p {
-  color: #fefff1;
+  color: #f2f4d4;
 }
 
 #curly-left {
@@ -219,7 +225,7 @@ p {
 
 .home-title {
   margin: 15px 15px 0px 15px;
-  border: 1px solid #fefff1;
+  border: 1px solid #f2f4d4;
   border-left: none;
   display: flex;
   align-items: center ;
@@ -232,7 +238,7 @@ p {
 
 
 .home-title h1, h3 {
-  color: #fefff1;
+  color: #f2f4d4;
   font-weight: 500;
 }
 
@@ -354,7 +360,7 @@ p {
 
 .responsive-three-columns > * {
   padding: 2rem;
-  color: #fefff1;
+  color: #f2f4d4;
 }
 
 .responsive-three-columns h2 {
@@ -378,7 +384,7 @@ p {
 
 .responsive-two-columns > * {
   padding: 2rem;
-  color: #fefff1;
+  color: #f2f4d4;
 }
 
 .responsive-two-columns h2 {
@@ -490,6 +496,10 @@ p {
   font-style: italic;
   font-weight: 500;
   margin-top: -1em;
+}
+
+#think-section-title, #do-section-title {
+  max-width: 60em;
 }
 
 #do-section-title {
@@ -775,9 +785,9 @@ p {
 #mailbox {
   height: var(--px-400);
   width: var(--px-600);
-  border: 1px solid #fefff1;
+  border: 1px solid #f2f4d4;
   text-align: center;
-  color: #fefff1;
+  color: #f2f4d4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -808,7 +818,7 @@ p {
 #social-media {
   padding: 10px;
   text-align: center;
-  color: #fefff1;
+  color: #f2f4d4;
   margin-top: 1.25em;
   padding: 10px;
   display: flex;
@@ -862,7 +872,7 @@ p {
 
 #footer-inside {
   margin-right: 15px;
-  border-right: 1px solid #fefff1;
+  border-right: 1px solid #f2f4d4;
   height: 100%;
   width: 100%;
   display: flex;
@@ -878,7 +888,7 @@ p {
   margin: 15px 15px 0px 15px;
   padding: 10px;
   min-width: 800px;
-  border: 1px solid #fefff1;
+  border: 1px solid #f2f4d4;
   border-left: none;
   height: 150px;
   display: flex;
@@ -899,7 +909,7 @@ p {
 
 #readmore-title h1,
 h3 {
-  color: #fefff1;
+  color: #f2f4d4;
   font-weight: 500;
 }
 
@@ -907,7 +917,7 @@ h3 {
   margin: 15px 15px 0px 15px;
   padding: 10px;
   min-width: 800px;
-  border: 1px solid #fefff1;
+  border: 1px solid #f2f4d4;
   border-left: none;
   height: 150px;
   display: flex;
@@ -928,7 +938,7 @@ h3 {
 
 #event-title h1,
 h3 {
-  color: #fefff1;
+  color: #f2f4d4;
   font-weight: 500;
 }
 
@@ -973,8 +983,8 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-right: 1px solid #fefff1;
-  border-bottom: 1px solid #fefff1;
+  border-right: 1px solid #f2f4d4;
+  border-bottom: 1px solid #f2f4d4;
 }
 
 #dark-nav-border-box {
@@ -1010,9 +1020,9 @@ h3 {
 }
 
 .nav-item a {
-  /* border-right: 1px solid #fefff1; */
+  /* border-right: 1px solid #f2f4d4; */
   /* padding: 0px 50px; */
-  color: #fefff1;
+  color: #f2f4d4;
   text-decoration: none;
 }
 

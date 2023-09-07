@@ -16,6 +16,15 @@ p {
   font-size: 3em !important;
 }
 
+#logo {
+  height: 3.5em !important;
+  width: 3.5em !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0.5em 0 0.5em !important;
+}
+
 .nav-links {
   padding: 10px;
   display: flex;
@@ -73,7 +82,7 @@ p {
 
 
 .think-page-section {
-  margin-top: 4em;
+  padding: 3em 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -143,6 +152,39 @@ p {
   background-color: #151739;
 }
 
+#think-body p {
+  font-size: var(--fs-200);
+}
+
+#think-section-title {
+  margin: 2em 0 0 0;
+}
+
+#basal-block {
+  background-color: #1d2042;
+}
+
+#basal-thought {
+  padding-top: 0;
+}
+
+#periblem-block {
+  background-color: transparent ;
+}
+
+#counterdesign-block, #copyright-block, #chandelier-block {
+  background-color: #080a24;
+}
+
+#deep-counterdesign {
+  padding-bottom: 0;
+}
+
+#copyright-border-box {
+  background-color: #080a24;
+  padding-bottom: 2em;
+}
+
 #periblem-problem-copy h4 {
   font-style: italic;
   color: #fefff1;
@@ -159,6 +201,19 @@ p {
 
 #think-copyright {
   width: 60em;
+  font-size: var(--fs-200);
+}
+
+#chandelier-painting {
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: var(--fs-200);
+}
+
+#chandelier-painting img {
+  height: 40em;
+  padding: 1em 1em;
+  box-shadow: inset 0px 0px 10px black;
 }
 
 
@@ -633,9 +688,9 @@ float: right;
   font-size: 0.75em;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 #rome-border-box-1 {
   padding: 0 4rem;

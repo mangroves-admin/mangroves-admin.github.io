@@ -86,10 +86,10 @@ permalink: /home/
             <div class="right-border-box" id="meet-border-box">
                 <div class="intro" id="meet-text">
                     {% for item in site.data.meet %}
-                    <div class="section-title">
+                    <div class="section-title" id="meet-item-title">
                         <h3>{{ item.title }}</h3>
                     </div>
-                    <div class="do-item">
+                    <div class="do-item" id="meet-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
                             <a href="{{ item.url }}"><h4>Read more |</h4></a>
@@ -104,10 +104,10 @@ permalink: /home/
             <div class="right-border-box" id="give-border-box">
                 <div class="intro" id="give-text">
                     {% for item in site.data.give %}
-                    <div class="section-title">
+                    <div class="section-title" id="give-item-title">
                         <h3>{{ item.title }}</h3>
                     </div>
-                    <div class="do-item">
+                    <div class="do-item" id="give-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
                             <a href="{{ item.url }}"><h4>Give |</h4></a>
@@ -123,10 +123,10 @@ permalink: /home/
             <div class="right-border-box" id="reach-border-box">
                 <div class="intro" id="reach-text">
                     {% for item in site.data.reach %}
-                    <div class="section-title">
+                    <div class="section-title" id="reach-item-title">
                         <h3>{{ item.title }}</h3>
                     </div>
-                    <div class="do-item">
+                    <div class="do-item" id="reach-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
                             <a href="{{ item.url }}"><h4>Read more |</h4></a>

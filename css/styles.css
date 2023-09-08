@@ -575,6 +575,7 @@ p {
 
 .do-title {
   width: 100%;
+  text-align: right;
   justify-content: left;
 }
 

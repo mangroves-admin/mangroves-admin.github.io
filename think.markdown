@@ -80,8 +80,12 @@ permalink: /think/
 
         <div class="info-block" id="copyright-block">
             <div class="right-border-box" id="copyright-border-box">
-                <div id="think-copyright">
-                    <p>© David U.B. Liu, 2023</p>
+                <div class="think-page-section" id="deep-counterdesign">
+                    <div class="think-item" id="think-copyright">
+                        <div class="think-info">
+                            <p>© David U.B. Liu, 2023</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

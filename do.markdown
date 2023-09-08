@@ -16,10 +16,14 @@ permalink: /do/
 <body id="do-body">
     <div id="wrapper">
         <div class="right-border-box" id="do-border-box">
+
+        <div class="section-title" id="think-section-title">
+            <h3>Do</h3>
+        </div>
+
         <div class="do-page-section">
             {% for item in site.data.do %}
             <div id="do-item">
-                <div class="main-copy">
                     <div class="do-title">
                         <h3>{{ item.title }}</h3>
                     </div>
@@ -27,7 +31,6 @@ permalink: /do/
                         <p>{{ item.copy }}</p>
                         <a href="{{ item.url }}"><h4>Read more |</h4></a>
                     </div>
-                </div>
             </div>
             {% endfor %}
         </div>

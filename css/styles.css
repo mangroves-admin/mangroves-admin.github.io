@@ -620,6 +620,20 @@ p {
   flex-direction: column;
 }
 
+.reach-item {
+  
+}
+
+.reach-title {
+    width: 100%;
+    justify-content: left;
+}
+
+.reach-title h3 {
+  font-size: var(--fs-400);
+  line-height: 0.15em;
+  font-style: italic;
+}
 
 
 .subpage-title {

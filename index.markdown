@@ -39,10 +39,6 @@ permalink: /home/
                             <p>{{ item.copy }}</p>
                             <!-- <a href="../think/index.html"><h4>Read more |</h4></a> -->
                         </div>
-                        <div class="think-info">
-                            <p>{{ item.copy }}</p>
-                            <!-- <a href="../think/index.html"><h4>Read more |</h4></a> -->
-                        </div>
                     </div>
                 {% endfor %}
                 <div class="think-info" id="think-link">

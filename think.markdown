@@ -17,7 +17,7 @@ permalink: /think/
 <body id="think-body">
     <div id="wrapper">
     
-
+        
         <div class="info-block" id="basal-block">
             <div class="right-border-box" id="basal-border-box">
             

@@ -20,7 +20,7 @@ permalink: /give/
                 {% for item in site.data.give-subpage %}
                 <div id="do-item">
                     <div class="main-copy">
-                        <div class="subpage-subtitle">
+                        <div class="section-title">
                             <h3>{{ item.title }}</h3>
                         </div>
                         <div class="do-info">

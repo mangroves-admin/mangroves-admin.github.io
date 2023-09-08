@@ -246,6 +246,10 @@ p {
   border-left: none;
 }
 
+#dark-title img {
+  /* border: 1px solid red; */
+}
+
 #dark-title h1 {
   color: #080A24;
 }
@@ -548,14 +552,15 @@ p {
 
 .think-item {
   padding: 0em 6em;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   max-width: 60em;
   align-items: center;
   flex-direction: column;
 }
 
 #think-link {
-  float: right !important;
+  /* float: right !important; */
+  margin-bottom: 1em;
 }
 
 #do-section {

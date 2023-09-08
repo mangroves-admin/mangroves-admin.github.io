@@ -391,6 +391,9 @@ p {
   text-decoration: none;
 }
 
+#reach-page-main {
+  padding: 2em 0;
+}
 
 .reach-item {
   /* margin: 3em 0; */

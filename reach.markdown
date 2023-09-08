@@ -17,34 +17,36 @@ permalink: /reach/
     <div id="wrapper">
         <div class="right-border-box" id="reach-border-box">
 
-        <div class="section-title" id="think-section-title">
-            <h3>Reach</h3>
-        </div>
-
-            <div id="do-page-section">
-            <div id="reach-intro">
-            <p>Initiatives we are currently learning through:</p>
+            <div class="section-title" id="think-section-title">
+                <h3>Reach</h3>
             </div>
-                {% for item in site.data.reach-subpage %}
 
-                <div class="initiative">
-                    <div class="initiative-logo">
-                        <img src="../design/img/logo-draft.png">
-                    </div>
-                    <div class="reach-item">
-                        <div class="reach-title">
-                            <a href="{{ item.url }}">
-                                <h3>{{ item.title }}</h3>
-                            </a>
-                        </div>
-                        <div class="do-info">
-                            <p>{{ item.copy }}</p>
-                        </div>
-                    </div>
+            <div class="think-page-section" id="reach-page-main">
+                <div class="think-info" id="reach-intro">
+                    <p>Initiatives we are currently learning through:</p>
                 </div>
 
+                <div class="think-info">
+                    
+                    {% for item in site.data.reach-subpage %}
+                        <div class="initiative">
+                            <div class="initiative-logo">
+                                <img src="../design/img/logo-draft.png">
+                            </div>
+                            <div class="reach-item">
+                                <div class="reach-title">
+                                    <a href="{{ item.url }}">
+                                        <h3>{{ item.title }}</h3>
+                                    </a>
+                                </div>
+                                <div class="do-info">
+                                    <p>{{ item.copy }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
 
-                {% endfor %}
+                </div>
             </div>
         </div>
     </div>

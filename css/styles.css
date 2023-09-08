@@ -1,6 +1,17 @@
 @font-face {
   font-family: 'Candara';
   src: url('../design/fonts/candara/Candara.ttf');
+
+  font-family: 'PT-Sans';
+  src: url('../design/fonts/PT-sans/PT_Sans/PTSans-Regular.ttf');
+
+  font-family: 'Hind-Siliguri';
+  src: url('../design/fonts/hind-siliguri/Hind_Siliguri/HindSiliguri-Regular.ttf');
+
+  font-family: 'Gowun-Dodum';
+  src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf');
+
+  
 }
 
 :root {
@@ -618,21 +629,6 @@ p {
   max-width: 60em;
   align-items: center;
   flex-direction: column;
-}
-
-.reach-item {
-  
-}
-
-.reach-title {
-    width: 100%;
-    justify-content: left;
-}
-
-.reach-title h3 {
-  font-size: var(--fs-400);
-  line-height: 0.15em;
-  font-style: italic;
 }
 
 

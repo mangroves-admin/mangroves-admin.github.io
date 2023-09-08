@@ -31,7 +31,7 @@ permalink: /reach/
                     {% for item in site.data.reach-subpage %}
                         <div class="initiative">
                             <div class="initiative-logo">
-                                <img src="../design/img/logo-draft.png">
+                                <img src='{{ item.logo }}'>
                             </div>
                             <div class="reach-item">
                                 <div class="reach-title">

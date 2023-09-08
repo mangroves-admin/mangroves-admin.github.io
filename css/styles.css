@@ -11,7 +11,10 @@
   font-family: 'Gowun-Dodum';
   src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf');
 
-  
+  font-family: 'Galdeano';
+  src: url('../design/fonts/galdeano/Galdeano/Galdeano-Regular.ttf');
+
+
 }
 
 :root {
@@ -467,7 +470,7 @@ p {
 }
 
 .right-border-box {
-  margin-right: 30px;
+  margin-right: 31px;
   width: 100%;
   display: flex;
   align-items: center;

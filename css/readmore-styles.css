@@ -257,8 +257,8 @@ p {
   margin-bottom: 3%;
   /* margin-left: 180px; */
   min-width: 80%;
-  height: 240px;
-  width: 66.67%;
+  height: 15em;
+  /* width: 66.67%; */
   clear: left;
   display: flex;
   align-items: center;
@@ -392,7 +392,7 @@ p {
 }
 
 #reach-page-main {
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 .reach-item {

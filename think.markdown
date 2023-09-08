@@ -25,7 +25,6 @@ permalink: /think/
                     <h3>Think</h3>
                 </div>
                
-
                 <div class="think-page-section" id="basal-thought">
                     
 

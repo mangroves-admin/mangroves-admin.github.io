@@ -18,8 +18,13 @@ permalink: /meet/
 
         <div class="info-block" id="meet-intro">
             <div class="right-border-box">
+
+            <div class="section-title" id="meet-section-title">
+                <h3>Meet</h3>
+            </div>
+
                 <div class="do-item" id="meet-intro-boards">
-                    <div class="section-title">
+                    <div class="section-subtitle" id="boards-section-title">
                         <h3>Boards</h3>
                     </div>
                     <p>Our Board of Directors oversees strategy, governance, and audit of the Collaboratory through dialogue with our Instigator and Board of Advisors, quarterly meetings, annual reports, and other communications. The Instigator and other staff are excluded from the Board of Directors, to which they are responsible, but are charged with the planning and doing of our work. The Advisors’ charge is to give counsel as fitting. As we grow, we’ll also be enlarging our boards and staff as fitting.</p>
@@ -29,8 +34,8 @@ permalink: /meet/
 
         <div class="info-block" id="directors-border-box">
             <div class="right-border-box">
-                <div class="think-item" id="board-of-directors">
-                    <div class="section-title" >
+                <div class="meet-item" id="board-of-directors">
+                    <div class="section-subtitle" id="directors-title">
                         <h3>Board of Directors</h3>
                     </div>
                     {% for item in site.data.directors %}
@@ -47,8 +52,8 @@ permalink: /meet/
 
         <div class="info-block" id="advisory-border-box">
             <div class="right-border-box">
-                <div class="think-item" id="adivsory-board">
-                    <div class="section-title">
+                <div class="meet-item" id="adivsory-board">
+                    <div class="section-subtitle">
                         <h3>Advisory Board</h3>
                     </div>
                     {% for item in site.data.advisory %}
@@ -65,8 +70,8 @@ permalink: /meet/
 
         <div class="info-block" id="personnel-border-box">
             <div class="right-border-box">
-                <div class="think-item" id="personnel">
-                    <div class="section-title">
+                <div class="meet-item" id="personnel">
+                    <div class="section-subtitle">
                         <h3>Personnel</h3>
                     </div>
                     {% for item in site.data.personnel %}

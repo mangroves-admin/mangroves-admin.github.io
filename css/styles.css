@@ -72,7 +72,7 @@
 
   
 
-  .intro-text, .info-block, .right-border-box, .section-title, .think-item, .think-info, .do-item, .do-info {
+  .intro-text, .info-block, .right-border-box, .section-title, .think-item, .think-info, .do-item, .do-info, .meet-item, .meet-info {
     width: 70vw;
   }
 
@@ -508,6 +508,27 @@ p {
 }
 
 .section-title h4 {
+  color: #5a86ff;
+  font-size: var(--fs-200);
+  font-style: italic;
+  font-weight: 500;
+  margin-top: -1em;
+}
+
+.section-subtitle {
+  max-width: 100%;
+  text-align: left;
+  /* height: 5em; */
+  /* border: 1px solid red; */
+}
+
+.section-subtitle h3 {
+  color: #5a86ff;
+  font-size: var(--fs-400);
+  text-transform: uppercase;
+}
+
+.section-subtitle h4 {
   color: #5a86ff;
   font-size: var(--fs-200);
   font-style: italic;

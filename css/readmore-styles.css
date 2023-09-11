@@ -379,22 +379,16 @@ p {
   color: #080A24;
 }
 
-
 #give-border-box h3, #give-body p {
   color: #080A24;
 }
 
-#give-title h1 {
-  color: #080A24 !important;
-  font-size: 3em !important;
-}
-
-#give-main-section {
-  margin: 30px 0px;
-}
-
 #give-main-section a {
-  color: #3465eb;
+  color: #0f3dbb;
+}
+
+#give-item-title {
+  padding: 0 0 1em 0;
 }
 
 

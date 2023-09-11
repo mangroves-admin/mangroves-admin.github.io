@@ -83,7 +83,7 @@ permalink: /think/
                 <div class="think-page-section" id="deep-counterdesign">
                     <div class="think-item" id="think-copyright">
                         <div class="think-info">
-                            <p>© David U.B. Liu, 2023</p>
+                            <p>© David U.B. Liu 2023</p>
                         </div>
                     </div>
                 </div>

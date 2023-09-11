@@ -95,6 +95,9 @@ permalink: /meet/
                     <div id="logo-meet">
                         <img src="../design/img/logo-draft.png " alt="curlicue-left">
                     </div>
+                    <div id="meet-copyright">
+                        <p>© David U.B. Liu, 2023</p>
+                    </div>
                 </div>
             </div>
         </div>

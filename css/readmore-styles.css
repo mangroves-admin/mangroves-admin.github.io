@@ -447,22 +447,22 @@ margin: 0.75em 0;
 /* Pilot Fellowship Subpage*/
 
 #fellows-body {
-  background-color: #93dd87e0;
+  background-color: #a1dd87;
 }
 
 #fellows-body h3, #fellows-body p {
   color: #080a24;
 }
 
-#fellows-border-box {
-  padding-top: 0;
-  background-color: #080a24 ;
+#fellows-intro-block {
+  /* padding: 2em 6em; */
+  background-color: #080a24;
 }
 
 #fellows-setup {
   /* background-color: transparent; */
   /* background-color: #080A24; */
-  padding: 0;
+  padding: 0em 6em;
 }
 
 #fellows-setup h3, #fellows-setup p {
@@ -471,12 +471,13 @@ margin: 0.75em 0;
 
 #fellows-setup h3 {
   font-size: var(--fs-400);
+  line-height: 1em;
 }
 
 #fellows-backdrop {
   /* background-color: #a1dd87e0; */
   width: 60em;
-  opacity: 80%;
+  /* opacity: 80%; */
   box-shadow: inset 0px 0px 15px #1c551c;
   display: flex;
   align-items: center;
@@ -493,83 +494,44 @@ margin: 0.75em 0;
   z-index: 1;
 }
 
-#fellows-title {
-  margin: 15px 15px 0px 15px;
-  padding: 10px;
-  min-width: 800px;
-  border: 1px solid #fefff1;
-  border-left: none;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* border: 1px solid yellow; */
-}
-
-#fellows-title h1 {
-  font-size: 40px;
-  /* border: 1px solid yellow; */
-}
-
-#fellows-title h3 {
-  font-size: 25px;
-  margin-top: -25px;
-  /* border: 1px solid yellow; */
-}
-
-#fellows-title h1,
-h3 {
-  font-weight: 500;
-}
-
 .fellow {
-  /* border: solid 1px yellow; */
-  margin-top: 120px;
-  /* margin-left: 180px; */
-  min-width: 800px;
-  height: 240px;
-  width: 66.67%;
+  margin: 4em 2em 0 2em;
   clear: left;
   display: flex;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .fellow-headshot {
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 151px;
-  margin: 10px;
-  padding: 10px;
+  height: 12em;
+  width: 9em;
+  margin: 1em;
   border: 1px solid #080A24;;
   padding: 5px;
   background-clip: content-box; /* support: IE9+ */
   outline: 1px solid #080A24;;
   outline-offset: 5px;
-  float: left;
-  z-index: 9;
 }
 
 .fellow-bio {
-  /* margin-top: 30px; */
+  margin-left: 2em;
   float: right;
   width: 80%;
   text-align: left;
-  /* border: 1px solid red; */
 }
 
 .fellow-bio h3 {
-  margin-top: -10px;
-  margin-left: 60px;
-  padding: 0.5em 0;
+  margin: 0;
   font-size: var(--fs-400);
   color: #080A24;;
 }
 
 .fellow-bio p {
-  margin: -30px 0px 0px 60px;
+  margin: 0.5em 0 1em 0;
   color: #080A24;
+  font-size: var(--fs-200);
 }
 
 #ameen-ahmed {
@@ -601,57 +563,7 @@ h3 {
   float: left;
 }
 
-#flower-1 {
-  rotate: 30deg;
-  top: 100px;
-}
 
-#flower-2 {
-  rotate: -5deg;
-  top: 300px;
-}
-
-#flower-3 {
-  rotate: 20deg;
-  top: -50px;
-  left: 150px;
-}
-
-#flower-4 {
-  rotate: 49deg;
-  top: 50px;
-  display: none;
-}
-
-#flower-5 {
-  rotate: 24deg;
-  top: 550px;
-  display: none;
-}
-
-#flower-6 {
-  rotate: 16deg;
-  top: 120px;
-  left: -80px;
-}
-
-#flower-7 {
-  rotate: 94deg;
-  top: 10px;
-  left: 600px;
-}
-
-#flower-8 {
-  rotate: 21deg;
-  top: 400px;
-  left: -650px;
-}
-
-#flower-9 {
-  rotate: 11deg;
-  top: -10px;
-  left: 700px;
-}
 
 
 /* Connival subapge */
@@ -659,7 +571,7 @@ h3 {
 #connival-body {
   background-color: #8000ff83;
 }
-
+s
 #connival-body h4, #connival-body p {
   color: #080A24;
 }

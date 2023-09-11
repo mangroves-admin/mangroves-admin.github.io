@@ -12,18 +12,19 @@ permalink: /fellows/
 </head>
 
 <body id="fellows-body">
-
   <div id="wrapper">
+
+    <div class="info-block" id="fellows-intro-block">
       <div class="right-border-box" id="fellows-border-box">
         <div class="intro-text" id="fellows-setup">
-
           <h3>{{ site.data.fellows-setup.title }}</h3>
           <p>{{ site.data.fellows-setup.copy }}</p>
         </div>
       </div>
-
+    </div>
       
-      <div id="fellows-backdrop">
+      <div class="info-block">
+        <div class="right-border-box-dark">
         <div id="fellows">
             {% for item in site.data.fellows %}
               <div class="fellow">
@@ -36,6 +37,7 @@ permalink: /fellows/
               </div>
             {% endfor %}
         </div>
+      </div>
       </div> 
   </div>
 

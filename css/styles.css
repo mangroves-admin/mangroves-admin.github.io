@@ -58,12 +58,12 @@
   }
 
   #logo {
-    height: 3.5em !important;
-    width: 3.5em !important;
+    height: 4em !important;
+    width: 4em !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em 0.5em 0 0.5em !important;
+    padding: 1em 1em 0 0.5em !important;
   }
 
   .nav-links {
@@ -195,6 +195,7 @@ body {
   font-family: "Candara";
   /* align-content: center; */
   overflow-x: auto;
+  /* text-size-adjust: none; */
 }
 
 p {
@@ -278,7 +279,7 @@ p {
   border-left: none;
   display: flex;
   align-items: center ;
-  justify-content: left;
+  justify-content: center;
 }
 
 .home-title h1 {
@@ -289,6 +290,10 @@ p {
 .home-title h1, h3 {
   color: #f2f4d4;
   font-weight: 500;
+}
+
+.home-title span {
+  font-size: var(--fs-300);
 }
 
 #dark-title {
@@ -310,6 +315,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 
 /* #title {
   padding: 10px;
@@ -686,7 +692,7 @@ p {
 
 .do-item {
   padding: 0em 4em;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   max-width: 60em;
   align-items: center;
   flex-direction: column;

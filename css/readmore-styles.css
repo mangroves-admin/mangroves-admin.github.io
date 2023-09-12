@@ -154,6 +154,7 @@ p {
 
 #think-body p {
   font-size: var(--fs-200);
+  -webkit-text-size-adjust: none;
 }
 
 #think-section-title {
@@ -233,6 +234,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0 4em;
 }
 
 .do-page-section h3 {
@@ -419,8 +421,8 @@ p {
 }
 
 .reach-title h3 {
-font-size: var(--fs-400);
-line-height: 0.15em;
+font-size: var(--fs-200);
+/* line-height: 0.15em; */
 font-style: italic;
 margin: 0.75em 0;
 }
@@ -658,6 +660,10 @@ float: right;
 
 #rome-main-copy-1 {
   background-color: #151739;
+}
+
+#rome-main-copy-1 p {
+  font-size: var(--fs-200);
 }
 
 #rome-main-copy-2 {

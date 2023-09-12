@@ -9,7 +9,7 @@ permalink: /think/
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
@@ -90,14 +90,14 @@ permalink: /think/
             </div>
         </div>
 
-        <div class="info-block" id="chandelier-block">
+        <!-- <div class="info-block" id="chandelier-block">
             <div class="right-border-box" id="chandelier-border-box">
                 <div id="chandelier-painting">
                     <img src="/design/img/chandelier-lb.jpg" alt="chandelier-painting">
                     <p><i>Chandelier</i> by Lisa Brody, used by permission</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 

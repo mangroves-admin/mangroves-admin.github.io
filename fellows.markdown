@@ -9,6 +9,7 @@ permalink: /fellows/
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
 
 <body id="fellows-body">
@@ -23,12 +24,14 @@ permalink: /fellows/
       </div>
     </div>
       
-      <div class="info-block">
+      <!-- <div class="info-block">
         <div class="right-border-box-dark">
         <div id="fellows">
             {% for item in site.data.fellows %}
               <div class="fellow">
                 <div class="fellow-headshot" style="background-image: url( {{ item.background }} );">
+                <img src="{{ item.background }}">
+                </div>
                 </div>
                 <div class="fellow-bio">
                   <h3>{{ item.name }}</h3>
@@ -37,14 +40,11 @@ permalink: /fellows/
               </div>
             {% endfor %}
         </div>
-      </div>
-      </div> 
+      </div> -->
+      <!-- </div>  -->
   </div>
 
   
 </body>      
-
-
-
 
 

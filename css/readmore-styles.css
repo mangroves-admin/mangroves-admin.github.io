@@ -202,19 +202,20 @@ p {
 
 #think-copyright {
   /* width: 60em; */
-  font-size: var(--fs-200);
+  font-size: var(--fs-100);
   text-align: left;
 }
 
 #chandelier-painting {
+  width: 100vw;
   padding-bottom: 2em;
   text-align: center;
   font-size: var(--fs-200);
 }
 
 #chandelier-painting img {
-  height: 40em;
-  padding: 1em 1em;
+  width: 100%;
+  /* padding: 1em 1em; */
   box-shadow: inset 0px 0px 10px black;
 }
 
@@ -462,7 +463,7 @@ margin: 0.75em 0;
 #fellows-setup {
   /* background-color: transparent; */
   /* background-color: #080A24; */
-  padding: 0em 6em;
+  padding: 0em 4em;
 }
 
 #fellows-setup h3, #fellows-setup p {
@@ -500,13 +501,13 @@ margin: 0.75em 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .fellow-headshot {
   background-size: cover;
   background-position: center;
-  height: 12em;
-  width: 9em;
+  width: 100%;
   margin: 1em;
   border: 1px solid #080A24;;
   padding: 5px;
@@ -517,8 +518,7 @@ margin: 0.75em 0;
 
 .fellow-bio {
   margin-left: 2em;
-  float: right;
-  width: 80%;
+  width: 100%;
   text-align: left;
 }
 
@@ -532,13 +532,6 @@ margin: 0.75em 0;
   margin: 0.5em 0 1em 0;
   color: #080A24;
   font-size: var(--fs-200);
-}
-
-#ameen-ahmed {
-  background-image: url("../design/img/bio-headshots/ameen-ahmed.jpg");
-  background-size: cover;
-  float: left;
-  clear: left;
 }
 
 #flower-box {

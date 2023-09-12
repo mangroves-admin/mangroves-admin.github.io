@@ -21,10 +21,10 @@
   
   --fs-xl: ;
   --fs-800: 100px;
-  --fs-600: 80px;
-  --fs-400: 70px;
-  --fs-300: 60px;
-  --fs-200: 45px;
+  --fs-600: 70px;
+  --fs-400: 55px;
+  --fs-300: 45px;
+  --fs-200: 30px;
 
 
   --px-400: 100vw;
@@ -39,8 +39,8 @@
 
   :root {
     --fs-800: 3rem;
-    --fs-600: 2rem;
-    --fs-400: 1.5rem;
+    --fs-600: 3rem;
+    --fs-400: 1.75rem;
     --fs-300: 1.25rem;
     --fs-200: 1rem;
 
@@ -135,6 +135,20 @@
     width:calc(100% / 2);
   }
 
+  .fellow {
+    margin: 4em 2em 0 2em;
+    clear: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .fellow-headshot {
+    height: 12em;
+    width: 10em;
+  }
+
   #contact-section > * {
     width: 100%;
   }
@@ -146,6 +160,28 @@
   #contact-us > * {
     /* width: em; */
   }
+
+  #contact-info h3 {
+    font-style: italic;
+    font-size: 1.5rem !important;
+  }
+
+  .social-icon {
+    height: 2em !important;
+    width: 2em !important;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1em 3em;
+    opacity: 80%;
+  }
+
+  #chandelier-painting img {
+    width: 40em;
+    padding: 1em 1em;
+    box-shadow: inset 0px 0px 10px black;
+  }
+  
 
 }
 
@@ -246,7 +282,7 @@ p {
 }
 
 .home-title h1 {
-  font-size: var(--fs-800);
+  font-size: var(--fs-600);
 }
 
 
@@ -280,9 +316,9 @@ p {
 } */
 
 #logo {
-  width: 8em;
-  height: 8em;
-  padding: 4em 1em 0 1em;
+  width: 6em;
+  height: 6em;
+  padding: 2em 1em 0 1em;
   
 }
 
@@ -361,7 +397,7 @@ p {
 }
 
 .intro-text p span {
-  font-size: var(--fs-600);
+  font-size: var(--fs-400);
 }
 
 
@@ -564,8 +600,9 @@ p {
 }
 
 .think-title h3 {
-  font-size: var(--fs-400);
-  line-height: 0.15em;
+  font-size: var(--fs-300);
+  /* line-height: 0.15em; */
+  margin-bottom: 0.75rem;
   font-style: italic;
 }
 
@@ -586,7 +623,7 @@ p {
 }
 
 .think-item {
-  padding: 0em 6em;
+  padding: 0em 4em;
   /* margin-bottom: 20px; */
   max-width: 60em;
   align-items: center;
@@ -615,7 +652,7 @@ p {
 }
 
 .do-title h3 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   line-height: 0.15em;
   font-style: italic;
 }
@@ -628,7 +665,7 @@ p {
 }
 
 .do-title-home h3 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   line-height: 0.15em;
   font-style: italic;
 }
@@ -648,7 +685,7 @@ p {
 }
 
 .do-item {
-  padding: 0em 6em;
+  padding: 0em 4em;
   margin-bottom: 20px;
   max-width: 60em;
   align-items: center;
@@ -680,7 +717,7 @@ p {
 
 .section-title h3 {
   color: #5a86ff;
-  font-size: var(--fs-600);
+  font-size: var(--fs-400);
   text-transform: uppercase;
   padding: 1px;
 }
@@ -795,11 +832,8 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
-}
-
-#contact-wrapper {
-  margin: 6em 0;
+  /* position: relative; */
+  /* border: 1px solid red; */
 }
 
 
@@ -822,8 +856,9 @@ p {
 }
 
 #mailbox {
-  height: var(--px-400);
-  width: var(--px-600);
+  /* height: var(--px-400);
+  width: var(--px-600); */
+  width: 100%;
   border: 1px solid #f2f4d4;
   text-align: center;
   color: #f2f4d4;
@@ -832,6 +867,7 @@ p {
   justify-content: center;
   flex-direction: column;
   position: relative;
+  padding: 2em;
 }
 
 #mailbox h4 {
@@ -842,7 +878,7 @@ p {
 
 #mailbox h3 {
   margin-top: -0.5em;
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
 }
 
 
@@ -850,8 +886,9 @@ p {
   padding: 5px;
 }
 
-#contact-info h4 {
+#contact-info h3 {
   font-style: italic;
+  font-size: var(--fs-200);
 }
 
 #social-media {
@@ -866,8 +903,8 @@ p {
 }
 
 .social-icon {
-  height: var(--ht-200);
-  width: var(--ht-200);
+  height: 4em;
+  width: 4em;
   float: left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1098,6 +1135,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
   }
 
   .nav-links {
@@ -1107,15 +1145,16 @@ h3 {
 
   .nav-links a {
     /* display: block; */
+    padding-top: 0.5em;
     width: 100%;
     box-sizing: border-box;
     border-top: 1px solid #fff;
     font-size: 3em;
-    height: 3em;
+    height: 2em;
   }
 
   .nav-links label img {
-    height: 7em;
+    height: 5em;
   }
 
   /* show hamburger menu */

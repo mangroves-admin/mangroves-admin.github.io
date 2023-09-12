@@ -9,7 +9,7 @@ body {
 
 
 p {
-  color: #fefff1;
+  color: #f2f4d4;
 }
 
 #title h1 {
@@ -37,7 +37,7 @@ p {
   /* border-right: 1px solid #fefff1; */
   /* padding: 0px 50px; */
   text-transform: uppercase;
-  color: #fefff1;
+  color: #f2f4d4;
   text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ p {
 
 #main-copy {
   margin: 0 auto;
-  border: 1px solid #fefff1;
+  border: 1px solid #f2f4d4;
   border-left: none;
   border-bottom: none;
   flex-direction: column;
@@ -168,14 +168,14 @@ p {
 
 #periblem-problem-copy h4 {
   font-style: italic;
-  color: #fefff1;
+  color: #f2f4d4;
   font-weight: 400;
   text-align: center;
 }
 
 #connival-copy h4 {
   font-style: italic;
-  color: #fefff1;
+  color: #f2f4d4;
   font-weight: 400;
   /* text-align: center; */
 }
@@ -269,7 +269,7 @@ p {
   width: 20%;
   margin: 10px;
   padding: 10px;
-  border: 0.5px solid #fefff1;
+  border: 0.5px solid #f2f4d4;
   padding: 5px;
   background-clip: content-box; /* support: IE9+ */
   /* outline: 0.5px solid #fefff1; */
@@ -448,7 +448,7 @@ margin: 0.75em 0;
 }
 
 #fellows-setup h3, #fellows-setup p {
-  color: #fefff1;
+  color: #f2f4d4;
 }
 
 #fellows-setup h3 {
@@ -599,12 +599,12 @@ float: right;
 
 /* Carless Rome subpage */
 #carless-intro h1 {
-  color: #fefff1;
+  color: #f2f4d4;
   text-transform: uppercase;
 }
 
 #carless-intro h4 {
-  color: #fefff1;
+  color: #f2f4d4;
   text-transform: uppercase;
   margin-top: 0;
 }

@@ -124,26 +124,6 @@ p {
   opacity: 30%;
 }
 
-#footer-base {
-  /* margin-top: 40px; */
-  background-color:#080A24;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-  box-shadow: inset 0px 0px 10px black;
-}
-
-#footer-inside {
-  margin-right: 15px;
-  border-right: 1px solid #fefff1;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-}
-
 
 
 /* Think subpage */
@@ -234,7 +214,6 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 4em;
 }
 
 .do-page-section h3 {

@@ -602,6 +602,14 @@ float: right;
 
 
 /* Carless Rome subpage */
+
+
+/* entire "responsive-three-columns" layout depends on this being border-box: if you change this, the layout collapses. */
+#carless-rome-body * {
+  box-sizing: border-box;
+}
+/* You fiddle while carless Rome burns. */
+
 #carless-intro h1 {
   color: #f2f4d4;
   text-transform: uppercase;
@@ -622,12 +630,13 @@ float: right;
   font-size: 0.75em;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
+#carless-intro img {
+  width: 100vw;
+}
+
 
 #rome-border-box-1 {
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
 }
 
 #rome-border-box-2 {

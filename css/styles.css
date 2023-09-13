@@ -21,10 +21,10 @@
   
   --fs-xl: ;
   --fs-800: 100px;
-  --fs-600: 70px;
-  --fs-400: 55px;
-  --fs-300: 45px;
-  --fs-200: 30px;
+  --fs-600: 60px;
+  --fs-400: 45px;
+  --fs-300: 35px;
+  --fs-200: 25px;
 
 
   --px-400: 100vw;
@@ -330,7 +330,7 @@ p {
   /* border: 1px solid red; */
 }
 
-#dark-title h1 {
+#dark-title h1, #dark-title span {
   color: #080A24;
 }
 
@@ -339,6 +339,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0 2em;
 }
 
 #title-wrapper {
@@ -426,7 +427,7 @@ p {
 }
 
 .intro-text {
-    padding: 2em 6em;
+    padding: 2em 4em;
     max-width: 50em;
     display: flex;
     justify-content: center;
@@ -628,6 +629,10 @@ p {
   margin-bottom: 0.5em;
 }
 
+#do-section-title h4 {
+  margin-bottom: 0;
+}
+
 
 .info-title {
   width: 100%;
@@ -646,7 +651,7 @@ p {
 .think-title h3 {
   font-size: var(--fs-300);
   /* line-height: 0.15em; */
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.5em 0;
   font-style: italic;
 }
 
@@ -668,7 +673,7 @@ p {
 
 .think-item {
   padding: 0em 4em;
-  /* margin-bottom: 20px; */
+  margin-bottom: 1em;
   max-width: 60em;
   align-items: center;
   flex-direction: column;
@@ -709,8 +714,8 @@ p {
 }
 
 .do-title-home h3 {
+  margin: 0.5em 0;
   font-size: var(--fs-300);
-  line-height: 0.15em;
   font-style: italic;
 }
 
@@ -730,7 +735,7 @@ p {
 
 .do-item {
   padding: 0em 4em;
-  /* margin-bottom: 20px; */
+  margin-bottom: 1em;
   max-width: 60em;
   align-items: center;
   flex-direction: column;
@@ -763,7 +768,7 @@ p {
   color: #5a86ff;
   font-size: var(--fs-400);
   text-transform: uppercase;
-  padding: 1px;
+  /* margin: 1em 0 0.5em 0; */
 }
 
 .section-title h4 {
@@ -870,7 +875,7 @@ p {
 
 
 #contact-section {
-  width: 100%;
+  /* width: 100%; */
   background-color: #151739;
   display: flex;
   align-items: center;
@@ -902,7 +907,7 @@ p {
 #mailbox {
   /* height: var(--px-400);
   width: var(--px-600); */
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid #f2f4d4;
   text-align: center;
   color: #f2f4d4;
@@ -921,7 +926,7 @@ p {
 }
 
 #mailbox h3 {
-  margin-top: -0.5em;
+  /* margin-top: -0.5em; */
   font-size: var(--fs-300);
 }
 
@@ -936,7 +941,6 @@ p {
 }
 
 #social-media {
-  padding: 10px;
   text-align: center;
   color: #f2f4d4;
   margin-top: 1.25em;
@@ -952,7 +956,7 @@ p {
   float: left;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 1em 3em;
+  margin: 1em 2em;
   opacity: 80%;
 }
 

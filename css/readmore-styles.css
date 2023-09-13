@@ -356,6 +356,10 @@ p {
   /* color: #d1abff; */
 }
 
+#give-body p {
+  font-size: var(--fs-200);
+}
+
 #give-border-box {
   /* border: 1px solid #080A24; */
   color: #080A24;
@@ -366,11 +370,11 @@ p {
 }
 
 #give-main-section a {
-  color: #0f3dbb;
+  color: #151ea4;
 }
 
 #give-item-title {
-  padding: 0 0 1em 0;
+  /* padding: 0 0 1em 0; */
 }
 
 

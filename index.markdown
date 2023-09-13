@@ -37,7 +37,6 @@ permalink: /home/
                         </div>
                         <div class="think-info">
                             <p>{{ item.copy }}</p>
-                            <!-- <a href="../think/index.html"><h4>Read more |</h4></a> -->
                         </div>
                     </div>
                 {% endfor %}
@@ -176,5 +175,6 @@ permalink: /home/
                 </div>
             </div>
         </div>
+        
     </div>
 </body>

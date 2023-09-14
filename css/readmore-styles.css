@@ -378,8 +378,8 @@ p {
   color: #151ea4;
 }
 
-#give-item-title {
-  /* padding: 0 0 1em 0; */
+#give-item-title h3 {
+  margin: 0;
 }
 
 
@@ -635,7 +635,7 @@ float: right;
   border-top: 1px solid #5a86ff;
   border-bottom: 1px solid #5a86ff;
   /* text-align: center; */
-  padding: 1em;
+  padding: 0;
   line-height: 1.25;
 }
 
@@ -648,7 +648,12 @@ float: right;
 }
 
 #rome-border-box-1 {
-  /* padding: 0; */
+  padding-right: 1em;
+  /* border: 1px solid red; */
+}
+
+#carless-intro-wrapper {
+  padding-right: 1em;
 }
 
 #rome-border-box-2 {

@@ -83,7 +83,7 @@ p {
 
 .think-page-section {
   padding: 3em 0;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -369,6 +369,11 @@ p {
   color: #080A24;
 }
 
+#give-main-section {
+  /* border: 1px solid red; */
+}
+
+
 #give-main-section a {
   color: #151ea4;
 }
@@ -610,6 +615,11 @@ float: right;
 }
 /* You fiddle while carless Rome burns. */
 
+#carless-intro-wrapper {
+  margin: 2em;
+  border: 1px solid red;
+}
+
 #carless-intro h1 {
   color: #f2f4d4;
   text-transform: uppercase;
@@ -624,6 +634,8 @@ float: right;
 #carless-intro {
   border-top: 1px solid #5a86ff;
   border-bottom: 1px solid #5a86ff;
+  text-align: center;
+  padding: 2em;
 }
 
 #carless-intro span {
@@ -631,7 +643,7 @@ float: right;
 }
 
 #carless-intro img {
-  width: 100vw;
+  width: 100%;
 }
 
 

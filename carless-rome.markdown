@@ -19,16 +19,18 @@ permalink: /carless-rome/
 
         <div class="intro">
             <div class="right-border-box">
-                <div class="intro-text" id="carless-intro">
-                    <h1>Rome Strategic Plan for Urban Mobility</h1>
-                    <h4>Antonio Tamburrino, engineer, with architect Thomas G. Rankin</h4>
-                    <img src="/design/img/carless-rome.jpg " alt="rome-street">
-                    <h1><span>Objective:</span> <br>Revive Rome as a Creative Knowledge Hub</h1>
+                <div id="carless-intro-wrapper">
+                    <div class="intro-text" id="carless-intro">
+                        <h1>Rome Strategic Plan for Urban Mobility</h1>
+                        <h4>Antonio Tamburrino, engineer, with architect Thomas G. Rankin</h4>
+                        <img src="/design/img/carless-rome.jpg " alt="rome-street">
+                        <h1><span>Objective:</span> <br>Revive Rome as a Creative Knowledge Hub</h1>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="info-block" id="rome-main-copy-1">
+        <!-- <div class="info-block" id="rome-main-copy-1">
 
             <div class="right-border-box" id="rome-border-box-1">
                 <div class="responsive-three-columns" id="rome-page-1">
@@ -62,9 +64,9 @@ permalink: /carless-rome/
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="info-block" id="rome-main-copy-2">
+        <!-- <div class="info-block" id="rome-main-copy-2">
             <div class="right-border-box" id="rome-border-box-2">
                 <div class="responsive-two-columns" id="rome-page-2">
                     <div id="rome-column-2-1">
@@ -108,24 +110,24 @@ permalink: /carless-rome/
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="info-block" id="rome-main-copy-3">
+        <!-- <div class="info-block" id="rome-main-copy-3">
             <div class="right-border-box" id="rome-border-box-3">
                 <div class="idea">
                     <h3>{{ site.data.carless-rome-approach.title }}</h3>
                     <p>{{ site.data.carless-rome-approach.copy }}</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="info-block" id="rome-questions">
+        <!-- <div class="info-block" id="rome-questions">
             <div class="right-border-box" id="rome-border-box-4">
                 <div class="idea" id="rome-questions-copy">
                     <p>{{ site.data.carless-rome-questions.copy }}</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
 </body>

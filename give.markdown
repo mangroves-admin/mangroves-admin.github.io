@@ -11,23 +11,28 @@ permalink: /give/
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 
 
 <body id="give-body">
-    <div id="wrapper">
+    <div id="give-wrapper">
 
-        <div class="right-border-box-dark" id="give-border-box">
-            <div class="think-page-section" id="give-main-section">
-                {% for item in site.data.give-subpage %}
-                    <div class="think-item">
-                        <div class="section-title" id="give-item-title">
-                            <h3>{{ item.title }}</h3>
+        <div class="info-block" id="give-main">
+            <div class="right-border-box-dark" id="give-border-box">
+
+            
+                <div class="think-page-section" id="give-main-section">
+                    {% for item in site.data.give-subpage %}
+                        <div class="think-item">
+                            <div class="section-title" id="give-item-title">
+                                <h3>{{ item.title }}</h3>
+                            </div>
+                            <div class="do-info">
+                                <p>{{ item.copy }}</p>
+                            </div>
                         </div>
-                        <div class="do-info">
-                            <p>{{ item.copy }}</p>
-                        </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
+                </div>
             </div>
         </div>        
     </div>

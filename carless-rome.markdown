@@ -30,7 +30,7 @@ permalink: /carless-rome/
             </div>
         </div>
 
-        <!-- <div class="info-block" id="rome-main-copy-1">
+        <div class="info-block" id="rome-main-copy-1">
 
             <div class="right-border-box" id="rome-border-box-1">
                 <div class="responsive-three-columns" id="rome-page-1">
@@ -64,7 +64,7 @@ permalink: /carless-rome/
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- <div class="info-block" id="rome-main-copy-2">
             <div class="right-border-box" id="rome-border-box-2">

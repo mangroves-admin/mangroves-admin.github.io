@@ -217,6 +217,11 @@
     /* width: 50vw; */
   }
 
+  .responsive-three-columns > * {
+    padding: 2em !important;
+    color: #f2f4d4;
+  }
+
 }
 
 body {
@@ -478,7 +483,7 @@ p {
 }
 
 .responsive-three-columns > * {
-  padding: 2rem;
+  padding: 1.5em;
   color: #f2f4d4;
 }
 

@@ -617,7 +617,7 @@ float: right;
 
 #carless-intro-wrapper {
   margin: 2em;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #carless-intro h1 {
@@ -634,8 +634,9 @@ float: right;
 #carless-intro {
   border-top: 1px solid #5a86ff;
   border-bottom: 1px solid #5a86ff;
-  text-align: center;
-  padding: 2em;
+  /* text-align: center; */
+  padding: 1em;
+  line-height: 1.25;
 }
 
 #carless-intro span {
@@ -646,9 +647,8 @@ float: right;
   width: 100%;
 }
 
-
 #rome-border-box-1 {
-  /* padding: 0 4rem; */
+  /* padding: 0; */
 }
 
 #rome-border-box-2 {

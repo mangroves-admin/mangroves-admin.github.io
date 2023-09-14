@@ -15,7 +15,7 @@ permalink: /home/
 
 <body>
     <div id="wrapper">
-
+        
         <div class="intro">
             <div class="right-border-box">
                 <div class="intro-text">

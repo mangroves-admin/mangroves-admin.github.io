@@ -581,7 +581,7 @@ p {
   justify-content: center;
   flex-direction: column;
   border-right: 1px solid white;
-  float: right;
+  /* float: right; */
 }
 
 .right-border-box-dark {

@@ -104,18 +104,17 @@ permalink: /carless-rome/
                         <div id="central-loop-img">
                             <img src="/design/img/central-loop-section.jpg " alt="central-loop-section" width="100%/3" >
                             <p>Section of Central Loop proposal</p>
-                        </div id="central-loop-img">
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
 
         <div class="info-block" id="rome-main-copy-3">
             <div class="right-border-box" id="rome-border-box-3">
                 <div class="idea">
-                <h3>{{ site.data.carless-rome-approach.title }}</h3>
-                <p>{{ site.data.carless-rome-approach.copy }}</p>
+                    <h3>{{ site.data.carless-rome-approach.title }}</h3>
+                    <p>{{ site.data.carless-rome-approach.copy }}</p>
                 </div>
             </div>
         </div>
@@ -123,11 +122,10 @@ permalink: /carless-rome/
         <div class="info-block" id="rome-questions">
             <div class="right-border-box" id="rome-border-box-4">
                 <div class="idea" id="rome-questions-copy">
-                <p>{{ site.data.carless-rome-questions.copy }}</p>
+                    <p>{{ site.data.carless-rome-questions.copy }}</p>
                 </div>
             </div>
         </div>
-            
-        <!-- </div> -->
     </div>
+
 </body>

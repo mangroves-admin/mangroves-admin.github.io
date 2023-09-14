@@ -18,7 +18,7 @@ permalink: /carless-rome/
     <div id="wrapper">
 
         <div class="intro">
-            <div class="right-border-box">
+            <div class="right-border-box" id="rome-intro-border-box">
                 <div id="carless-intro-wrapper">
                     <div class="intro-text" id="carless-intro">
                         <h1>Rome Strategic Plan for Urban Mobility</h1>
@@ -66,7 +66,7 @@ permalink: /carless-rome/
             </div>
         </div>
 
-        <!-- <div class="info-block" id="rome-main-copy-2">
+        <div class="info-block" id="rome-main-copy-2">
             <div class="right-border-box" id="rome-border-box-2">
                 <div class="responsive-two-columns" id="rome-page-2">
                     <div id="rome-column-2-1">
@@ -110,7 +110,7 @@ permalink: /carless-rome/
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- <div class="info-block" id="rome-main-copy-3">
             <div class="right-border-box" id="rome-border-box-3">

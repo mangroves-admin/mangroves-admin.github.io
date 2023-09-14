@@ -39,7 +39,7 @@ permalink: /reach/
                                         <h3>{{ item.title }}</h3>
                                     </a>
                                 </div>
-                                <div class="do-info">
+                                <div class="reach-info">
                                     <p>{{ item.copy }}</p>
                                 </div>
                             </div>

@@ -589,7 +589,8 @@ p {
   justify-content: center;
   flex-direction: column;
   border-right: 1px solid white;
-  /* float: right; */
+  /* border: 1px solid red; */
+  /* padding-right: 1em; */
 }
 
 .right-border-box-dark {
@@ -608,6 +609,7 @@ p {
 }
 
 .section-title {
+  margin-right: 1em;
   max-width: 100%;
   text-align: left;
   /* height: 5em; */
@@ -706,7 +708,7 @@ p {
 }
 
 .think-item {
-  padding: 0em 2em;
+  padding: 0em 2em 0 1em;
   margin-bottom: 1em;
   max-width: 60em;
   align-items: center;
@@ -768,7 +770,7 @@ p {
 }
 
 .do-item {
-  padding: 0em 2em;
+  padding: 0em 2em 0 1em;
   margin-bottom: 1em;
   max-width: 60em;
   align-items: center;
@@ -904,8 +906,8 @@ p {
 }
 
 #contact-border-box {
-  width: 100%;
-  margin-right: 31px;
+  width: calc(100% - 31px);
+  /* margin-right: 31px; */
   /* border: 1px solid red; */
 }
 

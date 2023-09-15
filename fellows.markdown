@@ -26,20 +26,30 @@ permalink: /fellows/
     
     <div class="info-block" id="summary-2122-info-block">
       <div class="right-border-box-dark" id="summary-2122-border-box">
-        <div class="intro-text" id="summary-2122-section">
+        <div class="think-item" id="summary-2122-section">
           <div class="section-title" id="fellows2122-item-title">
-            <h3>HEEHEE GANDALF.....YOUR STAFF IS CURVED TO THE RIGHT</h3>
+            <h3>2021-22: The Common and the Commonable</h3>
           </div>
-          <p>Mangroves launched its Pilot Fellowship with the theme “the Common and the Commonable.” The notion of the common might at first recall something mundane, resourceable, exploitable - or public. The commonable might evoke rocky grass fields or animals grazing with bent necks on sharable land. Both might be reduced to some objectified commons. Our path, however, was to expand from this legacy of the common and commonable, asking what they might signify when freed from such contexts.</p>
         </div>
       </div>
 
       <div class="right-border-box-dark" id="summary-2223-border-box">
-        <div class="intro-text" id="summary-2223-section">
+        <div class="think-item" id="summary-2223-section">
           <div class="section-title" id="fellows2223-item-title">
-            <h3>HOHO SAROOMUN.....YOUR STAFF IS BROKEN</h3>
+            <h3>2022-23: Growth</h3>
           </div>
-          <p>Mangroves launched its Pilot Fellowship with the theme “the Common and the Commonable.” The notion of the common might at first recall something mundane, resourceable, exploitable - or public. The commonable might evoke rocky grass fields or animals grazing with bent necks on sharable land. Both might be reduced to some objectified commons. Our path, however, was to expand from this legacy of the common and commonable, asking what they might signify when freed from such contexts.</p>
+          {% for item in site.data.fellows-summary-22-23 %}
+          <div class="fellows-subpage-title">
+            <h3>
+              {{ item.title }}
+            </h3>
+          </div>
+          <div class="fellows-subpage-info">
+            <p>
+              {{ item.copy}}
+            </p>
+          </div>
+          {% endfor %}
         </div>
       </div>
     </div>

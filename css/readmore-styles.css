@@ -187,11 +187,20 @@ p {
   text-align: left;
 }
 
+#chandelier-border-box {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #chandelier-painting {
-  width: 100vw;
+  /* width: 60%; */
   padding-bottom: 2em;
+  margin-right: 1em;
   text-align: center;
   font-size: var(--fs-200);
+  /* border: 1px solid red; */
 }
 
 #chandelier-painting img {

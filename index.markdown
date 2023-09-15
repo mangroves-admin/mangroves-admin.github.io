@@ -145,32 +145,34 @@ permalink: /home/
 
         <div class="info-block" id="contact-section">
             <div class="right-border-box" id="contact-border-box">
-                <div id="contact-wrapper">
-                    <div id="contact-us">
-                        <div id="mailbox">
-                            <div class="corner-art" id="curly-mailbox-top-left">
-                                <img src="../design/img/dec-border.svg" alt="curlicue-mailbox-top-left">
-                            </div>
-                            <div class="corner-art" id="curly-mailbox-top-right">
-                                <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
-                            </div>
-                            <div class="corner-art" id="curly-mailbox-bottom-left">
-                                <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
-                            </div>
-                                <div class="corner-art" id="curly-mailbox-bottom-right">
-                                <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
-                            </div>
-                            <div id="contact-info">
-                                <h4>contact us at:</h4>
-                                <h3>tidings@mangroves.life</h3>
+                <div class="do-item">
+                    <div id="contact-wrapper">
+                        <div id="contact-us">
+                            <div id="mailbox">
+                                <div class="corner-art" id="curly-mailbox-top-left">
+                                    <img src="../design/img/dec-border.svg" alt="curlicue-mailbox-top-left">
+                                </div>
+                                <div class="corner-art" id="curly-mailbox-top-right">
+                                    <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
+                                </div>
+                                <div class="corner-art" id="curly-mailbox-bottom-left">
+                                    <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
+                                </div>
+                                    <div class="corner-art" id="curly-mailbox-bottom-right">
+                                    <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
+                                </div>
+                                <div id="contact-info">
+                                    <h4>contact us at:</h4>
+                                    <h3>tidings@mangroves.life</h3>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div id="social-media">
-                        <div class="social-icon" id="linkedin"></div>
-                        <div class="social-icon" id="twitter"></div>
-                        <div class="social-icon" id="mastodon"></div>
+                        <div id="social-media">
+                            <div class="social-icon" id="linkedin"></div>
+                            <div class="social-icon" id="twitter"></div>
+                            <div class="social-icon" id="mastodon"></div>
+                        </div>
                     </div>
                 </div>
             </div>

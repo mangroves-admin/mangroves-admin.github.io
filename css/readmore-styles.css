@@ -216,18 +216,11 @@ p {
   flex-direction: column;
 }
 
-.do-page-section h3 {
-}
-
 
 /* Meet subpage */
 
 #meet-body {
   background-color: #4b0082;
-}
-
-#meet-intro h3 {
-  /* text-align: left; */
 }
 
 #meet-intro-boards {
@@ -369,10 +362,6 @@ p {
   color: #080A24;
 }
 
-#give-main-section {
-  /* border: 1px solid red; */
-}
-
 
 #give-main-section a {
   color: #151ea4;
@@ -386,10 +375,6 @@ p {
 
 /* Reach subpage */
 
-#reach-body {
-  /* background-color: #4b0082; */
-}
-
 #reach-border-box h3, a {
   color: #5a86ff;
   text-decoration: none;
@@ -397,10 +382,6 @@ p {
 
 #reach-page-main {
   padding: 1em 0;
-}
-
-.reach-item {
-  /* margin: 3em 0; */
 }
 
 
@@ -663,7 +644,7 @@ float: right;
   width: 100%;
 }
 
-#rome-border-box-1 {
+#rome-border-box-1, #rome-border-box-3 {
   padding-right: 1em;
   /* border: 1px solid red; */
 }
@@ -677,7 +658,7 @@ float: right;
 }
 
 #rome-border-box-3 h3 {
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   text-align: center;
   text-transform: uppercase;
   color: #5a86ff;
@@ -758,28 +739,25 @@ float: right;
   padding: 1em 1em 0 2em;
 }
 
-
-
-
-
-
-
-
-
+#approach-to-carless-rome {
+  margin: 2em 0;
+  padding: 0 1em;
+}
 
 #rome-questions {
-  background-color: #080A24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 2em 0 1em 0;
 }
 
 #rome-questions p {
   margin-top: 0;
 }
 
-#rome-questions-copy {
-  max-width: 90%;
-}
 
-#rome-questions-copy span {
+#rome-questions span {
   color: #5a86ff;
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
 }

@@ -16,22 +16,24 @@ permalink: /connival/
 
 <body id="connival-body">
   <div id="wrapper">
-    <div class="right-border-box right-border-box-dark" id="right-border-box-connival">
-    <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
-      <div class="responsive-two-columns" id="connival-main">
-        <p>{{ site.data.connival.copy }}</p>
-        <div id="connival-main-img-container">
-          <img src="/design/img/rome-houses.jpg" />
+    <div class="info-block" id="connival-block">
+      <div class="right-border-box right-border-box-dark" id="right-border-box-connival">
+        <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
+        <div class="responsive-two-columns" id="connival-main">
+          <p>{{ site.data.connival.copy }}</p>
+          <div id="connival-main-img-container">
+            <img src="/design/img/rome-houses.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="right-border-box right-border-box-dark" id="right-border-box-proceedings">
+        <div class="responsive-two-columns" id="connival-proceedings">
+          <p>{{ site.data.connival-proceedings.copy }}</p>
+          <div id="draft-proc-img-container">
+            <img src="/design/img/connival-dl.jpeg">
+          </div>
         </div>
       </div>
     </div>
-    <div class="right-border-box right-border-box-dark" id="right-border-box-proceedings">
-      <div class="responsive-two-columns" id="connival-proceedings">
-        <p>{{ site.data.connival-proceedings.copy }}</p>
-        <div id="draft-proc-img-container">
-          <img src="/design/img/connival-dl.jpeg">
-        </div>
-      </div>
-  </div>
   </div>
 </body>

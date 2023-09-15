@@ -112,22 +112,19 @@ permalink: /carless-rome/
             </div>
         </div>
 
-        <!-- <div class="info-block" id="rome-main-copy-3">
+        <div class="info-block" id="rome-main-copy-3">
             <div class="right-border-box" id="rome-border-box-3">
-                <div class="idea">
-                    <h3>{{ site.data.carless-rome-approach.title }}</h3>
-                    <p>{{ site.data.carless-rome-approach.copy }}</p>
+                <div class="think-info" id="approach-to-carless-rome">
+                    <div class="think-info" id="approach-copy">
+                        <h3>{{ site.data.carless-rome-approach.title }}</h3>
+                        <p>{{ site.data.carless-rome-approach.copy }}</p>
+                    </div>
+                    <div class="think-item" id="rome-questions">
+                        <p>{{ site.data.carless-rome-questions.copy }}</p>
+                    </div>
                 </div>
             </div>
-        </div> -->
-
-        <!-- <div class="info-block" id="rome-questions">
-            <div class="right-border-box" id="rome-border-box-4">
-                <div class="idea" id="rome-questions-copy">
-                    <p>{{ site.data.carless-rome-questions.copy }}</p>
-                </div>
-            </div>
-        </div> -->
+        </div>
     </div>
 
 </body>

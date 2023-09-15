@@ -166,6 +166,10 @@
     width: 10em;
   }
 
+  #fellows2122-item-title h3, #fellows2223-item-title h3 {
+    font-size: var(--fs-400);
+  }
+
   #contact-section > * {
     width: 100%;
   }

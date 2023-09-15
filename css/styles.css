@@ -245,6 +245,12 @@
     margin: 2em 0 0 0;
   }
 
+  #connival-body h3 {
+    font-size: var(--fs-400);
+    margin: 0;
+    padding: 0;
+  }
+
   #connival-column-1-1 {
     width: 55%;
   }
@@ -261,6 +267,14 @@
     width: 66%;
   }
 
+  #connival-main-img-container, #draft-proc-img-container {
+    margin: 0;
+  }
+
+  #right-border-box-proceedings {
+    padding-left: 10%;
+  }
+  
 }
 
 body {

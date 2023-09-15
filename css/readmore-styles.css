@@ -568,6 +568,13 @@ margin: 0.5em 0;
 
 #connival-body p {
   color: #080A24;
+  margin: 0;
+  font-size: var(--fs-200);
+  line-height: 1.5;
+}
+
+#connival-body h3 {
+  font-size: var(--fs-300);
 }
 
 #connival-body h4 {
@@ -583,16 +590,15 @@ margin: 0.5em 0;
   opacity: 40%;
 }
 
+
 #connival-main, #connival-proceedings {
   /* max-width: 70em; */
   line-height: 1.5em;
   display: block;
   flex-wrap:wrap;
+  padding-right: 1em;
 }
 
-#right-border-box-proceedings {
-  padding-left: 10%;
-}
 
 #connival-column-1-1 {
   /* width: 55%; */
@@ -613,7 +619,6 @@ margin: 0.5em 0;
 
 #connival-column-2-2 {
   /* width: 66%; */
-  padding-left: 2em !important;
 }
 
 #connival-column-1-1 p, #connival-column-2-1 p {
@@ -629,10 +634,13 @@ outline-offset: 5px;
 width: 80%;
 }
 
-#connival-main p span {
+#connival-main p span, #more-to-come p span {
   color: #390061df;
   font-size: var(--fs-300);
-  text-transform: uppercase;
+}
+
+#connival-main p span {
+text-transform: uppercase;
 }
 
 #draft-proceedings-title h3 {
@@ -643,6 +651,7 @@ width: 80%;
 }
 
 #connival-main-img-container {
+  margin: 2em 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -650,10 +659,18 @@ width: 80%;
 }
 
 #draft-proc-img-container {
+  margin: 2em 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #390061ab;
+}
+
+#more-to-come {
+  padding: 2em 0 3em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

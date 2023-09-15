@@ -47,6 +47,11 @@ permalink: /connival/
           </div>
         </div>
       </div>
+
+      <div class="right-border-box right-border-box-dark" id="more-to-come">
+          <p><span>More details to come!</span></p>
+      </div>
+
     </div>
   </div>
 </body>

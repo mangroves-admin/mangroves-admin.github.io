@@ -35,12 +35,15 @@ permalink: /connival/
       <div class="right-border-box right-border-box-dark" id="right-border-box-proceedings">
         <div class="responsive-two-columns" id="connival-proceedings">
           <div id="connival-column-2-1">
-            <p>{{ site.data.connival-proceedings.copy }}</p>
-          </div>
-          <div id="connival-column-2-2">
             <div id="draft-proc-img-container">
               <img src="/design/img/connival-dl.jpeg">
             </div>
+          </div>
+          <div id="connival-column-2-2">
+            <div class="section-title" id="draft-proceedings-title">
+              <h3>{{ site.data.connival-proceedings.title }}</h3>
+            </div>
+            <p>{{ site.data.connival-proceedings.copy }}</p>
           </div>
         </div>
       </div>

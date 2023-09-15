@@ -117,10 +117,6 @@
   }
 
 
-  .section-title {
-    height: 5em;
-  }
-
   .section-title h4 {
     font-size: var(--fs-600);
     /* font-size: 400px; */
@@ -237,6 +233,32 @@
   #rome-questions {
     padding: 0 2em;
     margin: 2em 0 1em 0;
+  }
+
+  #connival-main, #connival-proceedings {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  #connival-body h4 {
+    font-size: var(--fs-400);
+    margin: 2em 0 0 0;
+  }
+
+  #connival-column-1-1 {
+    width: 55%;
+  }
+  
+  #connival-column-1-2 {
+    width: 44%;
+  }
+
+  #connival-column-2-1 {
+    width: 33%;
+  }
+  
+  #connival-column-2-2 {
+    width: 66%;
   }
 
 }

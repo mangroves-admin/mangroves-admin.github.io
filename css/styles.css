@@ -116,6 +116,9 @@
     /* margin-right: 31px !important; */
   }
 
+  .section-title h3 {
+    font-size: var(--fs-400) !important;
+  }
 
   .section-title h4 {
     font-size: var(--fs-600);
@@ -152,6 +155,23 @@
     width:calc(100% / 2);
   }
 
+  #fellows-setup, #summary-2122-section {
+    padding: 2em 1em 2em 0;
+  }
+
+  #fellows-setup, #summary-2122-section, #summary-2223-section {
+    padding: 0;
+  }
+
+
+  #fellows-2122-image, #fellows-2223-image {
+    width: 100%;
+  }
+
+  #fellows-2122-image img, #fellows-2223-image img {
+    width: 90%;
+  }
+
   .fellow {
     margin: 0em 0em 4em 0em;
     padding-left: 2em;
@@ -167,8 +187,26 @@
     width: 10em;
   }
 
+  .fellow-bio {
+    margin-left: 2em;
+    padding: 0;
+  }
+
+  .fellow-bio h3 {
+    padding: 0;
+  }
+
+  .fellow-previous-year {
+    padding-left: 2em;
+  }
+
   #fellows2122-item-title h3, #fellows2223-item-title h3 {
     font-size: var(--fs-400);
+  }
+
+  #responses-copy {
+    padding: 0 4em;
+    max-width: 40em;
   }
 
   #contact-section > * {
@@ -653,7 +691,7 @@ p {
 
 .section-title h3 {
   color: #5a86ff;
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   text-transform: uppercase;
   margin: 1em 0;
 }

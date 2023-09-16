@@ -276,7 +276,7 @@ p {
   background-clip: content-box; /* support: IE9+ */
   /* outline: 0.5px solid #fefff1; */
   /* outline-offset: 5px; */
-  filter: drop-shadow(1em 1em 1em #080a2496);
+  filter: drop-shadow(1em 1em 1em #080a2471);
   float: left;
   z-index: 9;
 }
@@ -462,9 +462,12 @@ margin: 0.5em 0;
   /* border: 1px solid red; */
 }
 
-#fellows-setup, #summary-2122-section, #summary-2223-section {
-  /* padding: 2em 0; */
-  margin: 0 1em 0 0;
+#fellows-setup, #summary-2122-section, #summary-2223-section, #fellows {
+  padding: 1em 0.5em 1em 0;
+}
+
+#summary-2223-section {
+  padding-top: 0;
 }
 
 #fellows-setup h3, #fellows-setup p {
@@ -494,19 +497,25 @@ margin: 0.5em 0;
   padding-top: 2em;
 }
 
+.section-title h3 {
+  /* font-size: var(--fs-300); */
+}
+
 .intro-image-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1x solid red;
+  padding: 0;
+  margin: 0 0.5em 0 0;
 }
 
 #fellows-2122-image, #fellows-2223-image {
-  width: 80%;
+  width: 100%;
   border-top: 1px solid #2eb847;
   border-bottom: 1px solid #2eb847;
   margin: 0;
-  
+  padding: 2em 0.5em;
 }
 
 #fellows-2122-image img, #fellows-2223-image img {
@@ -565,6 +574,7 @@ margin: 0.5em 0;
 
 .fellow {
   /* margin: 0em 2em 4em 2em; */
+  width: 100%;
   clear: left;
   display: flex;
   align-items: center;
@@ -575,24 +585,26 @@ margin: 0.5em 0;
 .fellow-headshot {
   background-size: cover;
   background-position: center;
-  width: 100%;
+  height: 90vw;
+  width: 70vw;
   margin: 1em;
-  border: 1px solid #080A24;;
+  border: 1px solid #080A24;
   padding: 5px;
   background-clip: content-box; /* support: IE9+ */
-  outline: 1px solid #080A24;;
+  outline: 1px solid #080A24;
   outline-offset: 5px;
 }
 
 .fellow-bio {
-  margin-left: 2em;
+  padding-bottom: 3em;
   width: 100%;
   text-align: left;
 }
 
 .fellow-bio h3 {
+  padding-top: 0.5em;
   margin: 0;
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   color: #080A24;;
 }
 
@@ -620,8 +632,6 @@ margin: 0.5em 0;
 }
 
 #responses-copy {
-  padding: 0 4em;
-  max-width: 40em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -639,6 +649,7 @@ margin: 0.5em 0;
 
 .fellows-response h4 {
   margin: 0;
+  font-size: var(--fs-200);
 }
 
 #flower-box {

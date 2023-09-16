@@ -25,11 +25,32 @@ permalink: /fellows/
     </div>
     
     <div class="info-block" id="summary-2122-info-block">
+
       <div class="right-border-box-dark" id="summary-2122-border-box">
         <div class="think-item" id="summary-2122-section">
           <div class="section-title" id="fellows2122-item-title">
             <h3>2021-22: The Common and the Commonable</h3>
           </div>
+
+        <div class="guest-discussants">
+          <h4>Guest Discussants:</h4>
+          <p>Roxana Bendezú (migrant experience/media) - Chiara Klein (community fisheries) - Bruce Lawrence (Islamicate cosmopolitanism) - Lissa McCullough (Soleri's arcology) - Stuart Pimm (bioconservation)</p>
+        </div>
+
+        {% for item in site.data.fellows-summary-21-22 %}
+        <!-- no subtitles in 2021-2022 summary: can easily add later if you wish -->
+          <!-- <div class="fellows-subpage-title">
+            <h3>
+              {{ item.title }}
+            </h3>
+          </div> -->
+          <div class="fellows-subpage-info">
+            <p>
+              {{ item.copy}}
+            </p>
+          </div>
+        {% endfor %}
+
         </div>
       </div>
 
@@ -38,7 +59,13 @@ permalink: /fellows/
           <div class="section-title" id="fellows2223-item-title">
             <h3>2022-23: Growth</h3>
           </div>
-          {% for item in site.data.fellows-summary-22-23 %}
+
+        <div class="guest-discussants">
+          <h4>Guest Discussants:</h4>
+          <p>Dilip da Cunha (ubiquitous wetness) - Arturo Escobar and Michal Osterweil (relationality) -  Bruce Lawrence (Ibn Khaldun's historic cycles) - Daniel Richter (critical zone science) - Antonio Tamburrino (Carless Rome)</p>
+        </div>
+
+        {% for item in site.data.fellows-summary-22-23 %}
           <div class="fellows-subpage-title">
             <h3>
               {{ item.title }}
@@ -49,7 +76,8 @@ permalink: /fellows/
               {{ item.copy}}
             </p>
           </div>
-          {% endfor %}
+        {% endfor %}
+
         </div>
       </div>
     </div>

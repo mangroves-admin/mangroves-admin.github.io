@@ -463,9 +463,8 @@ margin: 0.5em 0;
 }
 
 #fellows-setup, #summary-2122-section, #summary-2223-section {
-  padding: 2em 0;
+  /* padding: 2em 0; */
   margin: 0 1em 0 0;
-  border: 1px solid red;
 }
 
 #fellows-setup h3, #fellows-setup p {
@@ -483,12 +482,21 @@ margin: 0.5em 0;
   text-transform: none;
 }
 
+#summary-2122-section, #summary-2223-section {
+  padding-bottom: 0;
+}
+
+#summary-2122-section p, #summary-2223-section p {
+  /* margin-bottom: 0; */
+  padding: 0;
+}
+
 #summary-2122-section {
   padding-top: 2em;
-  border: 1px solid red;
 }
 
 .fellows-subpage-title h3 {
+  font-size: var(--fs-200);
   font-style: italic;
   margin: 0 0 0.25em 0;
   padding: 0;
@@ -498,6 +506,21 @@ margin: 0.5em 0;
   margin: 0 0 2em 0;
   line-height: 1.5em;
 }
+
+.guest-discussants {
+  margin-bottom: 2em;
+}
+
+.guest-discussants h4 {
+  font-size: var(--fs-200);
+  margin-bottom: 0;
+}
+
+
+.guest-discussants p {
+  margin-top: 0.25em;
+}
+
 
 #fellows-backdrop {
   /* background-color: #a1dd87e0; */

@@ -38,6 +38,7 @@ permalink: /meet/
                     <div class="section-subtitle" id="directors-title">
                         <h3>Board of Directors</h3>
                     </div>
+
                     {% for item in site.data.directors %}
                     <div class="faculty">
                         <div class="faculty-headshot" style="background-image: url( {{ item.img }} );"></div>

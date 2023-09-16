@@ -191,6 +191,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
+    max-width: 90%;
   }
 
   .fellow-headshot {
@@ -202,7 +203,7 @@
     width: 10em;
   }
 
-  .fellow-bio {
+  .fellow-bio, .faculty-bio {
     margin-left: 2em;
     padding: 0;
   }
@@ -706,7 +707,7 @@ p {
 
 .section-title h3 {
   color: #5a86ff;
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
   text-transform: uppercase;
   margin: 1em 0;
 }

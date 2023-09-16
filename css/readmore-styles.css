@@ -234,6 +234,7 @@ p {
 
 #meet-intro-boards {
   line-height: 1.5em;
+  padding-top: 0;
 }
 
 #meet-section-title {
@@ -241,8 +242,12 @@ p {
   text-align: center;
 }
 
+#boards-section-title h3 {
+  margin: 0;
+}
+
 .meet-item {
-  padding: 1em 6em;
+  padding: 0em 2em 0 1em;
   /* margin-bottom: 20px; */
   max-width: 60em;
   align-items: center;
@@ -265,29 +270,12 @@ p {
   height: 12em;
   width: 10em;
   margin: 1em;
-  border: 1px solid #080A24;
+  border: 1px solid #8633c1;
   padding: 5px;
   background-clip: content-box; /* support: IE9+ */
-  outline: 1px solid #080A24;
+  outline: 1px solid #8633c1;
   outline-offset: 5px;
 }
-
-/* .faculty-headshot {
-  background-size: cover;
-  background-position: center;
-  height: 75%;
-  width: 20%;
-  margin: 10px;
-  padding: 10px;
-  border: 0.5px solid #f2f4d4;
-  padding: 5px;
-  background-clip: content-box; /* support: IE9+ */
-  /* outline: 0.5px solid #fefff1; */
-  /* outline-offset: 5px; */
-  /* filter: drop-shadow(1em 1em 1em #080a2471); */
-  /* float: left; */
-  /* z-index: 9; */ */
-/* } */
 
 .faculty-bio {
   padding-bottom: 3em;
@@ -296,13 +284,14 @@ p {
 }
 
 .faculty-bio h3 {
-  margin-top: -10px;
-  margin-left: 60px;
-  font-size: 45px;
+  padding-top: 0.5em;
+  margin: 0;
+  font-size: var(--fs-300);
 }
 
 .faculty-bio p {
-  margin-left: 5%;
+  margin: 0.5em 0 1em 0;
+  font-size: var(--fs-200);
 }
 
 #directors-border-box {
@@ -488,7 +477,7 @@ margin: 0.5em 0;
   /* border: 1px solid red; */
 }
 
-#fellows-setup, #summary-2122-section, #summary-2223-section, #fellows {
+#fellows-setup, #summary-2122-section, #summary-2223-section, #fellows, .meet-item {
   padding: 1em 0.5em 1em 0;
 }
 
@@ -631,7 +620,7 @@ margin: 0.5em 0;
   padding-top: 0.5em;
   margin: 0;
   font-size: var(--fs-300);
-  color: #080A24;;
+  color: #080A24;
 }
 
 .fellow-bio p {

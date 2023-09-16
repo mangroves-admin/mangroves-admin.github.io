@@ -20,7 +20,8 @@ permalink: /home/
             <div class="right-border-box">
                 <div class="intro-text">
                     <p><span>Mangroves</span>: a do-think tank. We are small, but <i>dreaming</i> - though never alone. We are concerned with <i>l o n g</i> planetary lifewebs and how they might resprout. As a collaboratory, we stage coworking in-house with staff and annual Fellows, with folks all over, and non-human <i>coactants</i> - always.</p>
-                </div>
+                </div> 
+
             </div>
         </div>
 

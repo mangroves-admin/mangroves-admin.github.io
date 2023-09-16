@@ -237,6 +237,10 @@ p {
   padding-top: 0;
 }
 
+#meet-intro-boards p {
+  font-size: var(--fs-200);
+}
+
 #meet-section-title {
   margin: 1em 1em 0 0;
   text-align: center;
@@ -308,6 +312,10 @@ p {
 
 #more-to-come-border-box {
   background-color: #390061;
+}
+
+#more-to-come p {
+  font-size: var(--fs-200);
 }
 
 .board {

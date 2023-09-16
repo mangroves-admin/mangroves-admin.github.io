@@ -23,7 +23,7 @@ permalink: /meet/
                 <h3>Meet</h3>
             </div>
 
-                <div class="do-item" id="meet-intro-boards">
+                <div class="meet-item" id="meet-intro-boards">
                     <div class="section-subtitle" id="boards-section-title">
                         <h3>Boards</h3>
                     </div>

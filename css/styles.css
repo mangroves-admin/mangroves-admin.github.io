@@ -123,7 +123,11 @@
   .section-title h4 {
     font-size: var(--fs-600);
     /* font-size: 400px; */
-  }  
+  }
+
+  .section-subtitle h3 {
+    font-size: var(--fs-400) !important;
+  }
 
   #meet-text, #stretching-forth-text, #give-text, #reach-text {
     max-width: 40em !important;
@@ -179,7 +183,7 @@
     width: 90%;
   }
 
-  .fellow {
+  .fellow, .faculty {
     margin: 0em 0em 4em 0em;
     padding-left: 2em;
     clear: left;
@@ -191,6 +195,10 @@
 
   .fellow-headshot {
     height: 12em;
+    width: 10em;
+  }
+
+  .faculty-headshot {
     width: 10em;
   }
 
@@ -712,7 +720,7 @@ p {
 
 .section-subtitle h3 {
   color: #5a86ff;
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
   text-transform: uppercase;
 }
 

@@ -237,7 +237,7 @@ p {
 }
 
 #meet-section-title {
-  margin: 2em 1em 0 0;
+  margin: 1em 1em 0 0;
   text-align: center;
 }
 
@@ -251,20 +251,28 @@ p {
 
 
 .faculty {
-  /* border: solid 1px yellow; */
-  margin-bottom: 3%;
-  /* margin-left: 180px; */
-  min-width: 80%;
-  height: 15em;
-  /* width: 66.67%; */
+  width: 100%;
   clear: left;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
+  flex-wrap: wrap;
 }
 
 .faculty-headshot {
+  background-size: cover;
+  background-position: center;
+  height: 12em;
+  width: 10em;
+  margin: 1em;
+  border: 1px solid #080A24;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  outline: 1px solid #080A24;
+  outline-offset: 5px;
+}
+
+/* .faculty-headshot {
   background-size: cover;
   background-position: center;
   height: 75%;
@@ -276,21 +284,15 @@ p {
   background-clip: content-box; /* support: IE9+ */
   /* outline: 0.5px solid #fefff1; */
   /* outline-offset: 5px; */
-  filter: drop-shadow(1em 1em 1em #080a2471);
-  float: left;
-  z-index: 9;
-}
+  /* filter: drop-shadow(1em 1em 1em #080a2471); */
+  /* float: left; */
+  /* z-index: 9; */ */
+/* } */
 
 .faculty-bio {
-  /* margin-top: 5%; */
-  float: right;
-  height: 100%;
-  width: 80%;
+  padding-bottom: 3em;
+  width: 100%;
   text-align: left;
-  /* border: 1px solid red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .faculty-bio h3 {

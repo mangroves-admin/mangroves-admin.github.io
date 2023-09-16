@@ -85,28 +85,64 @@ permalink: /fellows/
 
     <div class="info-block">
       <div class="right-border-box-dark">
-        <div id="fellows">
-          {% for item in site.data.fellows %}
-            <div class="fellow">
-              <div class="fellow-headshot" style="background-image: url( {{ item.background }} );">
-                <!-- <img src="{{ item.background }}"> -->
-                <!-- </div> -->
-              </div>
-              <div class="fellow-bio">
-                <h3>{{ item.name }}</h3>
-                <p>{{ item.bio }}</p>
-              </div>
+        <div class="think-item" id="fellows">
+
+          <div id="fellows-2223">
+            <div class="section-title" id="fellows-2223-bios-title">
+                <h3>Mangroves Pilot Fellows 2022/2023</h3>
             </div>
-          {% endfor %}
+
+            {% for item in site.data.fellows %}
+              <div class="fellow">
+                <div class="fellow-headshot" style="background-image: url( {{ item.background }} );">
+                  <!-- <img src="{{ item.background }}"> -->
+                  <!-- </div> -->
+                </div>
+                <div class="fellow-bio">
+                  <h3>{{ item.name }}</h3>
+                  <p>{{ item.bio }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+
+          <div id="fellows-2122">
+            <div class="section-title" id="fellows-2122-bios-title">
+              <h3>Mangroves Pilot Fellows 2021/2022</h3>
+            </div>
+
+            {% for item in site.data.fellows-21-22 %}
+              <div class="fellow-previous-year">
+                <h4>{{ item.name }}</h4>
+                <p>{{ item.profession }}</p>
+              </div>
+            {% endfor %}
+          </div>
+
+          <div id="fellows-responses">
+            <div class="section-title" id="fellows-responses-title">
+              <h3>Responses to the Fellowship:</h3>
+            </div>
+
+              <div id="responses-copy">
+              {% for item in site.data.fellows-responses %}
+                <div class="fellows-response">
+                  <p>{{ item.copy }}</p>
+                  <h4>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;{{ item.name }}</h4>
+                </div>
+              {% endfor %}
+              </div>
+          </div>
+
+
         </div>
       </div>
     </div>
 
-    <div class="info-block">
-      <div class="right-border-box-dark" id="responses-border-box">
-        <p>Obez</p>
-      </div>
-    </div>
+
+
+
+ 
 
 
 

@@ -471,7 +471,6 @@ margin: 0.5em 0;
   color: #f2f4d4;
 }
 
-
 #fellows-setup h3 {
   font-size: var(--fs-400);
   line-height: 1em;
@@ -511,16 +510,14 @@ margin: 0.5em 0;
   margin-bottom: 2em;
 }
 
-.guest-discussants h4 {
+.guest-discussants h4, .fellow-previous-year h4 {
   font-size: var(--fs-200);
   margin-bottom: 0;
 }
 
-
-.guest-discussants p {
+.guest-discussants p, .fellow-previous-year p {
   margin-top: 0.25em;
 }
-
 
 #fellows-backdrop {
   /* background-color: #a1dd87e0; */
@@ -534,7 +531,7 @@ margin: 0.5em 0;
 
 #fellows {
   /* border: 1px solid yellow; */
-  margin-bottom: 40px;
+  /* max-width: 60em; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -543,7 +540,7 @@ margin: 0.5em 0;
 }
 
 .fellow {
-  margin: 4em 2em 0 2em;
+  /* margin: 0em 2em 4em 2em; */
   clear: left;
   display: flex;
   align-items: center;
@@ -579,6 +576,45 @@ margin: 0.5em 0;
   margin: 0.5em 0 1em 0;
   color: #080A24;
   font-size: var(--fs-200);
+}
+
+#fellows-2122 {
+  padding-bottom: 2em;
+}
+
+#fellows-responses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fellows-responses-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#responses-copy {
+  padding: 0 4em;
+  max-width: 40em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fellows-response {
+  margin: 0 0 3em 0;
+}
+
+.fellows-response p {
+  margin: 0;
+  padding: 0;
+}
+
+.fellows-response h4 {
+  margin: 0;
 }
 
 #flower-box {

@@ -1,9 +1,9 @@
 - name: Ameen Ahmed
   background: ../design/img/bio-headshots/ameen-ahmed.jpg
   bio: "Ameen Ahmed is a curator, artist, writer, and researcher from Bangalore, India, and
-        Toronto, Canada. His current research interests revolve around “magic”, which he
+        Toronto, Canada. His current research interests revolve around \"magic\", which he
         describes as the use of the rhetoric and methods of religion and myth by political and
-        corporate agents of “progress” and “development”. This is part of a larger interest in
+        corporate agents of \"progress\" and \"development\". This is part of a larger interest in
         stories and storytelling, whether those stories are disseminated through media, or
         through visual, political, or architectural means."
 
@@ -18,13 +18,13 @@
   background: ../design/img/bio-headshots/massimo-angrilli.jpg
   bio: "Architect and Phd, he studied at the Architecture Faculties of Pescara and Paris-Tolbiac,
         he received a PhD in Urbanism at the Inter-university Doctorate of Rome-Pescara in
-        2000, with a thesis entitled “Green Urban Network”, with landscape architect Michael
+        2000, with a thesis entitled \"Green Urban Network\", with landscape architect Michael
         Hough (University of Toronto) as external tutor. He is Deputy Director and Associate
         Professor in Urban Design at the Architecture Department of Pescara. He taught as
-        visiting professor in the International Masters Degree “Landscape Intervention and
-        Heritage Management”, Universitat Autonoma de Barcelona. Author, among others, of
-        the books “Piano Progetto Paesaggio. Urbanistica e recupero del bene comune” (with a
-        postfazione by Francesc Munoz); “Reti verdi urbane”, (with a preface by Michael
+        visiting professor in the International Masters Degree \"Landscape Intervention and
+        Heritage Management\", Universitat Autonoma de Barcelona. Author, among others, of
+        the books \"Piano Progetto Paesaggio. Urbanistica e recupero del bene comune\" (with a
+        postfazione by Francesc Munoz); \"Reti verdi urbane\", (with a preface by Michael
         Hough), author of papers published in national and international scientific magazines."
 
 
@@ -36,6 +36,17 @@
         thinking about the impact that mental and physical travel has in the shaping of culture.
         Cris is fascinated with the power that poetry, art, music, and the beach have in moving
         our world."
+
+- name: Vanessa Hein
+  background: ../design/img/bio-headshots/vanessa-hein.jpg
+  bio: "I am a born and raised east coast HipHop head and educational anthropologist. My son is
+        undoubtedly my greatest love. Music is my vitality and culture is my universe. I have a
+        deep passion for both philosophy and quantum physics, and the two together constitute
+        my personal sense of spirituality. Currently, I am an adjunct professor of education at
+        DePaul University and of sociology and anthropology at St. Xavier University in Chicago,
+        Illinois. Always on the lookout for the most information I can get my hands on and the
+        widest variety of experiences one could engage in, I am constantly seeking growth of
+        mind, body, and soul."
   
 - name: Nasr Imbrahim
   background: ../design/img/bio-headshots/nasr-ibrahim.jpg

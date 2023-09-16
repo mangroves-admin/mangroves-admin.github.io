@@ -22,16 +22,24 @@ permalink: /give/
 
             
                 <div class="think-page-section" id="give-main-section">
+
                     {% for item in site.data.give-subpage %}
                         <div class="think-item">
                             <div class="section-title" id="give-item-title">
                                 <h3>{{ item.title }}</h3>
                             </div>
-                            <div class="do-info">
+                            <div class="do-info" id="give-info">
                                 <p>{{ item.copy }}</p>
                             </div>
                         </div>
                     {% endfor %}
+
+                    <div class="intro-image-wrapper">
+                        <div class="intro-text" id="give-image">
+                            <img src="/design/img/tree-birds.png" alt="the-giving-tree">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>        

@@ -372,6 +372,9 @@ p {
   color: #080A24;
 }
 
+#give-main-section {
+/* padding: 1em 0.5em 1em 0; */
+}
 
 #give-main-section a {
   color: #151ea4;
@@ -379,6 +382,27 @@ p {
 
 #give-item-title h3 {
   margin: 0;
+}
+
+#give-info {
+  padding-bottom: 1.5em;
+} 
+
+#give-image {
+  width: 100%;
+  border-top: 1px solid #080A24;
+  border-bottom: 1px solid #080A24;
+  margin-right: 0.5em;
+  padding: 2em 1em;
+}
+
+#give-image img {
+  width: 90%;
+  border: 1px solid #080A24;;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  outline: 1px solid #080A24;
+  outline-offset: 5px;
 }
 
 

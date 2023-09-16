@@ -138,6 +138,13 @@
     height: 3em;
   }
 
+  #give-image {
+    width: 60%;
+  }
+  
+  #give-image img {
+    width: 80%;
+  }
 
   .footer-base {
     height: var(--ht-400);
@@ -773,6 +780,7 @@ p {
 
 .think-item {
   padding: 0em 2em 0 1em;
+  /* padding: 1em 0.5em 1em 0; */
   margin-bottom: 1em;
   max-width: 60em;
   align-items: center;

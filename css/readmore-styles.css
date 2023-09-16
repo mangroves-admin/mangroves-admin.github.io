@@ -494,6 +494,30 @@ margin: 0.5em 0;
   padding-top: 2em;
 }
 
+.intro-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1x solid red;
+}
+
+#fellows-2122-image, #fellows-2223-image {
+  width: 80%;
+  border-top: 1px solid #2eb847;
+  border-bottom: 1px solid #2eb847;
+  margin: 0;
+  
+}
+
+#fellows-2122-image img, #fellows-2223-image img {
+  width: 100%;
+  border: 1px solid #2eb847;;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  outline: 1px solid #2eb847;
+  outline-offset: 5px;
+}
+
 .fellows-subpage-title h3 {
   font-size: var(--fs-200);
   font-style: italic;

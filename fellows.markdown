@@ -32,24 +32,30 @@ permalink: /fellows/
             <h3>2021-22: The Common and the Commonable</h3>
           </div>
 
-        <div class="guest-discussants">
-          <h4>Guest Discussants:</h4>
-          <p>Roxana Bendezú (migrant experience/media) - Chiara Klein (community fisheries) - Bruce Lawrence (Islamicate cosmopolitanism) - Lissa McCullough (Soleri's arcology) - Stuart Pimm (bioconservation)</p>
-        </div>
-
-        {% for item in site.data.fellows-summary-21-22 %}
-        <!-- no subtitles in 2021-2022 summary: can easily add later if you wish -->
-          <!-- <div class="fellows-subpage-title">
-            <h3>
-              {{ item.title }}
-            </h3>
-          </div> -->
-          <div class="fellows-subpage-info">
-            <p>
-              {{ item.copy}}
-            </p>
+          <div class="intro-image-wrapper">
+            <div class="intro-text" id="fellows-2122-image">
+              <img src="/design/img/fellowship-screenshots/2021-22-1.png" alt="fellows-2122-screenshot">
+            </div>
           </div>
-        {% endfor %}
+
+          <div class="guest-discussants">
+            <h4>Guest Discussants:</h4>
+            <p>Roxana Bendezú (migrant experience/media) - Chiara Klein (community fisheries) - Bruce Lawrence (Islamicate cosmopolitanism) - Lissa McCullough (Soleri's arcology) - Stuart Pimm (bioconservation)</p>
+          </div>
+
+          {% for item in site.data.fellows-summary-21-22 %}
+          <!-- no subtitles in 2021-2022 summary: can easily add later if you wish -->
+            <!-- <div class="fellows-subpage-title">
+              <h3>
+                {{ item.title }}
+              </h3>
+            </div> -->
+            <div class="fellows-subpage-info">
+              <p>
+                {{ item.copy}}
+              </p>
+            </div>
+          {% endfor %}
 
         </div>
       </div>
@@ -60,23 +66,29 @@ permalink: /fellows/
             <h3>2022-23: Growth</h3>
           </div>
 
-        <div class="guest-discussants">
-          <h4>Guest Discussants:</h4>
-          <p>Dilip da Cunha (ubiquitous wetness) - Arturo Escobar and Michal Osterweil (relationality) -  Bruce Lawrence (Ibn Khaldun's historic cycles) - Daniel Richter (critical zone science) - Antonio Tamburrino (Carless Rome)</p>
-        </div>
+          <div class="intro-image-wrapper">
+            <div class="intro-text" id="fellows-2223-image">
+              <img src="/design/img/fellowship-screenshots/2022-23-1.jpeg" alt="fellows-2223-screenshot">
+            </div>
+          </div>
 
-        {% for item in site.data.fellows-summary-22-23 %}
-          <div class="fellows-subpage-title">
-            <h3>
-              {{ item.title }}
-            </h3>
+          <div class="guest-discussants">
+            <h4>Guest Discussants:</h4>
+            <p>Dilip da Cunha (ubiquitous wetness) - Arturo Escobar and Michal Osterweil (relationality) -  Bruce Lawrence (Ibn Khaldun's historic cycles) - Daniel Richter (critical zone science) - Antonio Tamburrino (Carless Rome)</p>
           </div>
-          <div class="fellows-subpage-info">
-            <p>
-              {{ item.copy}}
-            </p>
-          </div>
-        {% endfor %}
+
+          {% for item in site.data.fellows-summary-22-23 %}
+            <div class="fellows-subpage-title">
+              <h3>
+                {{ item.title }}
+              </h3>
+            </div>
+            <div class="fellows-subpage-info">
+              <p>
+                {{ item.copy}}
+              </p>
+            </div>
+          {% endfor %}
 
         </div>
       </div>

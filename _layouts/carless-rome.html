@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <title>{{ page.title }}</title>
+    {% include home-head.html %}
+  </head>
+  <body>
+    <nav>
+      <div class="nav-border-box">
+        <div class="nav-links">
+        {% for item in site.data.navigation %}
+          <div class="nav-item">
+          <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
+            {{ item.name }}
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    </nav>
+    {{ content }}
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+
+    
+      </div>
+    </div>
+  </body>
+</html>

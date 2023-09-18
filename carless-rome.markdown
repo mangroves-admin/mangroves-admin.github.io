@@ -34,7 +34,7 @@ permalink: /carless-rome/
 
             <div class="right-border-box" id="rome-border-box-1">
                 <div class="responsive-three-columns" id="rome-page-1">
-                    <div id="rome-column-1-1">
+                    <div class="rome-column" id="rome-column-1-1">
                         <p>Millennia after its imperial apex, Rome continues to have immense visibility in the world. Here was developed, over 2,000 years ago, the very concept of <i>transportation system</i> connecting the widest reaches of its empire with paved roads, maritime routes, navigation canals, ports, stocking and rest areas, and integrated systems for the rapid transportation of products, passengers and information.</p>
 
                         <p>But ever since the invention of mechanically propelled vehicles, Rome has been lagging in its ability to innovate. What was once the pinnacle of infrastructure and planning now has the worst mobility in Europe.</p>
@@ -43,7 +43,7 @@ permalink: /carless-rome/
                     </div>
                     
 
-                    <div id="rome-column-1-2">
+                    <div class="rome-column" id="rome-column-1-2">
                         <p>The Strategic Plan for Urban Mobility proposes employing 100% electric and driverless people movers, small-diameter tunnels and small footprint elevators, and the digital optimization of the transportation system.</p>
 
                         <p>Its objective is to liberate the <b>largest pedestrianized area in the world</b> — an area of roughly 20 km<sup>2</sup> — which would include Western Europe’s largest archeological area and a rich ensemble of ancient, medieval, Renaissance, baroque and modern architectural and artistic treasures dispersed throughout the living city fabric.</p>
@@ -52,7 +52,7 @@ permalink: /carless-rome/
                     </div>
 
             
-                    <div id="rome-column-1-3">
+                    <div class="rome-column" id="rome-column-1-3">
                         <h2>Impact</h2>
                         <ul>
                             <li>Creation of 20 km<sup>2</sup> pedestrian area (extended to 50 km<sup>2</sup> in phase 2).</li>
@@ -69,7 +69,7 @@ permalink: /carless-rome/
         <div class="info-block" id="rome-main-copy-2">
             <div class="right-border-box" id="rome-border-box-2">
                 <div class="responsive-two-columns" id="rome-page-2">
-                    <div id="rome-column-2-1">
+                    <div class="rome-column" id="rome-column-2-1">
                         <div id="rome-pedestrian-map">
                             <div id="pedestrian-map-image">
                                 <img src="/design/img/pedestrian-map-closeup.jpg" alt="pedestrian-map">
@@ -77,13 +77,13 @@ permalink: /carless-rome/
                             </div>
                         </div>
                         <div class="responsive-two-columns">
-                            <div id="rome-column-2-1-1">
+                            <div class="rome-column" id="rome-column-2-1-1">
                                 <h2>The Central Loop</h2>
                                 <p>The Strategic Plan for Sustainable Mobility, drafted by Antonio Tamburrino at the request of Rome's Mayor in 2012, proposes a <b>5 Ring</b> solution to Rome's transprotation challenges.</p>
                                 <p>The plan calls for the <b>elimination of private motor vehicles from the city center</b>, thought no from greater Rome, where a new generation of cleaner, autonomous and shard electric vehicles will continue to serve the city's residents and visitors thanks to improved surface and subsurface arteries (rings 1-3).</p>
                                 <p>Clean mobility solutions from bicycling to emerging electric micromobility options benefit from (and make feasible) the vast pedestrian zone served by the Tiber Tramway and the Central Loop (rings 4-5).</p>
                             </div>
-                            <div id="rome-column-2-1-2">
+                            <div class="rome-column" id="rome-column-2-1-2">
                                 <p>Key to implementing the Five Rings plan and in particular the Central Loop is a technical solution to the problem of <b>non-invasive tunneling</b> below the city's rich archaeological strata.</p>
                                 <p>The Central Loop is conceived to weave its way at the minimum possible depth below the ruins (as little as 12 meters below the surface) through tunnels with a diameter of under five meters.</p>
                                 <p>With small cars (16-25 passengers) and frequent automated service (even every 60 seconds) stations can be virtually eliminated, replaced by elevators which provide direct access to vehicles, thus reducing archeological impact.</p>
@@ -93,7 +93,7 @@ permalink: /carless-rome/
                     </div>
 
             
-                    <div id="rome-column-2-2">
+                    <div class="rome-column" id="rome-column-2-2">
                         <img src="/design/img/five-rings-map.jpg" alt="five-rings-map" width="100%/3">
                         <h2>Five Rings Proposal</h2>
                         <ol>

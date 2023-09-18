@@ -183,7 +183,7 @@
     width: 90%;
   }
 
-  .fellow, .faculty {
+  .fellow, .faculty, .initiative {
     margin: 0em 0em 4em 0em;
     padding-left: 2em;
     clear: left;
@@ -194,6 +194,10 @@
     max-width: 90%;
   }
 
+  .initiative {
+    margin-bottom: 1.5em;
+  }
+
   .fellow-headshot {
     height: 12em;
     width: 10em;
@@ -201,6 +205,10 @@
 
   .faculty-headshot {
     width: 10em;
+  }
+
+  .initiative-logo img {
+    width: 3em;
   }
 
   .fellow-bio, .faculty-bio {

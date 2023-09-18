@@ -427,9 +427,8 @@ p {
 }
 
 .reach-info p {
+  margin: 0.5em 0 1em 0;
   font-size: var(--fs-200);
-  margin-top: 0px;
-  line-height: 1.5em;
 }
 
 .reach-title {
@@ -445,23 +444,24 @@ margin: 0.5em 0;
 }
 
 .initiative {
+  width: 100%;
+  clear: left;
   display: flex;
-  /* border: 1px solid red; */
   align-items: center;
   justify-content: center;
-  padding: 0;
-  margin: 1em 1em 0 0;
+  flex-wrap: wrap;
 }
 
 .initiative-logo {
-  float: left;
   padding: 1.5em;
   /* border: 1px solid red; */
 }
 
 .initiative-logo img {
-  height: 3em;
+  width: 5em;
 }
+
+
 
 
 
@@ -901,6 +901,11 @@ text-transform: uppercase;
   margin-bottom: 0;
 }
 
+.rome-column {
+  padding: 0 !important;
+  /* border: 1px solid red; */
+}
+
 #rome-column-1-3 p {
   font-style: italic;
   font-size: 1em;
@@ -956,10 +961,6 @@ text-transform: uppercase;
   padding: 1em 1em 0 2em;
 }
 
-#approach-to-carless-rome {
-  margin: 2em 0;
-  padding: 0 1em;
-}
 
 #rome-questions {
   display: flex;

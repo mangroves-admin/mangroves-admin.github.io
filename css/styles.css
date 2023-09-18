@@ -1320,7 +1320,6 @@ h3 {
     /* width: 100%; */
     /* margin-right 13px; */
     left: 0;
-    /* border-right: 1px solid red; */
   }
 
   .nav-border-box a {
@@ -1366,7 +1365,15 @@ h3 {
 
   /* show nav items on click */
   .nav-links input:checked ~ .nav-item {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    height: 3em;
+  }
+
+  .nav-links a {
+    font-size: var(--fs-300);
   }
 
 

@@ -198,6 +198,10 @@
     margin-bottom: 1.5em;
   }
 
+  .initiative-logo {
+    padding: 1.5em;
+  }
+
   .fellow-headshot {
     height: 12em;
     width: 10em;
@@ -208,7 +212,7 @@
   }
 
   .initiative-logo img {
-    width: 3em;
+    width: 5em;
   }
 
   .fellow-bio, .faculty-bio {

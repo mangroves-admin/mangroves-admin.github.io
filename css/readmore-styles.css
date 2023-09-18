@@ -444,21 +444,17 @@ margin: 0.5em 0;
 }
 
 .initiative {
-  width: 100%;
   clear: left;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 1em 4em 0;
 }
 
-.initiative-logo {
-  padding: 1.5em;
-  /* border: 1px solid red; */
-}
 
 .initiative-logo img {
-  width: 5em;
+  width: 7em;
 }
 
 

@@ -163,13 +163,15 @@ permalink: /home/
                                 </div>
                                 <div id="contact-info">
                                     <h4>contact us at:</h4>
-                                    <h3>tidings@mangroves.life</h3>
+                                    <h3><a href="mailto:tiding@mangroves.life">tidings@mangroves.life</h3>
                                 </div>
                             </div>
                         </div>
 
                         <div id="social-media">
+                            <a href="https://www.linkedin.com/in/david-u-b-liu-76376b16">
                             <div class="social-icon" id="linkedin"></div>
+                            </a>
                             <div class="social-icon" id="twitter"></div>
                             <div class="social-icon" id="mastodon"></div>
                         </div>

@@ -1075,6 +1075,11 @@ p {
   font-size: var(--fs-200);
 }
 
+#contact-info a {
+  text-decoration : none;
+  color: #f2f4d4;
+}
+
 #social-media {
   text-align: center;
   color: #f2f4d4;

@@ -561,8 +561,11 @@ p {
   justify-content: center;
 }
 
-
 .intro {
+  /* background-image: url(/design/img/trees-water-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0cqmax; */
   background-color: #080A24;
   width: 100%;
   display: flex;
@@ -570,6 +573,14 @@ p {
   justify-content: center;
   flex-direction: column;
 }
+
+#home-intro {
+  background-image: url(/design/img/trees-water-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0cqmax;
+}
+
 
 .intro-text {
     padding: 2em 4em;
@@ -579,11 +590,13 @@ p {
     align-items: center;
     flex-direction: column;
     line-height: 2em;
+    grid-area: 1/1;
 }
 
 .intro-text p {
   font-size: var(--fs-200);
   line-height: 1.5em;
+  text-shadow: #000000 1px 0 3em;
 }
 
 .intro-text p span {

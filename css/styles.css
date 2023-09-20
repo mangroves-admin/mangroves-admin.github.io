@@ -1,20 +1,27 @@
 @font-face {
-  font-family: 'Candara';
+  /* font-family: 'Candara';
   src: url('../design/fonts/candara/Candara.ttf');
 
-  /* font-family: 'PT-Sans';
-  src: url('../design/fonts/PT-sans/PT_Sans/PTSans-Regular.ttf');
+  /* font-family: 'Gowun-Dodum';
+  src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf'); */
 
-  font-family: 'Hind-Siliguri';
-  src: url('../design/fonts/hind-siliguri/Hind_Siliguri/HindSiliguri-Regular.ttf');
+  font-family: 'Commissioner';
+  src: url('../design/fonts/commissioner/static/Commissioner-Regular.ttf');
+}
 
+@font-face {
+  font-family: 'Commissioner-Light';
+  src: url('../design/fonts/commissioner/static/Commissioner-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Antic';
+  src: url('../design/fonts/antic/Antic-Regular.ttf ');
+}
+
+@font-face {
   font-family: 'Gowun-Dodum';
-  src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf');
-
-  font-family: 'Galdeano';
-  src: url('../design/fonts/galdeano/Galdeano/Galdeano-Regular.ttf'); */
-
-
+  src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf ');
 }
 
 :root {
@@ -355,10 +362,14 @@ body {
   width: 100%;
   /* height: 100%; */
   display: table;
-  font-family: "Candara";
+  font-family: "Gowun-Dodum";
   /* align-content: center; */
   overflow-x: auto;
   /* text-size-adjust: none; */
+}
+
+body h1 {
+  font-family: "Antic";
 }
 
 p {

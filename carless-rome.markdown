@@ -21,9 +21,9 @@ permalink: /carless-rome/
             <div class="right-border-box" id="rome-intro-border-box">
                 <div id="carless-intro-wrapper">
                     <div class="intro-text" id="carless-intro">
-                        <h1>Rome Strategic Plan for Urban Mobility</h1>
+                        <h1><span>Carless Rome</span>: a Case Study for Counterdesign?</h1>
                         <h4>Antonio Tamburrino, engineer, with architect Thomas G. Rankin</h4>
-                        <img src="/design/img/carless-rome.jpg " alt="rome-street">
+                        <img src="/design/img/subpage-img/carless-rome.jpg " alt="rome-street">
                         <h1><span>Objective:</span> <br>Revive Rome as a Creative Knowledge Hub</h1>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ permalink: /carless-rome/
                             <li>50% reduction of automobiles in Rome from 64 per 100 residents today (eliminating roughly 800,000 cars).</li>
                             <li>CO<sub>2</sub> reduction of circa 1,100,000 tons/year.</li>
                         </ul>
-                        <img src="/design/img/colosseo-b&w.jpg" alt="colosseum-car" width="100%/3">
+                        <img src="/design/img/subpage-img/colosseo-b&w.jpg" alt="colosseum-car" width="100%/3">
                         <p>Current construction of traditional invasive metro line in central Rome</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ permalink: /carless-rome/
                     <div class="rome-column" id="rome-column-2-1">
                         <div id="rome-pedestrian-map">
                             <div id="pedestrian-map-image">
-                                <img src="/design/img/pedestrian-map-closeup.jpg" alt="pedestrian-map">
+                                <img src="/design/img/subpage-img/pedestrian-map-closeup.jpg" alt="pedestrian-map">
                                 <p>Red bounded area pedestrian only (corresponding to the grey area in the map on upper right)</p>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ permalink: /carless-rome/
 
             
                     <div class="rome-column" id="rome-column-2-2">
-                        <img src="/design/img/five-rings-map.jpg" alt="five-rings-map" width="100%/3">
+                        <img src="/design/img/subpage-img/five-rings-map.jpg" alt="five-rings-map" width="100%/3">
                         <h2>Five Rings Proposal</h2>
                         <ol>
                             <li>The <b>Super GRA</b> (in green above) augments Rome's outmoded ring-road with a high speed circular light rail system.</li>
@@ -104,7 +104,7 @@ permalink: /carless-rome/
                             <li>The <b>Tiber Tramway</b> (in blue in above left plan and within the grey area above) is an automated tramway designed to traverse the north-south axis of the historic center along the surface currently overrun by private vehicles..</li>
                         </ol>
                         <div id="central-loop-img">
-                            <img src="/design/img/central-loop-section.jpg " alt="central-loop-section" width="100%/3" >
+                            <img src="/design/img/subpage-img/central-loop-section.jpg " alt="central-loop-section" width="100%/3" >
                             <p>Section of Central Loop proposal</p>
                         </div>
                     </div>
@@ -117,6 +117,7 @@ permalink: /carless-rome/
                 <div class="think-info" id="approach-to-carless-rome">
                     <div class="think-info" id="approach-copy">
                         <h3>{{ site.data.carless-rome-approach.title }}</h3>
+                        <h5>{{ site.data.carless-rome-approach.subtitle }}</h5>
                         <p>{{ site.data.carless-rome-approach.copy }}</p>
                     </div>
                     <div class="think-item" id="rome-questions">

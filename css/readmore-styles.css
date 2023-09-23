@@ -832,6 +832,15 @@ text-transform: uppercase;
 
 #carless-intro h1 {
   color: #f2f4d4;
+  font-size: var(--fs-400);
+}
+
+#carless-intro h1 span {
+  text-transform: uppercase;
+  font-size: var(--fs-400);
+}
+
+#carless-intro h2 span {
   text-transform: uppercase;
 }
 
@@ -955,6 +964,17 @@ text-transform: uppercase;
 
 #central-loop-img {
   padding: 1em 1em 0 2em;
+}
+
+#approach-copy h3 {
+  margin: 1em 0 0.25em 0;
+}
+
+#approach-copy h5 {
+  font-size: var(--fs-300);
+  color: #5a86ff;
+  text-align: center;
+  margin: 0 0 1.25em 0;
 }
 
 

@@ -27,7 +27,7 @@ permalink: /meet/
                     <div class="section-subtitle" id="boards-section-title">
                         <h3>Boards</h3>
                     </div>
-                    <p>Our Board of Directors oversees strategy, governance, and audit of the Collaboratory through dialogue with our Instigator and Board of Advisors, quarterly meetings, annual reports, and other communications. The Instigator and other staff are excluded from the Board of Directors, to which they are responsible, but are charged with the planning and doing of our work. The Advisors’ charge is to give counsel as fitting. As we grow, we’ll also be enlarging our boards and staff as fitting.</p>
+                    <p>Our Board of Directors oversees strategy, governance, and audit of the Collaboratory through dialogue with our Instigator and Board of Advisors, quarterly meetings, annual reports, and other communications. The Instigator and other staff are excluded from the Board of Directors, to which they are responsible, but are charged with the planning and doing of our work. The Advisors’ charge is to give counsel as fitting. As we grow, we’ll also be enlarging our boards and staff as needed.</p>
                 </div>
             </div>
         </div>

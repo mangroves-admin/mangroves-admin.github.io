@@ -158,12 +158,12 @@ permalink: /home/
                                 <div class="corner-art" id="curly-mailbox-bottom-left">
                                     <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
                                 </div>
-                                    <div class="corner-art" id="curly-mailbox-bottom-right">
+                                <div class="corner-art" id="curly-mailbox-bottom-right">
                                     <img src="../design/img/dec-border.svg" alt="curlicue-top-right">
                                 </div>
                                 <div id="contact-info">
                                     <h4>contact us at:</h4>
-                                    <h3><a href="mailto:tiding@mangroves.life">tidings@mangroves.life</h3>
+                                    <h3><a href="mailto:tiding@mangroves.life">tidings@mangroves.life</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,6 @@ permalink: /home/
                             <div class="social-icon" id="linkedin"></div>
                             </a>
                             <div class="social-icon" id="twitter"></div>
-                            <div class="social-icon" id="mastodon"></div>
                         </div>
                     </div>
                 </div>

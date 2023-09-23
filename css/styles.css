@@ -108,13 +108,14 @@
   }
 
   .intro-text {
-    margin: 30px;
+    margin: 3em;
     /* background-color: yellow; */
     /* width: 100vw; */
   }
 
   .intro-text p {
-    line-height: 5em;
+    /* line-height: 5em; */
+    font-size: var(--fs-300) !important;
     /* border: 1px solid red; */
   }
 
@@ -1062,7 +1063,7 @@ p {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  padding: 2em;
+  padding: 1em;
 }
 
 #mailbox h4 {
@@ -1077,8 +1078,14 @@ p {
 }
 
 
+#contact-info {
+  padding: 1em;
+  margin: 0;
+}
+
 #contact-info h3, #contact-info h4 {
-  padding: 5px;
+  margin: 0;
+  padding: 0.25em;
 }
 
 #contact-info h3 {
@@ -1112,15 +1119,15 @@ p {
 }
 
 #linkedin {
-  background-image: url("../design/img/free-linkedin-logo-icon-2430-thumb.png");
+  background-image: url("../design/img/social-media/linkedin.png ");
 }
 
 #twitter {
-  background-image: url("../design/img/Twitter-logo.svg.png");
+  background-image: url("../design/img/social-media/twitter.png");
 }
 
 #mastodon {
-  background-image: url("../design/img/Mastodon_Logotype_\(Simple\).svg.png");
+  background-image: url("../design/img/social-media/mastodon.png");
 }
 
 

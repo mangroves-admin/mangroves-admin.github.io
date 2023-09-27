@@ -47,6 +47,12 @@ permalink: /home/
         </div>
         
 
+        <div class="intro" id="spaceholder">
+            <div class="right-border-box" id="home-intro-box">
+                <div id="spaceholder"></div>
+            </div>
+        </div>
+
 
         <div class="info-block" id="do-section">
             <div class="right-border-box">

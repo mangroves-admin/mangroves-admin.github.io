@@ -25,9 +25,12 @@ permalink: /connival/
             <p>{{ site.data.connival.copy }}</p>
           </div>
           <div id="connival-column-1-2">
-            <div id="connival-main-img-container">
-              <img src="/design/img/rome-houses.jpg" />
+            <div class="image-with-credit" id="connival-main-img-container">
+              <img src="/design/img/subpage-img/rome-houses.jpg" />
             </div>
+            <div class="photo-credit" id="give-photo-credit">
+                  <p>D Liu</p>
+              </div>
           </div>
         </div>
       </div>
@@ -35,9 +38,12 @@ permalink: /connival/
       <div class="right-border-box right-border-box-dark" id="right-border-box-proceedings">
         <div class="responsive-two-columns" id="connival-proceedings">
           <div id="connival-column-2-1">
-            <div id="draft-proc-img-container">
-              <img src="/design/img/connival-dl.jpeg">
+            <div class="image-with-credit" id="draft-proc-img-container">
+              <img src="/design/img/subpage-img/connival-dl.jpeg">
             </div>
+            <div class="photo-credit" id="give-photo-credit">
+                  <p>D Patterson</p>
+              </div>
           </div>
           <div id="connival-column-2-2">
             <div class="section-title" id="draft-proceedings-title">

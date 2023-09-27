@@ -22,9 +22,9 @@ permalink: /carless-rome/
                 <div id="carless-intro-wrapper">
                     <div class="intro-text" id="carless-intro">
                         <h1><span>Carless Rome</span>: a Case Study for Counterdesign?</h1>
-                        <h4>Antonio Tamburrino, engineer, with architect Thomas G. Rankin</h4>
                         <img src="/design/img/subpage-img/carless-rome.jpg " alt="rome-street">
-                        <h1><span>Objective:</span> <br>Revive Rome as a Creative Knowledge Hub</h1>
+                        <h1>Carless Rome</h1>
+                        <h4>Antonio Tamburrino, engineer, with architect Thomas G. Rankin</h4>
                     </div>
                 </div>
             </div>

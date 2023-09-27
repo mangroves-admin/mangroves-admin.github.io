@@ -42,6 +42,12 @@ permalink: /think/
             </div>
         </div>
 
+        <div class="intro" id="spaceholder">
+            <div class="right-border-box" id="home-intro-box">
+                <div id="spaceholder"></div>
+            </div>
+        </div>
+
         <div class="info-block" id="periblem-block">
             <div class="right-border-box" id="periblem-border-box">
                 <div class="think-page-section" id="periblem-vs-problem">
@@ -69,7 +75,11 @@ permalink: /think/
                             <div class="think-title">
                                 <h3>{{ item.title }}</h3>
                             </div>
-                            <div class="think-info">
+                            <div class="think-info" id="counterdesign-info">
+                                <div id="chandelier-painting">
+                                    <img src="/design/img/subpage-img/chandelier-lb.jpg" alt="chandelier-painting">
+                                    <p>Chandelier <i>by Lisa Brody, used by permission</i></p>
+                                </div>
                                 <p>{{ item.copy }}</p>
                             </div>
                     </div>
@@ -80,24 +90,22 @@ permalink: /think/
 
         <div class="info-block" id="copyright-block">
             <div class="right-border-box" id="copyright-border-box">
-                <div class="think-page-section" id="deep-counterdesign">
-                    <div class="think-item" id="think-copyright">
-                        <div class="think-info">
-                            <p>© David U.B. Liu 2023</p>
-                        </div>
+                    <div class="think-page-section" id="copyright-section">
+                            <div class="think-item" id="think-copyright">
+                                <p>© David U.B. Liu 2023</p>
+                            </div>
                     </div>
-                </div>
             </div>
         </div>
-
+<!-- 
         <div class="info-block" id="chandelier-block">
             <div class="right-border-box" id="chandelier-border-box">
                 <div id="chandelier-painting">
-                    <img src="/design/img/chandelier-lb.jpg" alt="chandelier-painting">
+                    <img src="/design/img/subpage-img/chandelier-lb.jpg" alt="chandelier-painting">
                     <p><i>Chandelier</i> by Lisa Brody, used by permission</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 

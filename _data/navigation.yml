@@ -4,7 +4,21 @@
 #   link: /about.html
 - name: Think
   link: /think/index.html
-- name: Do
+- name: <div id="do-nav">
+            <span>Do</span>
+            <div id="dropdown">
+                <div class="dropdown-item">
+                    <p><a href="/fellows/index.html">Pilot Fellowship</a></p>
+                </div>
+                <div class="dropdown-item">
+                    <p><a href="/carless-rome/index.html">Carless Rome</a></p>
+                </div>
+                <div class="dropdown-item" id="connival-dropdown-item">
+                    <p><a href="/connival/index.html">Connival On Growth</a></p>
+                </div>
+            </div>
+        </div>
+
   link: /do/index.html
 - name: Meet
   link: /meet/index.html

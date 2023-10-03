@@ -77,7 +77,7 @@
     display: flex;
     justify-content: center !important;
     flex-direction: row !important;
-    width: 62vw;
+    width: 58vw;
   }
 
   #logo-with-title {
@@ -304,7 +304,7 @@
 
   #contact-info h3 {
     font-style: italic;
-    font-size: 1.5rem !important;
+    /* font-size: 1.5rem !important; */
   }
 
   .social-icon {
@@ -1226,6 +1226,16 @@ p {
 
 .footer-inside h3 {
   color: #f2f4d4 !important;
+  font-size: var(--fs-100) !important;
+}
+
+.footer-inside h4 {
+  color: #f64355 !important;
+  font-size: var(--fs-100) !important;
+  font-style: italic;
+  text-transform: lowercase;
+  font-weight: 100;
+  margin-left: 2em;
 }
 
 #green-footer-base {
@@ -1359,6 +1369,10 @@ h3 {
 }
 
 #do-nav:hover #dropdown {
+  display: block;
+}
+
+#do-nav input:checked #dropdown {
   display: block;
 }
 

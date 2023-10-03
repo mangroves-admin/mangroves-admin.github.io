@@ -1017,7 +1017,7 @@ text-transform: uppercase;
 }
 
 #rome-column-2-1-1 p, #rome-column-2-1-2 p {
-  font-size: var(--fs-200);
+  font-size: var(--fs-200) !important;
 }
 
 #rome-column-2-1-2 {
@@ -1030,7 +1030,7 @@ text-transform: uppercase;
 
 #rome-column-2-2 p {
   font-style: italic;
-  font-size: 1em;
+  font-size: var(--fs-200);
   text-align: center;
 }
 

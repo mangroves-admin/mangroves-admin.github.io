@@ -31,6 +31,7 @@
   --fs-600: 60px;
   --fs-400: 45px;
   --fs-300: 30px;
+  --fs-250: 22px;
   --fs-200: 22px;
   --fs-100: 18px;
 
@@ -50,6 +51,7 @@
     --fs-600: 3rem;
     --fs-400: 1.75rem;
     --fs-300: 1.25rem;
+    --fs-250: 1.15rem;
     --fs-200: 1rem;
     --fs-100: 0.75rem;
 
@@ -114,6 +116,10 @@
 
   .think-info, .do-info {
     max-width: 60em;
+  }
+
+  .do-info img {
+    display: block !important;
   }
 
   .intro-text {
@@ -204,6 +210,12 @@
 
   #fellows-setup, #summary-2122-section {
     padding: 2em 1em 2em 0;
+  }
+
+  #fellows-setup {
+    max-width: 80em;
+    width: 80vw;
+    margin: 2em 3em;
   }
 
   #fellows-setup, #summary-2122-section, #summary-2223-section {
@@ -947,6 +959,13 @@ p {
   font-size: var(--fs-200);
   margin-top: 0px;
   line-height: 1.5em;
+}
+
+.do-info img {
+  float: left;
+  padding: 0.5em 2em 1em 0;
+  display: none;
+  filter: drop-shadow(5px 5px 4px #0000007f);
 }
 
 .do-item {

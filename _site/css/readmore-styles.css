@@ -529,6 +529,10 @@ margin: 0.5em 0;
   line-height: 1em;
 }
 
+#fellows-setup p {
+  font-size: var(--fs-250) !important;
+}
+
 #fellows2122-item-title h3, #fellows2223-item-title h3 {
   font-size: var(--fs-300);
   text-transform: none;

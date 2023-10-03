@@ -59,6 +59,11 @@ permalink: /fellows/
             </div>
           {% endfor %}
 
+          <div class="guest-discussants">
+            <h4>Texts:</h4>
+            <p>Bregman, Rutger. “The Solution to (Nearly) Everything: Working Less.” <i>The Guardian</i>, 2021, www.theguardian.com/commentisfree/2016/apr/18/solution-everything-working-less-work-pressure.</p>
+          </div>
+
         </div>
       </div>
 
@@ -146,9 +151,9 @@ permalink: /fellows/
 
                   <img src="/design/img/subpage-img/stone-road.jpg" alt="stone-road">
 
-                  <img src="/design/img/subpage-img/gold-leaves.jpg " alt="gold-leaves">
+                  <img src="/design/img/subpage-img/water-crop.jpg" alt="water">
 
-                  <img src="/design/img/subpage-img/moss.jpg " alt="moss">
+                  <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection">
 
                 </div>
 

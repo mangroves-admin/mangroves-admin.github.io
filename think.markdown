@@ -53,11 +53,17 @@ permalink: /think/
                 <div class="think-page-section" id="periblem-vs-problem">
                     {% for item in site.data.periblem-vs-problem %}
                     <div class="think-item">
-                        <div class="think-info">
+                        <div class="think-info" id="periblem-info">
                             <div class="think-title">
                                 <h3>{{ item.title }}</h3>
                             </div>
                             <div class="think-info">
+                                <div id="periblem-image">
+                                    <img src="/design/img/subpage-img/sand.jpeg" alt="sand-photo">
+                                    <div class="photo-credit" id="periblem-photo-credit">
+                                        <p>J Kane</p>
+                                    </div>
+                                </div>
                                 <p>{{ item.copy }}</p>
                             </div>
                         </div>

@@ -200,7 +200,7 @@ p {
   justify-content: center;
 }
 
-#chandelier-painting {
+#chandelier-painting, #periblem-image {
   float: left;
   /* width: 60%; */
   padding: 1em 0;
@@ -209,10 +209,18 @@ p {
   font-size: var(--fs-200);
 }
 
-#chandelier-painting img {
+#chandelier-painting img, #periblem-image img {
   width: 100%;
   /* padding: 1em 1em; */
   box-shadow: inset 0px 0px 10px black;
+}
+
+#chandelier-painting p, #periblem-image p {
+  font-size: var(--fs-100);
+}
+
+#periblem-photo-credit p {
+  color: #9c9d9a !important;
 }
 
 
@@ -933,8 +941,6 @@ text-transform: uppercase;
 
 #carless-intro-title h1 {
   color: #f2f4d4;
-  font-size: var(--fs-400);
-  padding: 2em 0 0 1em;
 }
 
 #carless-intro-wrapper {

@@ -192,7 +192,7 @@
     height: var(--ht-400);
   }
 
-  #chandelier-painting {
+  #chandelier-painting, #periblem-image {
     padding: 0 3em 2em 0;
   }
 
@@ -329,12 +329,13 @@
     opacity: 80%;
   }
 
-  #chandelier-painting img {
-    width: 20em;
+  #chandelier-painting img, #periblem-image img {
+    width: 25em;
     padding: 1em 1em;
     box-shadow: inset 0px 0px 10px black;
   }
-  
+
+
   .responsive-three-columns > * {
     padding: 2em !important;
     color: #f2f4d4;
@@ -346,6 +347,10 @@
     color: #f2f4d4;
   }
 
+  #carless-intro-title h1 {
+    font-size: var(--fs-400);
+    padding: 2em 0 0 1em;
+  }
 
   #rome-page-2 {
     display: flex;

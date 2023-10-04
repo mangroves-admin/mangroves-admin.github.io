@@ -22,7 +22,6 @@ permalink: /do/
         </div>
 
         <div id="do-nav">
-            <span>BALDIEZ</span>
             <div id="dropdown">
                 <div class="dropdown-item">
                     <p><a href="/fellows/index.html">Pilot Fellowship</a></p>

@@ -17,7 +17,7 @@
               </div>
             </div>
   id: do-nav
-  link: /do/index.html
+  # link: /do/index.html
 - name: Meet
   link: /meet/index.html
 - name: Give

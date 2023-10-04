@@ -555,7 +555,10 @@ margin: 0.5em 0;
   /* inline-size: 80%; */
   max-width: 95vw;
   overflow-wrap: break-word;
+}
 
+#reading-list-2122 h4 span, #reading-list-2223 h4 span {
+  font-weight: 100;
 }
 
 .section-title h3 {

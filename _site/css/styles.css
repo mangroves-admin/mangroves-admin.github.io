@@ -1405,7 +1405,6 @@ h3 {
   margin: 10em 0 0 7em;
   z-index: 1;
   text-align: center;
-  /* border: 1px solid red; */
   /* height: 10px; */
   overflow:hidden;
 }
@@ -1602,4 +1601,6 @@ h3 {
 
 
 }
+
+
 

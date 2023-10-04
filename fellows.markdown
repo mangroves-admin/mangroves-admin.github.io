@@ -60,7 +60,7 @@ permalink: /fellows/
             </div>
           {% endfor %}
 
-          <div class="guest-discussants" id="2122-reading-list">
+          <div class="guest-discussants" id="reading-list-2122">
             <h4>Texts:</h4>
             <p>Anzaldua, Gloria. “La Concienta de La Mestiza: Toward a New Consciousness.” <i>Borderlands: The New Mestiza = La Frontera</i>, 1st ed., Spinsters/Aunt Lute, 1987, pp. 77–91.</p>
             <p>Bellacasa, Maria Puig de la. “Coda.” <i>Matters of Care: Speculative Ethics in More Than Human Worlds</i>, Univ Of Minnesota Press, 2017, pp. 217–21.</p>
@@ -74,10 +74,10 @@ permalink: /fellows/
             <p>Lawrence, Bruce. <i>Islamicate Cosmopolitan Spirit</i>. 1st ed., Wiley-Blackwell, 2021, pp. 13-50.</p>
             <p>“Lily Yeh.” <i>UNCSA</i>, interview by Pier Carlo Talenti, <a href="https://www.uncsa.edu/kenan/artist-as-leader/lily-yeh.aspx" target="_blank">www.uncsa.edu/kenan/artist-as-leader/lily-yeh.aspx</a>.</p>
             <p>Logan, William Bryant. “Stardust,” “the First Soil.” <i>Dirt: The Ecstatic Skin of the Earth</i>, Reprint, W. W. Norton and Company, 2007, pp. 7–13.</p>
-            <p>“Migrant Roots Media.” <i>Migrant Roots Media</i>, <a href="https://www.migrantrootsmedia.org" target="_blank:>"www.migrantrootsmedia.org</a>.</p>
-            <p>Oxford Poverty & Human Development Initiative (OPHI). <i>Bhutan’s Gross National Happiness Index</i> | OPHI. <a href="https://ophi.org.uk/policy/bhutan-gnh-index" target=+_blank">ophi.org.uk/policy/bhutan-gnh-index</a>.</p>
+            <p>“Migrant Roots Media.” <i>Migrant Roots Media</i>, <a href="https://www.migrantrootsmedia.org" target="_blank">www.migrantrootsmedia.org</a>.</p>
+            <p>Oxford Poverty & Human Development Initiative (OPHI). <i>Bhutan’s Gross National Happiness Index</i> | OPHI. <a href="https://ophi.org.uk/policy/bhutan-gnh-index" target="_blank">ophi.org.uk/policy/bhutan-gnh-index</a>.</p>
             <p>Pimm, Stuart L., et al. “How to Protect Half of Earth to Ensure It Protects Sufficient Biodiversity.” <i>Science Advances</i>, vol. 4, no. 8, 2018. <i>Crossref</i>, <a href="https://doi.org/10.1126/sciadv.aat2616" target="_blank">https://doi.org/10.1126/sciadv.aat2616</a>.</p>
-            <p>Pimm, Stuart L., and Clinton N. Jenkin. “Connecting Habitats to Prevent Species Extinctions.” <i>American Scientist</i>, vol. 107, no. 3, 2019. <i>Crossref</i>, <a href="https://doi.org/10.1511/2019.107.3.162" target="_blank">https://doi.org/10.1511/2019.107.3.162</a></p>
+            <p>Pimm, Stuart L., and Clinton N. Jenkin. “Connecting Habitats to Prevent Species Extinctions.” <i>American Scientist</i>, vol. 107, no. 3, 2019. <i>Crossref</i>, <a href="https://doi.org/10.1511/2019.107.3.162" target="_blank">https://doi.org/10.1511/2019.107.3.162</a>.</p>
             <p>Reiter, Bernd, and Walter d. Migonolo. “Foreword: On Pluriversality and Multipolarity,” “Introduction.” <i>Constructing the Pluriverse: The Geopolitics of Knowledge</i>, Illustrated, Duke University Press Books, 2018, pp. ix–15.</p>
             <p>Rosen, Robert. “The Schrödinger Question, What Is Life? Fifty-Five Years Later.” <i>Essays on Life Itself</i>, 1500th ed., Columbia University Press, 1999, pp. 5–32.</p>
             <p>Schumacher Center for a New Economics. “Enclosures of the Commons.” <i>Schumacher Center for New Economics</i>, 14 June 2021, <a href="https://centerforneweconomics.org/apply/the-commons-program/enclosures" target="_blank">centerforneweconomics.org/apply/the-commons-program/enclosures</a>.</p>
@@ -85,7 +85,7 @@ permalink: /fellows/
             <p>Walsh, Catherine, and Walter d. Migonolo. “Development as Buen Vivir: Institutional Arrangements and (De)Colonial Entanglements.” <i>Constructing the Pluriverse: The Geopolitics of Knowledge</i>, Illustrated, Duke University Press Books, 2018, pp.184-194.</p>
             <p>Wark, McKenzie. “Abstraction.”<i> A Hacker Manifesto</i>, First Edition, Harvard University Press, 2004, pp. 13–20.</p>
             <p>Ch. 1 (pp. 10-12) of Ibn Khaldun's Muqaddimah (Introduction/Prolegomena/Forward~Foreword/Avant-Propos, etc.) </p>
-            <p>Escobar, Arturo. <i>Pluriversal Politics: The Real and the Possible</i> (Latin America in Translation). Duke UP Books, 2020.</p>
+            <p>Escobar, Arturo. <i>Pluriversal Politics: The Real and the Possible (Latin America in Translation)</i>. Duke UP Books, 2020.</p>
             <p>Idris, Solayman. <i>The Sunrise in the West: خروج الشمس من مغربها (the Times of the Signs Book 1)</i>. Lumifont Scriptorium for Nafura Nawra Buruj Miraj Publishing, 2020.</p>
             <p><b>Creation Stories/Other Tales:</b> (unknown source)</p>
             <p>Two Goddings</p>
@@ -127,6 +127,13 @@ permalink: /fellows/
               </p>
             </div>
           {% endfor %}
+
+          <!-- <div class="guest-discussants" id="reading-list-2223">
+            <h4>Texts:</h4>
+            <p>Bregman, Rutger. “The Solution to (Nearly) Everything: Working Less.” <i>The Guardian</i>, 2021, <a href="https://www.theguardian.com/commentisfree/2016/apr/18/solution-everything-working-less-work-pressure" target="_blank">www.theguardian.com/commentisfree/2016/apr/18/solution-everything-working-less-work-pressure</a>.</p>
+            <p>Chakrabarti, Vishaan. “Building Hyperdensity and Civic Delight.” <i>Places - a Forum of Environmental Design</i>, no. 2013, June 2013, <a href="https://doi.org/10.22269/130613" target="_blank">doi:10.22269/130613</a>.</p>
+            <p>Da Cunha, Dilip. “Introduction” <i>The Invention of Rivers: Alexander’s Eye and Ganga’s Descent</i>. Penn Studies in Landscape Arch, 2018.</p>
+          </div> -->
 
         </div>
       </div>

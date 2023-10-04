@@ -21,20 +21,6 @@ permalink: /do/
             <h3>Do</h3>
         </div>
 
-        <div id="do-nav">
-            <div id="dropdown">
-                <div class="dropdown-item">
-                    <p><a href="/fellows/index.html">Pilot Fellowship</a></p>
-                </div>
-                <div class="dropdown-item">
-                    <p><a href="/carless-rome/index.html">Carless Rome</a></p>
-                </div>
-                <div class="dropdown-item" id="connival-dropdown-item">
-                    <p><a href="/connival/index.html">Connival On Growth</a></p>
-                </div>
-            </div>
-        </div>
-
         <div class="do-page-section">
             {% for item in site.data.do %}
             <div class="do-item">

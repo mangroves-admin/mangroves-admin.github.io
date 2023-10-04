@@ -15,9 +15,9 @@
             <label for="hamburger"><img src="../design/img/hamburger-nav.png"></label>
             <input type="checkbox" id="hamburger"/>
             {% for item in site.data.navigation %}
-            <div class="nav-item">
+            <div class="nav-item" id="{{ item.id }}">
               <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
-              {{ item.name }}
+              {{ item.name}}
               </a>
             </div>
             {% endfor %}

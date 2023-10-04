@@ -43,6 +43,7 @@ permalink: /fellows/
             </div>
           </div>
 
+
           {% for item in site.data.fellows-summary-21-22 %}
 
           <!-- no subtitles in 2021-2022 summary: can easily add later if you wish -->
@@ -61,9 +62,11 @@ permalink: /fellows/
 
           <div class="guest-discussants">
             <h4>Texts:</h4>
-            <p>Bregman, Rutger. “The Solution to (Nearly) Everything: Working Less.” <i>The Guardian</i>, 2021, www.theguardian.com/commentisfree/2016/apr/18/solution-everything-working-less-work-pressure.</p>
+            <p>Anzaldua, Gloria. “La Concienta de La Mestiza: Toward a New Consciousness.” <i>Borderlands: The New Mestiza = La Frontera</i>, 1st ed., Spinsters/Aunt Lute, 1987, pp. 77–91.</p>
+            <p>Bellacasa, Maria Puig de la. “Coda.” <i>Matters of Care: Speculative Ethics in More Than Human Worlds</i>, Univ Of Minnesota Press, 2017, pp. 217–21.</p>
+            <p>Cadena, De Marisol la, and Mario Blaser. “Introduction: Pluriverse Proposals for a World of Many Worlds.” <i>A World of Many Worlds</i>, Illustrated, Duke University Press Books, 2018, pp. 1–22.</p>
+            <p>Since this <i>interaffecting</i> goes on everywhere, no issue is self-contained. The traditional problem-solution model is at best an easy fiction, at worst (and certains cales) a crippling mirage.</p>
           </div>
-
         </div>
       </div>
 

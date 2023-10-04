@@ -592,6 +592,10 @@ margin: 0.5em 0;
   padding: 0;
 }
 
+.fellows-subpage-info {
+  max-width: 60em;
+}
+
 .fellows-subpage-info p {
   margin: 0 0 2em 0;
   line-height: 1.5em;

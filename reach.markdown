@@ -30,10 +30,10 @@ permalink: /reach/
                     
                     {% for item in site.data.reach-subpage %}
                         <div class="initiative">
-                            <div class="initiative-logo">
+                            <div class="initiative-logo" id="{{ item.logo-id }}">
                                 <img src='{{ item.logo }}'>
                             </div>
-                            <div class="reach-item">
+                            <div class="reach-item" id="{{ item.id }}">
                                 <div class="reach-title">
                                     <a href="{{ item.url }}">
                                         <h3>{{ item.title }}</h3>

@@ -95,13 +95,17 @@
   }
 
 
-  #logo {
+  #logo, #logo-round {
     height: 4em !important;
     width: 4em !important;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1em 1em 0 0 !important;
+  }
+
+  #logo-round {
+    padding: 0 1em 0 0 !important;
   }
 
   .nav-links {
@@ -278,6 +282,12 @@
 
   .initiative-logo img {
     width: 5em;
+  }
+
+  
+
+  #migrant-roots-logo img {
+    width: 3em;
   }
 
   .fellow-bio, .faculty-bio {
@@ -587,13 +597,17 @@ p {
   padding: 10px;
 } */
 
-#logo {
+#logo, #logo-round {
   width: 4em;
   height: 4em;
   padding: 1em 1em 0 0;
 }
 
-#logo img {
+#logo-round {
+  padding: 0 1em 0 0 !important;
+}
+
+#logo img, #logo-round img {
   /* width: 4em; */
   /* height: 4em; */
   max-width: 100%;

@@ -29,6 +29,13 @@
   logo: /design/img/quadrifoil.svg
 
 - title: Migrant Roots Media
-  copy: "Multilingual platform looking to unearth the root causes of planetary migration through the voices of migrants, children of migrants, and those struggling to stay and thrive in their homelands. "
+  copy: "Multilingual platform looking to unearth the root causes of planetary migration through the voices of migrants, children of migrants, and those struggling to stay and thrive in their homelands."
   url: https://www.migrantrootsmedia.org/
-  logo: /design/img/reach-logos/migrant-roots-media.png
+  id: migrant-roots-item
+  logo-id: migrant-roots-logo
+  logo: /design/img/reach-logos/migrant-roots-media-white.png
+
+- title: Transportation Alternatives
+  copy: "Multilingual platform looking to unearth the root causes of planetary migration through the voices of migrants, children of migrants, and those struggling to stay and thrive in their homelands."
+  url: https://www.migrantrootsmedia.org/
+  logo: /design/img/reach-logos/transportation-alternatives.png

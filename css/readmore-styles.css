@@ -496,7 +496,14 @@ margin: 0.5em 0;
   width: 7em;
 }
 
+#migrant-roots-logo img {
+  width: 4em;
+  margin-left: 1em;
+}
 
+#migrant-roots-item {
+  padding-left: 1em;
+}
 
 
 

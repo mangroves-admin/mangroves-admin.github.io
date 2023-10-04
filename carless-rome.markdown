@@ -111,7 +111,7 @@ permalink: /carless-rome/
                         </div>
                     </div>
                 </div>
-                <h4>© Antonio Tamburrino, engineer, with architect Tom Rankin</h4>
+                <h4>© Antonio Tamburrino and Thomas G Rankin 2023</h4>
             </div>
         </div>
 

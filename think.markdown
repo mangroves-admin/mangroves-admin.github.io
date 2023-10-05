@@ -4,7 +4,7 @@
 
 layout: readmore
 title: Think
-permalink: mangroves/think/
+permalink: /think/
 ---
 
 <head>

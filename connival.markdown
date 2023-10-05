@@ -29,7 +29,7 @@ permalink: /connival/
               <img src="/design/img/subpage-img/rome-houses.jpg" />
             </div>
             <div class="photo-credit" id="give-photo-credit">
-                  <p>D Liu</p>
+                  <p>David Liu</p>
               </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ permalink: /connival/
               <img src="/design/img/subpage-img/connival-dl.jpeg">
             </div>
             <div class="photo-credit" id="give-photo-credit">
-                  <p>D Patterson</p>
+                  <p>Deborah Patterson</p>
               </div>
           </div>
           <div id="connival-column-2-2">

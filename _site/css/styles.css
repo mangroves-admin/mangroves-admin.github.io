@@ -1300,7 +1300,9 @@ p {
   color: #f2f4d4;
 }
 
-
+#green-footer-lifing-otherwise h4 {
+color: #5a020a !important;
+}
 
 
 
@@ -1375,6 +1377,7 @@ h3 {
   font-style: italic !important;
   font-size: var(--fs-100) !important;
   color:#434343 !important;
+  text-shadow: none;
 }
 
 #faculty-photo-credit p {

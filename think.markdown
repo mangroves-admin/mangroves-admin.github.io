@@ -61,7 +61,7 @@ permalink: /think/
                                 <div id="periblem-image">
                                     <img src="/design/img/subpage-img/sand.jpeg" alt="sand-photo">
                                     <div class="photo-credit" id="periblem-photo-credit">
-                                        <p>J Kane</p>
+                                        <p>Julia Kane</p>
                                     </div>
                                 </div>
                                 <p>{{ item.copy }}</p>

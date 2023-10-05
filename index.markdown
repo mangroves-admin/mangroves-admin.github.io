@@ -175,7 +175,7 @@ permalink: /home/
                         </div>
 
                         <div id="social-media">
-                            <a href="https://www.linkedin.com/in/david-u-b-liu-76376b16">
+                            <a href="https://www.linkedin.com/in/mangroves-a-collaboratory-for-surging-life-878a75293" target="_blank">
                             <div class="social-icon" id="linkedin"></div>
                             </a>
                             <div class="social-icon" id="twitter"></div>

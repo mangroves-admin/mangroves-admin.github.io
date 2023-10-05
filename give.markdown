@@ -37,7 +37,7 @@ permalink: /give/
                     <div class="intro-image-wrapper">
                         <div class="intro-text" id="give-image">
                             <div class="image-with-credit" id="giving-tree-image">
-                                <img src="/design/img/subpage-img/tree-birds-2.png" alt="the-giving-tree">
+                                <img src="/design/img/subpage-img/tree-birds.png" alt="the-giving-tree">
                                 <div class="photo-credit" id="give-photo-credit">
                                     <p>Sutirta Budiman</p>
                                 </div>

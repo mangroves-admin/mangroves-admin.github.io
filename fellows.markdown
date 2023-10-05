@@ -162,7 +162,7 @@ permalink: /fellows/
             <br>
             <h4>AudioVisual Materials:</h4>
             <p>Baruch Spinoza. “Hildegard Von Bingen - Columba Aspexit.” <i>YouTube</i>, 6 Dec. 2014, <a href="https://www.youtube.com/watch?v=BpmMeIQywYc" target="_blank">www.youtube.com/watch?v=BpmMeIQywYc</a>.</p>
-            <p>Bingen, Hildegard von. Scivias. 1151, Vision Eleven, <a href="https://www.columbia.edu/itc/english/f2003/client_edit/documents/scivias.html" target="_blank">www.columbia.edu/itc/english/f2003/client_edit/documents/scivias.html</a>.</p>
+            <!-- <p>Bingen, Hildegard von. Scivias. 1151, Vision Eleven, <a href="https://www.columbia.edu/itc/english/f2003/client_edit/documents/scivias.html" target="_blank">www.columbia.edu/itc/english/f2003/client_edit/documents/scivias.html</a>.</p> -->
             <p>Emmet, Jeff. “Mycopunk Futures: Mycelial Cyborg Economies.” <i>Team Human</i>, 15 Feb 2023 <a href="https://www.teamhuman.fm/episodes/238-jeff-emmett" target="_blank">https://www.teamhuman.fm/episodes/238-jeff-emmett</a>.</p>
             <p>“Hildegard of Bingen - 18 Artworks - Illustration.” <i>www.wikiart.org</i>, <a href="https://www.wikiart.org/en/hildegard-of-bingen" target="_blank">www.wikiart.org/en/hildegard-of-bingen</a>.</p>
             <p>Mark Ye. “Multi Screen Projection - Animated Version of the Riverside Scene at Qingming Festival.” <i>YouTube</i>, 26 Aug. 2021, <a href="https://www.youtube.com/watch?v=wqNQH8OfIXc" target="_blank">www.youtube.com/watch?v=wqNQH8OfIXc</a>.</p>

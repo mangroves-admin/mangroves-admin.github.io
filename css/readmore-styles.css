@@ -447,7 +447,7 @@ p {
 
 /* Reach subpage */
 
-#reach-border-box h3, a {
+#reach-border-box h3, #reach-border-box a {
   color: #5a86ff;
   text-decoration: none;
 }
@@ -570,6 +570,16 @@ margin: 0.5em 0;
   /* inline-size: 80%; */
   max-width: 95vw;
   overflow-wrap: break-word;
+}
+
+#readinglist-2122-item-title h3, #readinglist-2223-item-title h3 {
+  font-size: var(--fs-250) !important;
+  /* font-weight: bold; */
+  text-transform: capitalize;
+}
+
+#reading-list-2122 a, #reading-list-2223 a {
+  text-decoration: none;
 }
 
 #reading-list-2122 h4 span, #reading-list-2223 h4 span {
@@ -704,9 +714,9 @@ margin: 0.5em 0;
 .fellow-headshot {
   background-size: cover;
   background-position: center;
-  height: 90vw;
-  width: 70vw;
-  margin: 1em;
+  height: 60vw;
+  width: 40vw;
+  margin: 0em;
   border: 1px solid #080A24;
   padding: 5px;
   background-clip: content-box; /* support: IE9+ */
@@ -735,6 +745,11 @@ margin: 0.5em 0;
 
 #fellows-2122 {
   padding-bottom: 2em;
+}
+
+.reading-list-links a {
+  color: #14992d !important;
+  text-decoration: none !important;
 }
 
 #fellows-responses {

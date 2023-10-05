@@ -1277,6 +1277,10 @@ p {
   margin-left: 2em;
 }
 
+.lifing-otherwise h4 {
+  margin: 0 0 0 2em !important;
+}
+
 #green-footer-base {
   /* margin-top: 40px; */
   background-color: #779c20cf;

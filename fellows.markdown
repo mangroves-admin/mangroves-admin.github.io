@@ -39,7 +39,7 @@ permalink: /fellows/
 
           <div class="intro-image-wrapper">
             <div class="intro-text" id="fellows-2122-image">
-              <img src="/design/img/fellowship-screenshots/2021-22-1.png" alt="fellows-2122-screenshot">
+              <img src="../design/img/fellowship-screenshots/2021-22-1.png" alt="fellows-2122-screenshot">
             </div>
           </div>
 

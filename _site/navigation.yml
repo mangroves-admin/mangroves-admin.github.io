@@ -3,8 +3,20 @@
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /think/index.html
+  link: {{ site.baseurl }}/think/index.html
 - name: Do
+            <div id="dropdown">
+              <div class="dropdown-item">
+                  <p><a href="/fellows/index.html">Pilot Fellowship</a></p>
+              </div>
+              <div class="dropdown-item">
+                <p><a href="/carless-rome/index.html">Carless Rome</a></p>
+              </div>
+              <div class="dropdown-item" id="connival-dropdown-item">
+                 <p><a href="/connival/index.html">Connival On Growth</a></p>
+              </div>
+            </div>
+  id: do-nav
   link: /do/index.html
 - name: Meet
   link: /meet/index.html
@@ -12,3 +24,4 @@
   link: /give/index.html
 - name: Reach
   link: /reach/index.html
+

@@ -1,5 +1,5 @@
 - name: Home
-  link: mangroves/home/
+  link: /home/
 # - name: About
 #   link: /about.html
 - name: Think
@@ -7,20 +7,21 @@
 - name: Do
             <div id="dropdown">
               <div class="dropdown-item">
-                  <p><a href="mangroves/fellows/index.html">Pilot Fellowship</a></p>
+                  <p><a href="/fellows/index.html">Pilot Fellowship</a></p>
               </div>
               <div class="dropdown-item">
-                <p><a href="mangroves/carless-rome/index.html">Carless Rome</a></p>
+                <p><a href="/carless-rome/index.html">Carless Rome</a></p>
               </div>
               <div class="dropdown-item" id="connival-dropdown-item">
-                 <p><a href="mangroves/connival/index.html">Connival On Growth</a></p>
+                 <p><a href="/connival/index.html">Connival On Growth</a></p>
               </div>
             </div>
   id: do-nav
-  link: mangroves/do/index.html
+  link: /do/index.html
 - name: Meet
-  link: mangroves/meet/index.html
+  link: /meet/index.html
 - name: Give
-  link: mangroves/give/index.html
+  link: /give/index.html
 - name: Reach
-  link: mangroves/reach/index.html
+  link: /reach/index.html
+

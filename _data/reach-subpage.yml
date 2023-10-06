@@ -11,7 +11,7 @@
 - title: Feral Atlas
   copy: "Project that brings humanists and social scientists together with natural scientists to encourage work premised upon the relationships between imperial infrastructure and anthropogenic disturbances."
   url: https://feralatlas.supdigital.org/index
-  logo: /design/img/quadrifoil.svg
+  logo: /design/img/reach-logos/feral-atlas.png
 
 - title: Global Alliance for the Rights of Nature (GARN)
   copy: "Network promoting the universal adoption and implementation of legal systems that recognize, respect and enforce the “Rights of Nature” and our interdependence with nature."
@@ -23,10 +23,10 @@
   url: https://governingthrough.design/
   logo: /design/img/reach-logos/gtd_white.svg
 
-- title: La Via Campesina
-  copy: "Global movement connecting peasants, landless workers, indigenous peoples, pastoralists, fishers, migrant farmworkers, farmers, rural women and youth to defend food sovereignty."
-  url: https://viacampesina.org/en/
-  logo: /design/img/quadrifoil.svg
+# - title: La Via Campesina
+#   copy: "Global movement connecting peasants, landless workers, indigenous peoples, pastoralists, fishers, migrant farmworkers, farmers, rural women and youth to defend food sovereignty."
+#   url: https://viacampesina.org/en/
+#   logo: /design/img/quadrifoil.svg
 
 - title: Migrant Roots Media
   copy: "Multilingual platform looking to unearth the root causes of planetary migration through the voices of migrants, children of migrants, and those struggling to stay and thrive in their homelands."

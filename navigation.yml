@@ -1,14 +1,26 @@
 - name: Home
-  link: /home/
+  link: mangroves/home/
 # - name: About
 #   link: /about.html
 - name: Think
   link: /think/index.html
 - name: Do
-  link: /do/index.html
+            <div id="dropdown">
+              <div class="dropdown-item">
+                  <p><a href="mangroves/fellows/index.html">Pilot Fellowship</a></p>
+              </div>
+              <div class="dropdown-item">
+                <p><a href="mangroves/carless-rome/index.html">Carless Rome</a></p>
+              </div>
+              <div class="dropdown-item" id="connival-dropdown-item">
+                 <p><a href="mangroves/connival/index.html">Connival On Growth</a></p>
+              </div>
+            </div>
+  id: do-nav
+  link: mangroves/do/index.html
 - name: Meet
-  link: /meet/index.html
+  link: mangroves/meet/index.html
 - name: Give
-  link: /give/index.html
+  link: mangroves/give/index.html
 - name: Reach
-  link: /reach/index.html
+  link: mangroves/reach/index.html

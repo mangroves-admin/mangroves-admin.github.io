@@ -340,8 +340,14 @@
     opacity: 80%;
   }
 
-  #chandelier-painting img, #periblem-image img {
+  #chandelier-painting img {
     width: 35em;
+    padding: 1em 1em;
+    box-shadow: inset 0px 0px 10px black;
+  }
+
+  #periblem-image img {
+    width: 20em;
     padding: 1em 1em;
     box-shadow: inset 0px 0px 10px black;
   }

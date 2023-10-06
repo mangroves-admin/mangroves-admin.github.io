@@ -4,7 +4,7 @@
 
 layout: readmore
 title: Think
-permalink: /think/
+permalink: {{site.baseurl}}/think/
 ---
 
 <head>

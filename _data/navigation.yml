@@ -1,9 +1,9 @@
 - name: Home
-  link: /home/
+  link: ../home/
 # - name: About
 #   link: /about.html
 - name: Think
-  link: "{{ site.baseurl }}/think/index.html"
+  link: /think/index.html
 - name: Do
             <div id="dropdown">
               <div class="dropdown-item">

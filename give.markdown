@@ -10,9 +10,9 @@ permalink: /give/
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-
+    <!-- <link rel="stylesheet" type="text/css" href="/css/readmore-styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" /> -->
+</head>
 
 <body id="give-body">
     <div id="give-wrapper">
@@ -39,7 +39,7 @@ permalink: /give/
                             <div class="image-with-credit" id="giving-tree-image">
                                 <img src="/design/img/subpage-img/tree-birds.png" alt="the-giving-tree">
                                 <div class="photo-credit" id="give-photo-credit">
-                                    <p>Sutirta Budiman</p>
+                                    <p>Sutirta BudimanCRALDIEZ</p>
                                 </div>
                             </div>
                         </div>

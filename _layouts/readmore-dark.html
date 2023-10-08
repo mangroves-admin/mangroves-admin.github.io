@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/readmore-styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     
     <title>{{ page.title }}</title>
     {% include dark-head.html %}
@@ -12,7 +13,7 @@
       <div class="nav-border-box">
         <div class="nav-links">
           <!-- <div id="hamburger-div"> -->
-            <label for="hamburger"><img src="../design/img/hamburger-nav.png"></label>
+            <label for="hamburger"><img src="/design/img/hamburger-nav.png"></label>
             <input type="checkbox" id="hamburger"/>
             {% for item in site.data.navigation %}
             <div class="nav-item" id="{{ item.id }}">

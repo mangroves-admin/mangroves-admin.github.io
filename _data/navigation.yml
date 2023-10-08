@@ -1,9 +1,9 @@
 - name: Home
-  link: ../home/
+  link: /home/
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /think/index.html
+  link: /think/
 - name: Do
             <div id="dropdown">
               <div class="dropdown-item">
@@ -17,10 +17,10 @@
               </div>
             </div>
   id: do-nav
-  link: /do/index.html
+  link: /do/
 - name: Meet
-  link: /meet/index.html
+  link: /meet/
 - name: Give
-  link: /give/index.html
+  link: /give/
 - name: Reach
-  link: /reach/index.html
+  link: /reach/

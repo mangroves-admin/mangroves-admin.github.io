@@ -7,13 +7,13 @@
 - name: Do
             <div id="dropdown">
               <div class="dropdown-item">
-                  <p><a href="/fellows/index.html">Pilot Fellowship</a></p>
+                  <p><a href="/fellows/">Pilot Fellowship</a></p>
               </div>
               <div class="dropdown-item">
-                <p><a href="/carless-rome/index.html">Carless Rome</a></p>
+                <p><a href="/carless-rome/">Carless Rome</a></p>
               </div>
               <div class="dropdown-item" id="connival-dropdown-item">
-                 <p><a href="/connival/index.html">Connival On Growth</a></p>
+                 <p><a href="/connival/">Connival On Growth</a></p>
               </div>
             </div>
   id: do-nav

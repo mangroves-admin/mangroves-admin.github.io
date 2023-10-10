@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/readmore-styles.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/styles.css" />
+    
+    <title>{{ page.title }}</title>
+    {% include home-head.html %}
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-border-box">
+        <div class="nav-links">
+          <!-- <div id="hamburger-div"> -->
+            <label for="hamburger"><img src="/design/img/hamburger-nav.png"></label>
+            <input type="checkbox" id="hamburger"/>
+            {% for item in site.data.navigation %}
+            <div class="nav-item" id="{{ item.id }}">
+              <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
+              {{ item.name}}
+              </a>
+            </div>
+            {% endfor %}
+          <!-- </div> -->
+        </div>
+      </div>
+    </nav>
+
+    {{ content }}
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+
+    
+      </div>
+    </div>
+  </body>
+</html>

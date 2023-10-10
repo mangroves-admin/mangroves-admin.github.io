@@ -1,0 +1,26 @@
+- name: Home
+  link: home
+# - name: About
+#   link: /about.html
+- name: Think
+  link: think
+- name: Do
+            <div id="dropdown">
+              <div class="dropdown-item">
+                  <p><a href="/fellows">Pilot Fellowship</a></p>
+              </div>
+              <div class="dropdown-item">
+                <p><a href="/carless-rome">Carless Rome</a></p>
+              </div>
+              <div class="dropdown-item" id="connival-dropdown-item">
+                 <p><a href="/connival">Connival On Growth</a></p>
+              </div>
+            </div>
+  id: do-nav
+  link: do
+- name: Meet
+  link: meet
+- name: Give
+  link: give
+- name: Reach
+  link: reach

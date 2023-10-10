@@ -2,7 +2,7 @@
 layout: fellows
 title: Mangroves Pilot Fellows
 year: 2022/2023
-permalink: /fellows/
+permalink: /fellows
 ---
 
 <head>

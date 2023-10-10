@@ -4,7 +4,7 @@
 
 layout: readmore
 title: Do
-permalink: /do/
+permalink: /do
 ---
 
 <head>

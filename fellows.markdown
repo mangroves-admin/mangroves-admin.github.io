@@ -8,8 +8,6 @@ permalink: /fellows/
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
 </head>
 
 <body id="fellows-body">
@@ -159,7 +157,7 @@ permalink: /fellows/
 
                   <img src="/design/img/subpage-img/water-crop.jpg" alt="water">
 
-                  <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection">
+                  <!-- <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection"> -->
 
                 </div>
 

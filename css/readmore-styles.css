@@ -46,7 +46,7 @@ p {
 }
 
 #wrapper {
-  margin: 0px 15px;
+  /* margin: 0px 15px; */
   /* border: 1px solid #fefff1; */
   border-left: none;
   border-bottom: none;
@@ -658,7 +658,7 @@ margin: 0.5em 0;
 }
 
 #fellows-2122-info-img img, #fellows-2223-info-img img {
-  width: 100%;
+  /* width: 100%; */
   padding: 5px;
   /* margin: 2em 3em 2em 0; */
   border: 1px solid #2eb847;;

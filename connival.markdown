@@ -9,9 +9,7 @@ permalink: /connival/
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
-    
+    <meta name="viewport" content="width=device-width">    
 </head>
 
 <body id="connival-body">

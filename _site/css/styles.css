@@ -227,7 +227,7 @@
   }
 
   #fellows-2122-info-img {
-    float: left;
+    float: left !important;
     margin: 1em 3em 1em 0;
     padding: 0;
     display: block;
@@ -259,7 +259,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
     max-width: 90%;
   }
 
@@ -272,9 +272,9 @@
   }
 
   .fellow-headshot {
-    height: 12em;
-    width: 10em;
-    margin: 1em;
+    height: 12em !important;
+    width: 10em !important;
+    margin: 1em !important;
   }
 
   .faculty-headshot {
@@ -314,7 +314,7 @@
   }
 
   #responses-img {
-    display: block;
+    display: block !important;
   }
 
   #contact-section > * {

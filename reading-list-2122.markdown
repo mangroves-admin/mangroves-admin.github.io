@@ -8,8 +8,6 @@ permalink: fellows/reading-list-2122
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/css/readmore-styles.css" />
 </head>
 
 <body id="fellows-body">

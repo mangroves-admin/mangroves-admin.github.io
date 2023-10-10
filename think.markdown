@@ -4,7 +4,7 @@
 
 layout: readmore
 title: Think
-permalink: /think/
+permalink: /think
 ---
 
 <head>

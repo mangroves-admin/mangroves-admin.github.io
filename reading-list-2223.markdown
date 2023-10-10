@@ -1,0 +1,81 @@
+---
+layout: fellows
+title: Mangroves Pilot Fellows Reading List
+year: 2022/2023
+permalink: fellows/reading-list-2223
+---
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/readmore-styles.css" />
+</head>
+
+<body id="fellows-body">
+  <div id="wrapper">
+    <div class="right-border-box-dark" id="readinglist-2223-border-box">
+        <div class="think-item" id="readinglist-2223-section">
+          <div class="section-title" id="readinglist-2223-item-title">
+            <h3>Mangroves Pilot Fellowship 2022-23 Materials</h3>
+          </div>
+
+      <div class="guest-discussants" id="reading-list-2223">
+            <h4>Texts:</h4>
+            <p>Bregman, Rutger. “The Solution to (Nearly) Everything: Working Less.” <i>The Guardian</i>, 2021, <a href="https://www.theguardian.com/commentisfree/2016/apr/18/solution-everything-working-less-work-pressure" target="_blank">www.theguardian.com/commentisfree/2016/apr/18/solution-everything-working-less-work-pressure</a></p>
+            <p>Chakrabarti, Vishaan. “Building Hyperdensity and Civic Delight.” <i>Places - a Forum of Environmental Design</i>, no. 2013, June 2013, <a href="https://doi.org/10.22269/130613" target="_blank">doi:10.22269/130613</a></p>
+            <p>Da Cunha, Dilip. “Introduction” <i>The Invention of Rivers: Alexander’s Eye and Ganga’s Descent</i>. Penn Studies in Landscape Arch, 2018</p>
+            <p>Desmond, Matthew. “The Eviction Epidemic.” <i>The New Yorker</i>, 1 Feb. 2016, <a href="https://www.newyorker.com/magazine/2016/02/08/forced-out" target="_blank">www.newyorker.com/magazine/2016/02/08/forced-out</a></p>
+            <p>Dougherty, Conor. “California’s Housing Crisis: How a Bureaucrat Pushed to Build.” <i>The New York Times</i>, 16 Sept. 2021, <a href="https://www.nytimes.com/2020/02/13/business/economy/housing-crisis-conor-dougherty-golden-gates.html" target="_blank">www.nytimes.com/2020/02/13/business/economy/housing-crisis-conor-dougherty-golden-gates.html</a></p>
+            <p>Georgescu-Roegen, Nicholas. “The Steady State and Ecological Salvation: A Thermodynamic Analysis.” <i>BioScience</i>, vol. 27, no. 4, 1977, pp. 266–70. <i>JSTOR</i>, <a href="https://doi.org/10.2307/1297702" target="_blank">https://doi.org/10.2307/1297702</a></p>
+            <p>Giesen, James C. "The View from Rose Hill: Environmental, Architectural, and Cultural Recovery on a Piedmont Landscape." <i>Buildings & Landscapes: Journal of the Vernacular Architecture Forum</i>, vol. 27 no. 2, 2020, p. 19-38. Project MUSE, <a href="https://doi.org/10.5749/buildland.27.2.0019" target="_blank">doi:10.5749/buildland.27.2.0019</a></p>
+            <p>Heidegger, Martin. Building Dwelling Thinking. Translated by Adam Bobeck, 2021, <a href="https://www.academia.edu/34279818/Building_Dwelling_Thinking_by_Martin_Heidegger_Translation_and_Commentary_by_Adam_Bobeck_" target="_blank"> www.academia.edu/34279818/Building_Dwelling_Thinking_by_Martin_Heidegger_Translation_and_Commentary_by_Adam_Bobeck_</a></p>
+            <p>Humboldt, Alexander. “Introduction.” <i>Cosmos: A Sketch of a Physical Description of the Universe</i>, Translated From the German, by E.C. Otté.  Harper and Brothers, 1860, <a href="https://babel.hathitrust.org/cgi/pt?id=hvd.32044024599714&seq=1" target="_blank">babel.hathitrust.org/cgi/pt?id=hvd.32044024599714&seq=1</a></p>
+            <p>Illich, Ivan. “Tools for Conviviality.” <i>Internet Archive</i>, 1973, pp. 3-7, 101-117, <a href="https://archive.org/details/illich-conviviality/page/6/mode/2up" target="_blank">archive.org/details/illich-conviviality/page/6/mode/2up</a></p>
+            <p>Kahn, Susan. “Nagarjuna’s Seventy Verses on Emptiness.” <i>Emptiness Teachings</i>, translated by Christian Lindtner, June 2022, <a href="https://emptinessteachings.com/2011/03/01/159" target="_blank">emptinessteachings.com/2011/03/01/159</a></p>
+            <p>Keynes, John Maynard. “Economic Possibilities for Our Grandchildren.” 1930. <i>Essays in Persuasion</i>, W.W. Norton and Co, 1963</p>
+            <p>Kimmerer, Robin Wall. “Skywoman Falling.” <i>Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants</i>. Penguin UK, 2020</p>
+            <p>Kimmerer, Robin Wall.“Learning the Grammar of Animacy.” <i>Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants</i>. Penguin UK, 2020</p>
+            <p>Kimmerer, Robin Wall.“Shkitagen: People of the Seventh Fire.” <i>Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants</i>. Penguin UK, 2020</p>
+            <p>Kropotkin, Petr. “Introduction.” <i>Mutual Aid: A Factor of Evolution</i>, 1902, <a href="https://theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution" target="_blank">theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution</a></p>
+            <p>Kropotkin, Petr. “Chapter 9: Conclusion” <i>Mutual Aid: A Factor of Evolution</i>, 1902, <a href="https://theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution" target="_blank">theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution</a></p>
+            <p>Latouche, Serge. “Degrowth Economics.” <i>Le Monde Diplomatique</i>, 14 Nov. 2004, <a href="https://mondediplo.com/2004/11/14latouche" target="_blank">mondediplo.com/2004/11/14latouche</a></p>
+            <p>Lawrence, Bruce B. “‘ALL DISTINCTIONS ARE POLITICAL, ARTIFICIAL’: The Fuzzy Logic of M. F. Husain.” <i>Common Knowledge</i>, vol. 19, no. 2, Duke UP, Apr. 2013, pp. 269–74, <a href="https://doi.org/10.1215/0961754x-2073251" target="_blank">doi:10.1215/0961754x-2073251</a></p>
+            <p>Liu, An. “The Essential Huainanzi : Liu an : Free Download, Borrow, and Streaming : Internet Archive.” Internet Archive, 15 Feb. 2020, <a href="https://archive.org/details/theessentialhuainanziliuan/page/n117/mode/2up" target="_blank">archive.org/details/theessentialhuainanziliuan/page/n117/mode/2up</a>.  pp. 118-126</p>
+            <p>Marx, Karl. “Estranged Labour.” Economic and Philosophical Manuscripts of 1844, <a href="https://www.marxists.org/archive/marx/works/1844/manuscripts/labour.htm" target="_blank">www.marxists.org/archive/marx/works/1844/manuscripts/labour.htm</a></p>
+            <p>Oladosu, Adenike. “Climate, Poverty, Democracy: What Is at Stake in Nigeria’s 2023 Election?” <i>Wilson Center</i>, 2023, <a href="https://www.wilsoncenter.org/blog-post/climate-poverty-democracy-what-is-at-stake-in-nigerias-2023-election" target="_blank">www.wilsoncenter.org/blog-post/climate-poverty-democracy-what-is-at-stake-in-nigerias-2023-election</a></p>
+            <p>Richter, Daniel. “Game Changer in Soil Science. The Anthropocene in Soil Science and Pedology.” <i>Journal of Plant Nutrition and Soil Science</i>, vol. 183, no. 1, Wiley, Sept. 2019, pp. 5–11, <a href="https://doi.org/10.1002/jpln.201900320" target="_blank">doi:10.1002/jpln.201900320</a></p>
+            <p>Richter, Daniel, and Sharon A. Billings. “‘One Physical System’: Tansley’s Ecosystem as Earth’s Critical Zone.” <i>New Phytologist</i>, vol. 206, no. 3, Wiley-Blackwell, Mar. 2015, pp. 900–12, <a href="https://doi.org/10.1111/nph.13338" target="_blank">doi:10.1111/nph.13338</a></p>
+            <p>Richter, Daniel, and Sharon Billings. “Ansichten Der Calzone: Views From the Calhoun Critical Zone Observatory.” <i>Critical Zones</i>, edited by Bruno Latour and Peter Weibel, 2020, <a href="https://dukespace.lib.duke.edu/dspace/handle/10161/21401" target="_blank">dukespace.lib.duke.edu/dspace/handle/10161/21401</a></p>
+            <p>Smil, Vaclav. “Preface.” <i>Growth: from Microorganisms to Megacities</i>. The MIT Press, 2019, pp. Vii-xxv</p>
+            <p>Sulayman, Uludag. “Muqaddimah”. 2008. Khaldun, Ibn. 1377. Excerpts: 158-61, 164, 189, 199, 204-09, 213-16, 323-26, 333-35, 338-39, 349-51, 373-76, 388-94, 399-01, 417-21, 507-09, 549-51, 571-73, 629-31, 693-96, 765-70</p>
+            <p>Weismantel, Mary J. “Moche Sex Pots: Reproduction and Temporality in Ancient South America.” <i>American Anthropologist</i>, vol. 106, no. 3, American Anthropological Association, Sept. 2004, pp. 495–505, <a href="https://doi.org/10.1525/aa.2004.106.3.495" target="_blank">doi:10.1525/aa.2004.106.3.495</a></p>
+            <p>Williams, Raymond. “Ideas of Nature.” <i>Problems in Materialism and Culture</i>. Verso, 1980 pp. 67- 85</p>
+            <br>
+            <h4>AudioVisual Materials:</h4>
+            <p>Baruch Spinoza. “Hildegard Von Bingen - Columba Aspexit.” <i>YouTube</i>, 6 Dec. 2014, <a href="https://www.youtube.com/watch?v=BpmMeIQywYc" target="_blank">www.youtube.com/watch?v=BpmMeIQywYc</a>.</p>
+            <!-- <p>Bingen, Hildegard von. Scivias. 1151, Vision Eleven, <a href="https://www.columbia.edu/itc/english/f2003/client_edit/documents/scivias.html" target="_blank">www.columbia.edu/itc/english/f2003/client_edit/documents/scivias.html</a>.</p> -->
+            <p>Emmet, Jeff. “Mycopunk Futures: Mycelial Cyborg Economies.” <i>Team Human</i>, 15 Feb 2023 <a href="https://www.teamhuman.fm/episodes/238-jeff-emmett" target="_blank">https://www.teamhuman.fm/episodes/238-jeff-emmett</a>.</p>
+            <p>“Hildegard of Bingen - 18 Artworks - Illustration.” <i>www.wikiart.org</i>, <a href="https://www.wikiart.org/en/hildegard-of-bingen" target="_blank">www.wikiart.org/en/hildegard-of-bingen</a>.</p>
+            <p>Mark Ye. “Multi Screen Projection - Animated Version of the Riverside Scene at Qingming Festival.” <i>YouTube</i>, 26 Aug. 2021, <a href="https://www.youtube.com/watch?v=wqNQH8OfIXc" target="_blank">www.youtube.com/watch?v=wqNQH8OfIXc</a>.</p>
+            <p>Michael S Glennon. “O Jerusalem Aurea Civitatis, Sequence to St Rupert.” <i>YouTube</i>, 3 July 2017, <a href="https://www.youtube.com/watch?v=lGONgSKMzSA" target="_blank">www.youtube.com/watch?v=lGONgSKMzSA</a>.</p>
+            <p>“Scivias Summary and Images.” <i>Healthy Hildegard</i>, Apr. 2020, <a href="https://www.healthyhildegard.com/scivias-illustration" target="_blank">www.healthyhildegard.com/scivias-illustrations</a>.</p>
+            <p>Songs from “V. Hildegard’s Symphonia Armonie Celestium Revelationum (‘Symphony of the Harmony of Heavenly Revelations’).” <i>Hildegard Society</i>, <a href="https://www.hildegard-society.org/p/music.html" target="_blank">www.hildegard-society.org/p/music.html</a>  pp. 4, 11, 15, 17-18, 26.</p>
+            <p>TED. “Vishaan Chakrabarti: A Vision of Sustainable Housing for All of Humanity | TED Countdown.” <i>YouTube</i>, 20 Feb. 2022, <a href="https://www.youtube.com/watch?v=B8kyrIQCFXQ" target="_blank">www.youtube.com/watch?v=B8kyrIQCFXQ</a>.</p>
+            <p>Zeduan, Zhang. <i>Along the River During the Qingming Festival</i>. 1085-1145, Palace Museum, Bejing</p>
+            <br>
+            <h4>Fellow/Mangroves Materials:</h4>
+            <p>Escobar, Arturo et. al, “Relationality, Remaking and Restor(y)ing life.” 2022. [forthcoming]</p>
+            <p>Liu, David. “an Exegetico-poetic Translation of the Textus Receptus.” Laozi: “Dao De Jing.” [unpublished]</p>
+            <p>Liu, David. “A Translation from the Masoretic Text.” Ecclesiastes. [unpublished]</p>
+            <p>Liu, David and Rankin, Tom. “Preamble to Mobility Project.” 2023. [unpublished]</p>
+            <p>Menghi, Adriana for Mangroves, “Rome: the First Car Free Metropolis.” 2022. [unpublished]</p>
+            <p>Tamburrino, Antonio and Rankin, Thomas. “Rome Strategic Plan for Urban Mobility.” 2023.</p>
+            <p>Tyalampi, Zolani Prince Shapiro “Growth, Birthright to all Things in Existence” and “Mama Africa” [unpublished]</p>
+          </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+

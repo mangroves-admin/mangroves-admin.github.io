@@ -4,7 +4,7 @@
 
 layout: readmore
 title: Reach
-permalink: /reach/
+permalink: /reach
 ---
 
 <head>

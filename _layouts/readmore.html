@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
-    
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <title>{{ page.title }}</title>
     {% include home-head.html %}
   </head>
@@ -14,7 +14,7 @@
           <!-- <div id="hamburger-div"> -->
             <label for="hamburger"><img src="../design/img/hamburger-nav.png"></label>
             <input type="checkbox" id="hamburger"/>
-            {% for item in site.data.navigation %}
+            {% for item in site.data.navigation %}3
             <div class="nav-item" id="{{ item.id }}">
               <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
               {{ item.name }}

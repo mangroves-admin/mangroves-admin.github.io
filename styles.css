@@ -6,22 +6,22 @@
   src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf'); */
 
   font-family: 'Commissioner';
-  src: url('../design/fonts/commissioner/static/Commissioner-Regular.ttf');
+  src: url('/design/fonts/commissioner/static/Commissioner-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Commissioner-Light';
-  src: url('../design/fonts/commissioner/static/Commissioner-Light.ttf');
+  src: url('/design/fonts/commissioner/static/Commissioner-Light.ttf');
 }
 
 @font-face {
   font-family: 'Antic';
-  src: url('../design/fonts/antic/Antic-Regular.ttf ');
+  src: url('/design/fonts/antic/Antic-Regular.ttf ');
 }
 
 @font-face {
   font-family: 'Gowun-Dodum';
-  src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf ');
+  src: url('/design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf ');
 }
 
 :root {

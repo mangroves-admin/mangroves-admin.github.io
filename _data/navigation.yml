@@ -3,7 +3,7 @@
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /think
+  link: /think/CRAIGFERGUSON
 - name: Do
             <div id="dropdown">
               <div class="dropdown-item">
@@ -17,7 +17,7 @@
               </div>
             </div>
   id: do-nav
-  link: /do
+  link: /do/CRAIGFERGUSON
 - name: Meet
   link: /meet
 - name: Give

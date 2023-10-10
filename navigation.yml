@@ -3,7 +3,7 @@
 # - name: About
 #   link: /about.html
 - name: Think
-  link: {{ site.baseurl }}/think/index.html
+  link: CRAIGFERGUSON/think/index.html
 - name: Do
             <div id="dropdown">
               <div class="dropdown-item">

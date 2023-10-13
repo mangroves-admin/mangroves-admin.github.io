@@ -4,7 +4,7 @@
 
 layout: meet
 title: Meet
-permalink: meet
+permalink: /meet/
 ---
 
 <head>

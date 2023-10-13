@@ -33,6 +33,7 @@
   --fs-300: 30px;
   --fs-250: 22px;
   --fs-200: 20px;
+  --fs-150: 19px;
   --fs-100: 18px;
 
 
@@ -53,6 +54,7 @@
     --fs-300: 1.25rem;
     --fs-250: 1.1rem;
     --fs-200: 1rem;
+    --fs-150: 0.85rem;
     --fs-100: 0.75rem;
 
     --px-400: 12em;
@@ -313,7 +315,7 @@
     /* max-width: 40em; */
   }
 
-  #responses-img {
+  #responses-img, #depth-of-being-painting {
     display: block;
   }
 
@@ -344,6 +346,10 @@
     width: 35em;
     padding: 1em 1em;
     box-shadow: inset 0px 0px 10px black;
+  }
+
+  #depth-of-being-painting img {
+    width: 32em;
   }
 
   #periblem-image img {
@@ -1083,6 +1089,10 @@ p {
   align-items: center;
 }
 
+#give-item-title h3 {
+  color: #5a86ff !important;
+}
+
 #meet-item-inside, #give-item-inside, #reach-item-inside {
   margin-bottom: 0;
 }
@@ -1280,11 +1290,29 @@ p {
   font-style: italic;
   text-transform: lowercase;
   font-weight: 100;
-  margin-left: 2em;
+  /* margin-left: 20em; */
+}
+
+.copyright {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright h3 {
+  margin-left: 33%;
+}
+
+.lifing-otherwise {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lifing-otherwise h4 {
-  margin: 0 0 0 2em !important;
+  font-size: var(--fs-150) !important;
 }
 
 #green-footer-base {

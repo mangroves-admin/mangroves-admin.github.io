@@ -407,7 +407,7 @@ p {
   color: #151ea4;
 }
 
-#give-item-title h3 {
+#give-item-title h3, #give-subpage-title h3 {
   margin: 0;
 }
 
@@ -668,6 +668,31 @@ margin: 0.5em 0;
   /* border: 1px solid red; */
 }
 
+
+#depth-of-being-painting img {
+  border: 1px solid #2eb847;
+  background-clip: content-box; /* support: IE9+ */
+  outline: 1px solid #2eb847;
+  outline-offset: 5px;
+  width: 20%;
+  margin-bottom: 4.5em;
+}
+
+#depth-of-being-painting {
+  float: right;
+  width: 50px;
+  padding: 1em 0;
+  /* margin-right: 1em; */
+  text-align: center;
+  font-size: var(--fs-200);
+  display: none;
+}
+
+
+#depth-of-being-painting p {
+  font-size: var(--fs-100);
+}
+
 .guest-discussants {
   margin-bottom: 2em;
 }
@@ -744,7 +769,13 @@ margin: 0.5em 0;
 }
 
 #fellows-2122 {
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
+  display: block;
+}
+
+#fellows-2122-bios {
+  display: block !important;
+  widtH: 60%;
 }
 
 .reading-list-links a {
@@ -765,14 +796,18 @@ margin: 0.5em 0;
   justify-content: center;
 }
 
-#responses-img {
+#responses-img, #depth-of-being-img {
   float: left;
   width: 33%;
   height: 100%;
   display: none;
 }
 
-#responses-img img {
+#depth-of-being-img {
+  float: right !important;
+}
+
+#responses-img img, #depth-of-being-img img {
 border: 1px solid #2eb847;
 background-clip: content-box; /* support: IE9+ */
 outline: 1px solid #2eb847;

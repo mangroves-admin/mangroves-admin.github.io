@@ -348,6 +348,10 @@
     box-shadow: inset 0px 0px 10px black;
   }
 
+  #depth-of-being-painting {
+    padding: 1em 0 1em 2em;
+  }
+
   #depth-of-being-painting img {
     width: 32em;
   }

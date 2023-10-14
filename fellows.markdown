@@ -143,18 +143,19 @@ permalink: /fellows/
                   <img src="/design/img/subpage-img/depth-of-being.jpg" alt="depth-of-being-painting">
                 </div>
 
-                {% for item in site.data.fellows-21-22 %}
-                  <div class="fellow-previous-year">
-                    <h4>{{ item.name }}</h4>
-                    <p>{{ item.profession }}</p>
-                  </div>
-                
-                {% endfor %}
+                <div id="fellows-2122-bios-copy">
+                  {% for item in site.data.fellows-21-22 %}
+                    <div class="fellow-previous-year">
+                      <h4>{{ item.name }}</h4>
+                      <p>{{ item.profession }}</p>
+                    </div>
+                  {% endfor %}
+                </div>
             </div>              
           </div>
 
           <div id="fellows-responses">
-          
+
             <div class="section-title" id="fellows-responses-title">
               <h3>Responses to the Fellowship:</h3>
             </div>

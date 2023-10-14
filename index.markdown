@@ -41,7 +41,7 @@ permalink: /home/
                     </div>
                 {% endfor %}
                 <div class="think-info" id="think-link">
-                    <a href="../think/index.html"><h4>Read more |</h4></a>
+                    <a href="../think/index.html" target="_blank"><h4>Read more |</h4></a>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@ permalink: /home/
                         </div>
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                            <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
                         </div>
                     </div>
                 {% endfor %}
@@ -99,7 +99,7 @@ permalink: /home/
                     <div class="do-item" id="meet-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                            <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
                         </div>
                     </div>
                 {% endfor %}
@@ -117,7 +117,7 @@ permalink: /home/
                     <div class="do-item" id="give-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Give |</h4></a>
+                            <a href="{{ item.url }}" target="_blank"><h4>Give |</h4></a>
                         </div>
                     </div>
                 {% endfor %}
@@ -136,7 +136,7 @@ permalink: /home/
                     <div class="do-item" id="reach-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
-                            <a href="{{ item.url }}"><h4>Read more |</h4></a>
+                            <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
                         </div>
                     </div>
                 {% endfor %}

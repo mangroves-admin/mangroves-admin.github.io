@@ -415,6 +415,10 @@ p {
   padding-bottom: 1.5em;
 } 
 
+#give-info a {
+  text-decoration: none;
+}
+
 #give-image {
   width: 100%;
   border-top: 1px solid #080A24;

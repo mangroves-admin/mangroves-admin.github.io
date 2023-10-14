@@ -254,6 +254,10 @@
     width: 33vw;
   }
 
+  #fellows-2122-bios {
+    display: block !important;
+  }
+
   .fellow, .faculty, .initiative {
     margin: 0em 0em 4em 0em;
     padding-left: 2em;
@@ -349,11 +353,11 @@
   }
 
   #depth-of-being-painting {
-    padding: 1em 0 1em 2em;
+    padding: 1em 0 1em 1.5em;
   }
 
   #depth-of-being-painting img {
-    width: 32em;
+    /* width: 32em; */
   }
 
   #periblem-image img {

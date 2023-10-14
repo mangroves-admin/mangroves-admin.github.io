@@ -683,15 +683,14 @@ margin: 0.5em 0;
 }
 
 #depth-of-being-painting {
+  width: 66%;
   float: right;
-  width: 50px;
   padding: 1em 0;
   /* margin-right: 1em; */
   text-align: center;
   font-size: var(--fs-200);
   display: none;
 }
-
 
 #depth-of-being-painting p {
   font-size: var(--fs-100);
@@ -778,8 +777,9 @@ margin: 0.5em 0;
 }
 
 #fellows-2122-bios {
-  display: block !important;
-  widtH: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reading-list-links a {
@@ -800,18 +800,15 @@ margin: 0.5em 0;
   justify-content: center;
 }
 
-#responses-img, #depth-of-being-img {
+#responses-img {
   float: left;
   width: 33%;
   height: 100%;
   display: none;
 }
 
-#depth-of-being-img {
-  float: right !important;
-}
 
-#responses-img img, #depth-of-being-img img {
+#responses-img img, #depth-of-being-painting img {
 border: 1px solid #2eb847;
 background-clip: content-box; /* support: IE9+ */
 outline: 1px solid #2eb847;

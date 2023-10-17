@@ -22,6 +22,7 @@ permalink: /do/
         </div>
 
         <div class="do-page-section">
+
             {% for item in site.data.do %}
             <div class="do-item">
                     <div class="do-title">

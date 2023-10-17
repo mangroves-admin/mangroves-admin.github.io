@@ -141,7 +141,9 @@ permalink: /fellows/
 
                 <div id="depth-of-being-painting">
                   <img src="/design/img/subpage-img/depth-of-being.jpg" alt="depth-of-being-painting">
+                    <p>Painting by Deborah Patterson, used by permission</p>
                 </div>
+                
 
                 <div id="fellows-2122-bios-copy">
                   {% for item in site.data.fellows-21-22 %}
@@ -164,13 +166,22 @@ permalink: /fellows/
 
                 <div id="responses-img">
 
-                  <img src="/design/img/subpage-img/fellows-skyshot.jpg" alt="trees-skyshot">
+                  <div class="response-photo-with-credit">
+                    <img src="/design/img/subpage-img/fellows-skyshot.jpg" alt="trees-skyshot">
+                    <div class="photo-credit" id="responses-photo-credit">
+                      <p>Mohamed Ibrahim</p>
+                    </div>
+                  </div>
 
-                  <img src="/design/img/subpage-img/stone-road.jpg" alt="stone-road">
+                  <div class="response-photo-with-credit">
+                    <img src="/design/img/subpage-img/stone-road.jpg" alt="stone-road">
+                  </div>
 
-                  <img src="/design/img/subpage-img/water-crop.jpg" alt="water">
+                  <div class="response-photo-with-credit">
+                    <img src="/design/img/subpage-img/water-crop.jpg" alt="water">
+                  </div>
 
-                  <!-- <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection"> -->
+                    <!-- <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection"> -->
 
                 </div>
 

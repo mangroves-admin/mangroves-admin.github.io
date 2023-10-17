@@ -31,6 +31,9 @@ permalink: /think/
                             <div class="think-title">
                                 <h3>{{ item.title }}</h3>
                             </div>
+                            <div id="mobius-loop">
+                                <img src="/design/img/subpage-img/mobius.png" alt="mobius-loop">
+                            </div>
                             <div class="think-info">
                                 <p>{{ item.copy }}</p>
                             </div>

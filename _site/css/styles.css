@@ -128,6 +128,12 @@
     display: block !important;
   }
 
+  .do-subpage-img {
+    float: left;
+    width: 20em;
+    padding: 0 3em 1em 0;
+  }
+
   .intro-text {
     margin: 3em;
     /* background-color: yellow; */
@@ -196,6 +202,15 @@
 
   .footer-base {
     height: var(--ht-400);
+  }
+
+  #mobius-loop {
+    width: 8em;
+    padding: 0 1em;
+  }
+
+  #mobius-loop img {
+    width: 100%;
   }
 
   #chandelier-painting, #periblem-image {
@@ -353,7 +368,7 @@
   }
 
   #depth-of-being-painting {
-    padding: 1em 0 1em 1.5em;
+    padding: 1em 0 0 1.5em;
     width: 66%;
   }
 
@@ -1005,8 +1020,12 @@ p {
 .do-info img {
   float: left;
   padding: 0.5em 2em 1em 0;
-  display: none;
+  /* display: none; */
   filter: drop-shadow(5px 5px 4px #0000007f);
+}
+
+.do-info span {
+  color: #bfbfbc;
 }
 
 .do-item {

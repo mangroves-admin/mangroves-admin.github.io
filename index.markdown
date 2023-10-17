@@ -65,7 +65,7 @@ permalink: /home/
                         <div class="do-title-home">
                             <h3>{{ item.title }}</h3>
                         </div>
-                        <div class="do-info">
+                        <div class="do-info" id="do-homepage-copy">
                             <p>{{ item.copy }}</p>
                             <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
                         </div>

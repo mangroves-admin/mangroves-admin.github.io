@@ -19,6 +19,17 @@
               <a href="{{ item.link }}" {% if page.url == item.link %}style="color: none;"{% endif %}>
               {{ item.name }}
               </a>
+              <div class="dropdown">
+                <div class="dropdown-item" id="fellows-dropdown-item">
+                    <a href="/fellows/index.html"><p>Pilot Fellowship</p></a>
+                </div>
+                <div class="dropdown-item" id="carless-dropdown-item">
+                  <a href="/carless-rome/index.html"><p>Carless Rome</p></a>
+                </div>
+                <div class="dropdown-item" id="connival-dropdown-item">
+                  <a href="/connival/index.html"><p>Connival On Growth</p></a>
+                </div>
+              </div>
             </div>
             {% endfor %}
           <!-- </div> -->

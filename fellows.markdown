@@ -133,28 +133,30 @@ permalink: /fellows/
 
           <div id="fellows-2122">
 
-            <div class="section-title" id="fellows-2122-bios-title">
-              <h3>Mangroves Pilot Fellows 2021/2022</h3>
+            <div id="fellows-2122-text">
+              <div class="section-title" id="fellows-2122-bios-title">
+                <h3>Mangroves Pilot Fellows 2021/2022</h3>
+              </div>
+
+              <div id="fellows-2122-bios">
+                  <div id="fellows-2122-bios-copy">
+                    {% for item in site.data.fellows-21-22 %}
+                      <div class="fellow-previous-year">
+                        <h4>{{ item.name }}</h4>
+                        <p>{{ item.profession }}</p>
+                      </div>
+                    {% endfor %}
+                  </div>
+              </div>  
             </div>
 
-            <div id="fellows-2122-bios">
+            <div id="depth-of-being-painting">
+              <img src="/design/img/subpage-img/depth-of-being.jpg" alt="depth-of-being-painting">
+              <p>Painting by Deborah Patterson, used by permission</p>
+            </div>
 
-                <div id="depth-of-being-painting">
-                  <img src="/design/img/subpage-img/depth-of-being.jpg" alt="depth-of-being-painting">
-                    <p>Painting by Deborah Patterson, used by permission</p>
-                </div>
-                
-
-                <div id="fellows-2122-bios-copy">
-                  {% for item in site.data.fellows-21-22 %}
-                    <div class="fellow-previous-year">
-                      <h4>{{ item.name }}</h4>
-                      <p>{{ item.profession }}</p>
-                    </div>
-                  {% endfor %}
-                </div>
-            </div>              
           </div>
+          
 
           <div id="fellows-responses">
 
@@ -178,7 +180,7 @@ permalink: /fellows/
                   </div>
 
                   <div class="response-photo-with-credit">
-                    <img src="/design/img/subpage-img/water-crop.jpg" alt="water">
+                    <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection">
                   </div>
 
                     <!-- <img src="/design/img/subpage-img/reflection.jpeg" alt="reflection"> -->

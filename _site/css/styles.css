@@ -243,6 +243,16 @@
     padding: 0;
   }
 
+  #fellows-2122 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
+  }
+
+  #fellows-2122-text {
+    width: 50%;
+  }
+
   #fellows-2122-info-img {
     float: left;
     margin: 1em 3em 1em 0;
@@ -368,8 +378,9 @@
   }
 
   #depth-of-being-painting {
-    padding: 1em 0 0 1.5em;
-    width: 66%;
+    padding: 2.5em 0 0 0;
+    width: 60%;
+    float: right;
   }
 
   #depth-of-being-painting img {

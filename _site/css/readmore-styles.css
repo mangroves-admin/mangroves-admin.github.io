@@ -799,8 +799,11 @@ margin: 0.5em 0;
 }
 
 #fellows-2122 {
-  /* padding-bottom: 2em; */
   display: block;
+}
+
+#fellows-2122-text {
+  width: 100%
 }
 
 .reading-list-links a {

@@ -31,6 +31,47 @@ permalink: /meet/
                 </div>
             </div>
         </div>
+        
+
+        <div class="info-block" id="personnel-border-box">
+            <div class="right-border-box">
+                <div class="meet-item" id="personnel">
+                    <div class="section-subtitle" id="personnel-title">
+                        <h3>Personnel</h3>
+                    </div>
+
+<!-- comment this back in and comment out responsive-two-colymns to get back to 1-column layout -->
+                    <!-- {% for item in site.data.personnel %}
+                    <div class="faculty">
+                        <div class="faculty-headshot" style="background-image: url( {{ item.img }} );"></div>
+                        <div class="faculty-bio">
+                        <p><b>{{ item.name }}</b> {{ item.bio }}</p>
+                         </div>
+                     </div>
+                    {% endfor %} -->
+
+                    <div class="responsive-two-columns" id="personnel">
+                        <div class="rome-column" id="personnel-col-1">
+                            <div class="faculty-headshot" style="background-image: url(/design/img/bio-headshots/david-u-b-liu.png);">
+                            </div>
+                            <div class="faculty-bio">
+                                <p><b>David U B Liu (PhD)</b> was trained in several disciplines, periods and traditions in the US, Japan, Italy, and Israel. As a post-academic polyglot thinker, he plies coworking across boundaries and experiences amidst the mega circus of more-than-human life. Skeptical of the ubiquitous imperative of "problem solving," he started this collaboratory to abet thinking and lifeways not centered on human "profit," but humbly nested in sublime webs of life.</p>
+                            </div>
+                        </div>
+
+                        <div class="rome-column" id="personnel-col-2">
+                            <div class="faculty-headshot" style="background-image: url(/design/img/bio-headshots/julia-kane.jpg );">
+                            </div>
+                            <div class="faculty-bio">
+                                <p><b>Julia Kane</b> recently received her Bachelor's in Environmental Studies from Bard College with a thesis joining material semiotics, story, and historical narratives of some defining materials of modernity (plastic, wood, cement). She is invested in thoughtful human relationships with living and nonliving ecologies and how always to view the "normal" askance. After being a Fellow, she now works for Mangroves to cultivate relationality and alternative being and thinking.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
 
         <div class="info-block" id="directors-border-box">
             <div class="right-border-box">
@@ -59,7 +100,7 @@ permalink: /meet/
                             <div class="faculty-headshot" style="background-image: url(/design/img/bio-headshots/frances-halsband.jpg);">
                             </div>
                             <div class="faculty-bio">
-                                <p><b>Frances Halsband</b> - Co-founder of Kliment Halsband Architects, Frances continues to lead that firm as a Studio of Perkins Eastman, and serves as the 2023 Chancellor of the AIA College of Fellows. Frances sees her much-lauded work as giving consensual form to values of care, repair and shared life, and engaging history to inform, inflect the present.</p>
+                                <p><b>Frances Halsband</b> - Co-founder of Kliment Halsband Architects, Frances continues to lead that firm as a Studio of Perkins Eastman, and served as the 2023 Chancellor of the AIA College of Fellows. Frances sees her much-lauded work as giving consensual form to values of care, repair and shared life, and engaging history to inform, inflect the present.</p>
                             </div>
                         </div>
 
@@ -120,44 +161,6 @@ permalink: /meet/
             </div>
         </div>
 
-        <div class="info-block" id="personnel-border-box">
-            <div class="right-border-box">
-                <div class="meet-item" id="personnel">
-                    <div class="section-subtitle" id="personnel-title">
-                        <h3>Personnel</h3>
-                    </div>
-
-<!-- comment this back in and comment out responsive-two-colymns to get back to 1-column layout -->
-                    <!-- {% for item in site.data.personnel %}
-                    <div class="faculty">
-                        <div class="faculty-headshot" style="background-image: url( {{ item.img }} );"></div>
-                        <div class="faculty-bio">
-                        <p><b>{{ item.name }}</b> {{ item.bio }}</p>
-                         </div>
-                     </div>
-                    {% endfor %} -->
-
-                    <div class="responsive-two-columns" id="personnel">
-                        <div class="rome-column" id="personnel-col-1">
-                            <div class="faculty-headshot" style="background-image: url(/design/img/bio-headshots/david-u-b-liu.png);">
-                            </div>
-                            <div class="faculty-bio">
-                                <p><b>David U B Liu (PhD)</b> was trained in several disciplines, periods and traditions in the US, Japan, Italy, and Israel. As a post-academic polyglot thinker, he plies coworking across boundaries and experiences amidst the mega circus of more-than-human life. Skeptical of the ubiquitous imperative of "problem solving," he started this collaboratory to abet thinking and lifeways not centered on human "profit," but humbly nested in sublime webs of life.</p>
-                            </div>
-                        </div>
-
-                        <div class="rome-column" id="personnel-col-2">
-                            <div class="faculty-headshot" style="background-image: url(/design/img/bio-headshots/julia-kane.jpg );">
-                            </div>
-                            <div class="faculty-bio">
-                                <p><b>Julia Kane</b> recently received her Bachelor's in Environmental Studies from Bard College with a thesis joining material semiotics, story, and historical narratives of some defining materials of modernity (plastic, wood, cement). She is invested in thoughtful human relationships with living and nonliving ecologies and how always to view the "normal" askance. After being a Fellow, she now works for Mangroves to cultivate relationality and alternative being and thinking.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
 
         <div class="info-block" id="more-to-come-border-box">
             <div class="right-border-box">

@@ -1,0 +1,6 @@
+<span> &nbsp; <i>~ a collaboratory for surging life ~</i></span>
+
+DNS records (delete now : incase we need to add back)
+
+type A : @ : 206.188.192.249
+type A : Other Host : * : 206.188.192.249

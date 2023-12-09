@@ -356,6 +356,10 @@ p {
   background-color: #450474;
 }
 
+#personnel, #board-of-directors, #advisory-board {
+  max-width: 80vw;
+}
+
 #more-to-come-border-box {
   background-color: #390061;
 }

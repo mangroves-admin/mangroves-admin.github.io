@@ -35,7 +35,7 @@ permalink: /reach/
                             </div>
                             <div class="reach-item" id="{{ item.id }}">
                                 <div class="reach-title">
-                                    <a href="{{ item.url }}">
+                                    <a href="{{ item.url }}" target="_blank">
                                         <h3>{{ item.title }}</h3>
                                     </a>
                                 </div>

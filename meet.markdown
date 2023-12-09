@@ -124,7 +124,7 @@ permalink: /meet/
 
         <div class="info-block" id="advisory-border-box">
             <div class="right-border-box">
-                <div class="meet-item" id="adivsory-board">
+                <div class="meet-item" id="advisory-board">
                     <div class="section-subtitle" id="advisory-title">
                         <h3>Advisory Board</h3>
                     </div>

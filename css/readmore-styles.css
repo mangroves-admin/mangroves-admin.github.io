@@ -290,6 +290,10 @@ p {
   flex-direction: column;
 }
 
+#instigator-title h3, #adjutant-title h3 {
+  color: #5a86ff;
+  text-transform: uppercase;
+}
 
 .faculty {
   width: 100%;
@@ -334,7 +338,7 @@ p {
   background-color: #390061;
 }
 
-/* kill this to get back to 1-column layout */
+/* kill this to get back to 1-column layout if desired */
 /* #board-of-directors, #advisory-board, #personnel {
   flex-wrap: nowrap;
   width: 100%;

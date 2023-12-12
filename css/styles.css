@@ -177,7 +177,7 @@
     height: 3em;
   }
 
-  /* kill this to get back to 1-column layout */
+  /* kill this to get back to 1-column layout if desired */
   #board-of-directors, #advisory-board, #personnel {
   flex-wrap: nowrap;
   width: 100%;

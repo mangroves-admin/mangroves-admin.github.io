@@ -293,6 +293,7 @@ p {
 #instigator-title h3, #adjutant-title h3 {
   color: #5a86ff;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .faculty {

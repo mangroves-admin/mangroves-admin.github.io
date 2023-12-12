@@ -290,11 +290,14 @@ p {
   flex-direction: column;
 }
 
+#instigator-title, #adjutant-title {
+  padding-bottom: 0;
+}
+
 #instigator-title h3, #adjutant-title h3 {
   color: #5a86ff;
   text-transform: uppercase;
   margin: 0;
-  /* padding-bottom: 0; */
 }
 
 .faculty {
@@ -332,7 +335,7 @@ p {
 }
 
 .faculty-bio p {
-  margin: 0 0 1em 0;
+  margin: 0.5em 0 1em 0;
   font-size: var(--fs-200);
 }
 

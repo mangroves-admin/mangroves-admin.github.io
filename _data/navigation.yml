@@ -3,13 +3,13 @@
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /think/index.html
+  link: /mangroves-test-website/think/index.html
 - name: Do
   id: do-nav
-  link: /do/index.html
+  link: /mangroves-test-website/do/index.html
 - name: Meet
-  link: /meet/index.html
+  link: /mangroves-test-website/meet/index.html
 - name: Give
-  link: /give/index.html
+  link: /mangroves-test-website/give/index.html
 - name: Reach
-  link: /reach/index.html
+  link: /mangroves-test-website/reach/index.html

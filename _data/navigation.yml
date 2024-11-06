@@ -1,15 +1,15 @@
 - name: Home
-  link: /mangroves-test-website/home/
+  link: home/
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /mangroves-test-website/think/index.html
+  link: think/
 - name: Do
   id: do-nav
-  link: /mangroves-test-website/do/index.html
+  link: do/
 - name: Meet
-  link: /mangroves-test-website/meet/index.html
+  link: meet/
 - name: Give
-  link: /mangroves-test-website/give/index.html
+  link: give/
 - name: Reach
-  link: /mangroves-test-website/reach/index.html
+  link: reach/

@@ -13,14 +13,13 @@ permalink: /give/
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 
-
 <body id="give-body">
     <div id="give-wrapper">
 
         <div class="info-block" id="give-main">
             <div class="right-border-box-dark" id="give-border-box">
 
-            
+
                 <div class="think-page-section" id="give-main-section">
 
                     {% for item in site.data.give-subpage %}
@@ -33,6 +32,12 @@ permalink: /give/
                             </div>
                         </div>
                     {% endfor %}
+
+                    <div class="donation-widget">
+                        <!-- Begin Give Lively Fundraising Widget -->
+                        <script>gl=document.createElement('script');gl.src='https://secure.givelively.org/widgets/simple_donation/mangroves.js?show_suggested_amount_buttons=true&show_in_honor_of=true&address_required=false&has_required_custom_question=null&suggested_donation_amounts[]=25&suggested_donation_amounts[]=50&suggested_donation_amounts[]=100&suggested_donation_amounts[]=250';document.getElementsByTagName('head')[0].appendChild(gl);</script><div id="give-lively-widget" class="gl-simple-donation-widget"></div>
+                        <!-- End Give Lively Fundraising Widget -->
+                    </div>
 
                     <div class="intro-image-wrapper">
                         <div class="intro-text" id="give-image">
@@ -47,7 +52,7 @@ permalink: /give/
 
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
-    
+
 </body>

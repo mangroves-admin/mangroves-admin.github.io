@@ -442,12 +442,19 @@ p {
   margin: 0;
 }
 
-#give-info {
-  padding-bottom: 1.5em;
+#give-info p {
+  margin-bottom: 0;
+  /* border: 1px solid red; */
 } 
 
 #give-info a {
   text-decoration: none;
+}
+
+.donation-widget {
+  /* border: 1px solid red; */
+  padding: 0 2em 2em 2em;
+  width: 80%;
 }
 
 #give-image {

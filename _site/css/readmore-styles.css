@@ -472,6 +472,7 @@ p {
   padding: 0em 2em;
   min-width: 20em;
   break-before: column;
+  height: 1em;
 }
 
 .gl-branded-donation-widget {

@@ -470,10 +470,40 @@ p {
 }
 
 .donation-widget {
-  padding: 2em 2em 5em 2em;
+  /* padding: 2em 2em 5em 2em; */
   /* width: 80%; */
   /* branded widget w 2-column layout */
+  padding: 0em 2em;
+  min-width: 20em;
   break-before: column;
+}
+
+.gl-branded-donation-widget {
+  box-shadow: none !important;
+}
+
+.tw-font-nunito {
+  background-color: #8a72d2;
+}
+
+/* hide donation widget images for simplicity and easier mavigation */
+.img-fluid {
+  display: none;
+}
+
+.tw-mx-0 tw-mt-6 tw-rounded-2xl tw-border-solid tw-border-white tw-bg-white tw-text-center sm:tw-mx-4 md:tw-mx-0 {
+  background-color: transparent;
+  border: none;
+  padding: 0em 1em;
+  color: #080A24;
+}
+
+.tw-mt-8 {
+  margin-top: 0;
+}
+
+.tw-mx-auto tw-mt-16 tw-max-w-md tw-rounded-2xl tw-border tw-border-solid tw-border-charcoal-100 tw-p-6 desktop:tw-mt-24 {
+  margin-top: 2em;
 }
 
 #give-image {

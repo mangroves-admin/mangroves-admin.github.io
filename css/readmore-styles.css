@@ -432,18 +432,32 @@ p {
 
 #give-main-section {
 /* padding: 1em 0.5em 1em 0; */
+  columns: 2;
 }
 
 #give-main-section a {
   color: #151ea4;
 }
 
+.two-column {
+  /* width: 100%; */
+  /* branded widget w 2-column layout */
+  width: 70vw;
+  columns: 2; 
+}
+
 #give-item-title h3, #give-subpage-title h3 {
   margin: 0;
 }
 
+#give-subpage-title {
+  width: 50%;
+}
+
 #give-info p {
   margin-bottom: 0;
+  /* branded widget w 2-column layout */
+  /* width: 50%; */
   /* border: 1px solid red; */
 } 
 
@@ -454,6 +468,8 @@ p {
 .donation-widget {
   padding: 2em 2em 5em 2em;
   width: 80%;
+  /* branded widget w 2-column layout */
+  break-before: column;
 }
 
 #give-image {

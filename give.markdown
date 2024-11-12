@@ -34,6 +34,17 @@ permalink: /give/
                             </div>
                         {% endfor %}
 
+                        <div class="intro-image-wrapper">
+                        <div class="intro-text" id="give-image">
+                            <div class="image-with-credit" id="giving-tree-image">
+                                <img src="/design/img/subpage-img/tree-birds.png" alt="the-giving-tree">
+                                <div class="photo-credit" id="give-photo-credit">
+                                    <p>Sutirta Budiman</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                         <div id="donation-widget-wrapper">
                             <div class="donation-widget">
                                 <!-- simple donation widget -->
@@ -48,7 +59,7 @@ permalink: /give/
                     </div>
 
 
-                    <div class="intro-image-wrapper">
+                    <!-- <div class="intro-image-wrapper">
                         <div class="intro-text" id="give-image">
                             <div class="image-with-credit" id="giving-tree-image">
                                 <img src="/design/img/subpage-img/tree-birds.png" alt="the-giving-tree">
@@ -57,7 +68,7 @@ permalink: /give/
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

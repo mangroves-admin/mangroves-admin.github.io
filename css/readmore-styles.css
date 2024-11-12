@@ -471,16 +471,17 @@ p {
 
 .donation-widget {
   padding: 2em 2em 5em 2em;
-  width: 80%;
+  /* width: 80%; */
   /* branded widget w 2-column layout */
   break-before: column;
 }
 
 #give-image {
   width: 100%;
-  border-top: 1px solid #080A24;
-  border-bottom: 1px solid #080A24;
-  padding: 2em 1em;
+  /* branded widget w 2-column layout */
+  /* border-top: 1px solid #080A24; */
+  /* border-bottom: 1px solid #080A24; */
+  padding: 3em 1em;
   margin-right: 1em;
 }
 

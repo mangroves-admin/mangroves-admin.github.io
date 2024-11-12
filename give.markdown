@@ -34,6 +34,17 @@ permalink: /give/
                             </div>
                         {% endfor %}
 
+                        <div class="intro-image-wrapper">
+                        <div class="intro-text" id="give-image">
+                            <div class="image-with-credit" id="giving-tree-image">
+                                <img src="/design/img/subpage-img/tree-birds.png" alt="the-giving-tree">
+                                <div class="photo-credit" id="give-photo-credit">
+                                    <p>Sutirta Budiman</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                         <div class="donation-widget">
                             <!-- simple donation widget -->
                             <!-- <script>gl=document.createElement('script');gl.src='https://secure.givelively.org/widgets/simple_donation/mangroves.js?show_suggested_amount_buttons=true&show_in_honor_of=true&address_required=false&has_required_custom_question=null&suggested_donation_amounts[]=25&suggested_donation_amounts[]=50&suggested_donation_amounts[]=100&suggested_donation_amounts[]=250';document.getElementsByTagName('head')[0].appendChild(gl);</script><div id="give-lively-widget" class="gl-simple-donation-widget"></div> -->
@@ -46,7 +57,7 @@ permalink: /give/
                     </div>
 
 
-                    <div class="intro-image-wrapper">
+                    <!-- <div class="intro-image-wrapper">
                         <div class="intro-text" id="give-image">
                             <div class="image-with-credit" id="giving-tree-image">
                                 <img src="/design/img/subpage-img/tree-birds.png" alt="the-giving-tree">
@@ -55,7 +66,7 @@ permalink: /give/
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -465,6 +465,10 @@ p {
   text-decoration: none;
 }
 
+#donation-widget-wrapper {
+  overflow: scroll;
+}
+
 .donation-widget {
   padding: 2em 2em 5em 2em;
   width: 80%;

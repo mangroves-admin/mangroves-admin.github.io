@@ -191,6 +191,15 @@
     margin-right: 4em;
   }
 
+  #donate-here-title {
+    padding: 3em 2em 2em 2em;
+    margin: 0;
+  }
+  
+  #donate-here-title h3, p {
+    margin: 0;
+  }
+
   .donation-widget {
     padding: 0em 2em 4em 2em;
     width: 90%;

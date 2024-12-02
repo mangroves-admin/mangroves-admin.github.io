@@ -466,29 +466,28 @@ padding: 5em 0.5em 1em 0;
   text-decoration: none;
 }
 
-/* #donate-here-title {
+#donate-here-title {
   padding: 3em 2em 2em 2em;
   margin: 0;
 }
 
 #donate-here-title h3, p {
   margin: 0;
-} */
+}
 
 #donation-widget-wrapper {
   /* overflow: scroll; */
 }
 
-/* .donation-widget {
-  padding: 0em 2em 4em 2em;
-  width: 90%;
-  border: 1px solid red;
-  branded widget w 2-column layout
+.donation-widget {
+  padding: 2em 1em;
+  width: 100%;
+  /* branded widget w 2-column layout
   padding: 0em 2em;
   min-width: 20em;
   break-before: column;
-  height: 1em;
-} */
+  height: 1em; */
+}
 
 /* .gl-branded-donation-widget {
   box-shadow: none !important;

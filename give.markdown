@@ -34,10 +34,10 @@ permalink: /give/
                             </div>
                         {% endfor %}
 
-                            <div class="section-title" id="donate-here-title">
-                                <h3>Donate Here</h3>
-                                <p>We cordially thank you!</p>
-                            </div>
+                        <div class="section-title" id="donate-here-title">
+                            <h3>Donate Here</h3>
+                            <p>We cordially thank you!</p>
+                        </div>
 
 
                         <div class="donation-widget">

@@ -466,14 +466,14 @@ padding: 5em 0.5em 1em 0;
   text-decoration: none;
 }
 
-#donate-here-title {
+/* #donate-here-title {
   padding: 3em 2em 2em 2em;
   margin: 0;
 }
 
 #donate-here-title h3, p {
   margin: 0;
-}
+} */
 
 #donation-widget-wrapper {
   /* overflow: scroll; */

@@ -12,9 +12,11 @@ donation widget:
 background-color: #8a72d2
 
 donate now button:
-<<<<<<< HEAD
-background-color: 
-=======
 background-color: #664fab
 old gross hover color from core profile page: #d7e444
->>>>>>> give-page-2-column
+
+
+background-color: transparent;
+    border: none;
+    padding: 0em 1em;
+    color: #080A24;

@@ -431,8 +431,9 @@ p {
 }
 
 #give-main-section {
-/* padding: 1em 0.5em 1em 0; */
-  columns: 2;
+padding: 5em 0.5em 1em 0;
+width: 70%;
+  /* columns: 2; */
 }
 
 #give-main-section a {
@@ -465,30 +466,41 @@ p {
   text-decoration: none;
 }
 
+#donate-here-title {
+  padding: 3em 2em 2em 2em;
+  margin: 0;
+}
+
+#donate-here-title h3, p {
+  margin: 0;
+}
+
 #donation-widget-wrapper {
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .donation-widget {
-  /* padding: 2em 2em 5em 2em; */
-  /* width: 80%; */
+  padding: 0em 2em 4em 2em;
+  width: 90%;
+  /* border: 1px solid red; */
   /* branded widget w 2-column layout */
-  padding: 0em 2em;
+  /* padding: 0em 2em;
   min-width: 20em;
   break-before: column;
-  height: 1em;
+  height: 1em; */
 }
 
-.gl-branded-donation-widget {
+/* .gl-branded-donation-widget {
   box-shadow: none !important;
 }
 
 .tw-font-nunito {
   background-color: #8a72d2;
-}
+} */
 
 /* hide donation widget images for simplicity and easier mavigation */
-.img-fluid {
+/* widget isn't reading from this stylesheet : have to figure out how to add a stylesheet to implement the customizations below */
+/* .img-fluid {
   display: none;
 }
 
@@ -505,19 +517,20 @@ p {
 
 .tw-mx-auto tw-mt-16 tw-max-w-md tw-rounded-2xl tw-border tw-border-solid tw-border-charcoal-100 tw-p-6 desktop:tw-mt-24 {
   margin-top: 2em;
-}
+} */
 
 #give-image {
   width: 100%;
   /* branded widget w 2-column layout */
-  /* border-top: 1px solid #080A24; */
-  /* border-bottom: 1px solid #080A24; */
-  padding: 3em 1em;
+  border-top: 1px solid #080A24;
+  border-bottom: 1px solid #080A24;
+  padding: 2em 1em;
   margin-right: 1em;
 }
 
 #giving-tree-image {
-  padding-top: 1em;  width: 100%;
+  padding-top: 1em;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

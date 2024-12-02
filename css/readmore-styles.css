@@ -431,7 +431,7 @@ p {
 }
 
 #give-main-section {
-/* padding: 1em 0.5em 1em 0; */
+  padding: 5em 0em 1em 0;
 }
 
 #give-main-section a {
@@ -442,12 +442,35 @@ p {
   margin: 0;
 }
 
-#give-info {
-  padding-bottom: 1.5em;
+#give-info p {
+  margin-bottom: 0;
 } 
 
 #give-info a {
   text-decoration: none;
+}
+
+#donate-here-title {
+  padding: 3em 2em 2em 2em;
+  margin: 0;
+}
+
+#donate-here-title h3, p {
+  margin: 0;
+}
+
+#donation-widget-wrapper {
+  /* overflow: scroll; */
+}
+
+.donation-widget {
+  padding: 2em 1em;
+  width: 100%;
+  /* branded widget w 2-column layout
+  padding: 0em 2em;
+  min-width: 20em;
+  break-before: column;
+  height: 1em; */
 }
 
 #give-image {
@@ -459,7 +482,8 @@ p {
 }
 
 #giving-tree-image {
-  padding-top: 1em;  width: 100%;
+  padding-top: 1em;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

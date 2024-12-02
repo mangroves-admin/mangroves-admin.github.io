@@ -190,6 +190,25 @@
   #directors-col-1, #directors-col-2, #advisory-col-1, #advisory-col-2, #personnel-col-1, #personnel-col-2 {
     margin-right: 4em;
   }
+  #donate-here-title {
+    padding: 3em 2em 2em 2em;
+    margin: 0;
+  }
+  
+  #donate-here-title h3, p {
+    margin: 0;
+  }
+
+  .donation-widget {
+    padding: 0em 2em 4em 2em;
+    width: 90%;
+    /* border: 1px solid red; */
+    /* branded widget w 2-column layout */
+    /* padding: 0em 2em;
+    min-width: 20em;
+    break-before: column;
+    height: 1em; */
+  }
 
   #give-image {
     width: 60%;

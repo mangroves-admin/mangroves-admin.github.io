@@ -36,6 +36,7 @@ permalink: /home/
                             <div class="marginal-blurb">
                                 <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
                                 <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
                             </div>
                         </div>
                         <div class="think-info-wrapper">

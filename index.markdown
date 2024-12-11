@@ -4,7 +4,7 @@
 
 layout: mangroves-home
 title: Mangroves
-permalink: /
+permalink: /home/
 ---
 
 <head>

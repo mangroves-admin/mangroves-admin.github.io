@@ -36,12 +36,11 @@
   --fs-150: 19px;
   --fs-100: 18px;
 
-
-  --px-400: 100vw;
   --px-600: 240vw;
+  --px-400: 100vw;
 
-  --ht-200: 30vw;
   --ht-400: 10em;
+  --ht-200: 30vw;
 
 }
 
@@ -57,11 +56,11 @@
     --fs-150: 0.85rem;
     --fs-100: 0.75rem;
 
-    --px-400: 12em;
     --px-600: 24em;
+    --px-400: 12em;
 
-    --ht-200: 30px;
     --ht-400: 10em;
+    --ht-200: 30px;
   }
 
   html, body {
@@ -143,12 +142,16 @@
   .intro-text p {
     /* line-height: 5em; */
     font-size: var(--fs-300) !important;
-    /* border: 1px solid red; */
   }
 
   .right-border-box, .right-border-box-dark {
     /* width: 100%; */
     /* margin-right: 31px !important; */
+  }
+
+  .margin-column {
+    /* show margins on desktop */
+    display: flex !important;
   }
 
   .section-title h3 {
@@ -178,10 +181,10 @@
   }
 
   /* kill this to get back to 1-column layout if desired */
-  /* #board-of-directors, #advisory-board, #personnel {
-  flex-wrap: nowrap;
-  width: 100%;
-  } */
+   #board-of-directors, #advisory-board, #personnel {
+   flex-wrap: nowrap;
+    width: 100%;
+  }
 
   #directors-title h3, #advisory-title h3, #personnel-title h3 {
     margin-bottom: 0;
@@ -203,7 +206,6 @@
   .donation-widget {
     padding: 0em 2em 4em 2em;
     width: 90%;
-    /* border: 1px solid red; */
     /* branded widget w 2-column layout */
     /* padding: 0em 2em;
     min-width: 20em;
@@ -441,7 +443,6 @@
 
   #rome-column-2-1 {
     width: 66%;
-    /* border: 1px solid red; */
     /* display: block; */
   }
 
@@ -500,6 +501,9 @@
   
 }
 
+
+
+
 body {
   background-color: #1d2042;
   margin: 0 auto;
@@ -522,7 +526,6 @@ p {
 }
 
 #curly-left {
-  /* border: 1px solid yellow; */
   padding: 10px;
   height: 40px;
   width: 40px;
@@ -534,7 +537,6 @@ p {
 }
 
 #curly-right {
-  /* border: 1px solid yellow; */
   padding: 10px;
   height: 40px;
   width: 40px;
@@ -546,7 +548,6 @@ p {
 }
 
 #curly-mailbox-top-left {
-  /* border: 1px solid yellow; */
   height: 30px;
   width: 30px;
   /* float: right; */
@@ -557,7 +558,6 @@ p {
 }
 
 #curly-mailbox-top-right {
-  /* border: 1px solid yellow; */
   /* padding: 10px; */
   height: 30px;
   width: 30px;
@@ -569,7 +569,6 @@ p {
 }
 
 #curly-mailbox-bottom-left {
-  /* border: 1px solid yellow; */
   /* padding: 10px; */
   height: 30px;
   width: 30px;
@@ -581,7 +580,6 @@ p {
 }
 
 #curly-mailbox-bottom-right {
-  /* border: 1px solid yellow; */
   /* padding: 10px; */
   height: 30px;
   width: 30px;
@@ -609,7 +607,6 @@ p {
 .home-title h1, .home-title h3 {
   color: #f2f4d4;
   font-weight: 500;
-  /* border: 1px solid red; */
 }
 
 
@@ -620,7 +617,6 @@ p {
   padding: 0 1em 1em 0;
   margin-top: -1.5em;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 #dark-title {
@@ -837,8 +833,6 @@ p {
 
 
 
-
-
 #think-section {
   background-color: #151739;
   width: 100%;
@@ -856,7 +850,6 @@ p {
   justify-content: center;
   flex-direction: column;
   /* padding: 0 3em 0 0; */
-  /* border: 1px solid red; */
 }
 
 .right-border-box {
@@ -867,7 +860,6 @@ p {
   justify-content: center;
   flex-direction: column;
   border-right: 1px solid white;
-  /* border: 1px solid red; */
   /* padding-right: 1em; */
 }
 
@@ -879,7 +871,6 @@ p {
   justify-content: center;
   flex-direction: column;
   border-right: 1px solid #080A24;
-  /* border: 1px solid red; */
 }
 
 #right-border-box-dark h3 {
@@ -891,7 +882,7 @@ p {
   max-width: 100%;
   text-align: left;
   /* height: 5em; */
-  /* border: 1px solid red; */
+
 }
 
 
@@ -914,7 +905,6 @@ p {
   max-width: 100%;
   text-align: left;
   /* height: 5em; */
-  /* border: 1px solid red; */
 }
 
 .section-subtitle h3 {
@@ -932,7 +922,8 @@ p {
 }
 
 #think-section-title, #do-section-title {
-  max-width: 60em;
+  /* align with main text in three-column "marginal blurbs" layout  */
+  max-width: 55%;
 }
 
 #do-section-title {
@@ -969,6 +960,9 @@ p {
   font-style: italic;
 }
 
+.think-info {
+  width: 100%;
+}
 
 .think-info h4 {
   float: right;
@@ -992,6 +986,43 @@ p {
   max-width: 60em;
   align-items: center;
   flex-direction: column;
+}
+
+.marginal-blurb p {
+  font-size: var(--fs-250);
+}
+
+.three-column {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 1em 0.5em 1em 0;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  max-width: 60em;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.think-info-wrapper {
+  width: 60%;
+}
+
+.margin-column {
+  /* hide margins for mobile */
+  display: none;
+  width: calc(20% - 3.5em);
+  padding: 0em 3.5em;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.right-margin {
+  /* border: 1px solid green; */
+}
+
+.left-margin {
+  /* border: 1px solid goldenrod; */
 }
 
 #think-link {

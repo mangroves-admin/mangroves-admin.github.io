@@ -19,7 +19,7 @@ permalink: /home/
         <div class="intro" id="home-intro">
             <div class="right-border-box" id="home-intro-box">
                 <div class="intro-text">
-                    <p><span>Mangroves</span>: a do-think tank. We are small, but <i>dreaming</i> - though never alone. We are concerned with <i>l o n g</i> planetary lifewebs and how they might resprout and thrive. As a collaboratory, we stage coworking in-house with staff and annual Fellows, with folks all over, and non-human <i>coactants</i> - always.</p>
+                    <p><span>Mangroves</span>: a do-think tank. We are small, but <i>dreaming</i> - though never alone. We are concerned with <i>l o n g</i> planetary lifewebs and how they might resprout and thrive. As a collaboratory, we stage coworking in-house with staff and annual Fellows, with folks all over, and non-human <i>coactants</i> - always. </p>
                 </div> 
             </div>
         </div>
@@ -31,12 +31,27 @@ permalink: /home/
                     <h3>Think</h3>
                 </div>
                 {% for item in site.data.think %}
-                    <div class="think-item">
-                        <div class="think-title">
-                            <h3>{{ item.title }}</h3>
+                    <div class="three-column">
+                        <div class="margin-column left-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                            </div>
                         </div>
-                        <div class="think-info">
-                            <p>{{ item.copy }}</p>
+                        <div class="think-info-wrapper">
+                            <div class="think-title">
+                                <h3>{{ item.title }}</h3>
+                            </div>
+                            <div class="think-info">
+                                <p>{{ item.copy }}</p>
+                            </div>
+                        </div>
+                        <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
                         </div>
                     </div>
                 {% endfor %}

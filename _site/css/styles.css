@@ -181,9 +181,9 @@
   }
 
   /* kill this to get back to 1-column layout if desired */
-  #board-of-directors, #advisory-board, #personnel {
-  flex-wrap: nowrap;
-  width: 100%;
+   #board-of-directors, #advisory-board, #personnel {
+   flex-wrap: nowrap;
+    width: 100%;
   }
 
   #directors-title h3, #advisory-title h3, #personnel-title h3 {
@@ -415,7 +415,6 @@
     box-shadow: inset 0px 0px 10px black;
   }
 
-
   .responsive-three-columns > * {
     padding: 2em !important;
     color: #f2f4d4;
@@ -436,6 +435,20 @@
     display: flex;
     flex-wrap:wrap;
   }
+
+  .rome-column h2 {
+    margin-top: 0;
+    padding-bottom: 1em;
+  }
+  
+  .rome-column p {
+    padding-bottom: 2em;
+  }
+
+  .rome-column ul, .rome-column ol {
+    margin-top: 0;
+  }
+  
 
   #rome-column-2-1-1 p, #rome-column-2-1-2 p {
     font-size: var(--fs-300);
@@ -792,8 +805,7 @@ p {
 .responsive-three-columns h2 {
   text-transform: uppercase;
   margin-bottom: -10px;
-  margin-top: 10px;
-
+  /* margin-top: 10px; */
 }
 
 .responsive-three-columns li {
@@ -816,8 +828,7 @@ p {
 .responsive-two-columns h2 {
   text-transform: uppercase;
   margin-bottom: -10px;
-  margin-top: 10px;
-
+  /* margin-top: 10px; */
 }
 
 .responsive-two-columns li {
@@ -904,6 +915,7 @@ p {
 .section-subtitle {
   max-width: 100%;
   text-align: left;
+  padding-bottom: 1em;
   /* height: 5em; */
 }
 
@@ -921,7 +933,7 @@ p {
   margin-top: -1em;
 }
 
-#think-section-title, #do-section-title {
+#think-section-title {
     /* align with main text in three-column "marginal blurbs" layout  */
     max-width: 55%;
 }

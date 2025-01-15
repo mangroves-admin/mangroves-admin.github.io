@@ -1,0 +1,22 @@
+https://transalt.org/
+
+/mangroves-test-website\
+
+
+
+
+<script>gl=document.createElement('script');gl.src='https://secure.givelively.org/widgets/branded_donation/mangroves.js';document.getElementsByTagName('head')[0].appendChild(gl);</script><div data-widget-src='https://secure.givelively.org/donate/mangroves?ref=sd_widget' id="give-lively-widget" class="gl-branded-donation-widget"></div>
+
+
+donation widget:
+background-color: #8a72d2
+
+donate now button:
+background-color: #664fab
+old gross hover color from core profile page: #d7e444
+
+
+background-color: transparent;
+    border: none;
+    padding: 0em 1em;
+    color: #080A24;

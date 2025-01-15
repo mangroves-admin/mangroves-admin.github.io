@@ -13,33 +13,34 @@ permalink: /give/
     <link rel="stylesheet" type="text/css" href="../css/readmore-styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 
-
 <body id="give-body">
     <div id="give-wrapper">
 
         <div class="info-block" id="give-main">
             <div class="right-border-box-dark" id="give-border-box">
 
-            
+
                 <div class="think-page-section" id="give-main-section">
 
-                    {% for item in site.data.give-subpage %}
-                        <div class="give-item">
-                            <div class="section-title" id="give-subpage-title">
-                                <h3>{{ item.title }}</h3>
+                    <!-- <div class="think-page-section" id="give-main-content-wrapper"> -->
+                        {% for item in site.data.give-subpage %}
+                            <div class="give-item">
+                                <div class="section-title" id="give-subpage-title">
+                                    <h3>{{ item.title }}</h3>
+                                </div>
+                                <div id="give-info">
+                                    <p>{{ item.copy }}</p>
+                                </div>
                             </div>
-                            <div class="do-info" id="give-info">
-                                <p>{{ item.copy }}</p>
-                            </div>
+                        {% endfor %}
+
+                        <div class="section-title" id="donate-here-title">
+                            <h3>Donate Here</h3>
+                            <p>We cordially thank you!</p>
                         </div>
-                    {% endfor %}
 
-                    <div class="section-title" id="donate-here-title">
-                        <h3>Donate Here</h3>
-                        <p>We cordially thank you!</p>
-                    </div>
 
-                    <div class="donation-widget">
+                        <div class="donation-widget">
                             <!-- simple donation widget -->
                             <script>gl=document.createElement('script');gl.src='https://secure.givelively.org/widgets/simple_donation/mangroves.js?show_suggested_amount_buttons=true&show_in_honor_of=false&address_required=false&has_required_custom_question=null&suggested_donation_amounts[]=50&suggested_donation_amounts[]=100&suggested_donation_amounts[]=500&suggested_donation_amounts[]=1000';document.getElementsByTagName('head')[0].appendChild(gl);</script><div id="give-lively-widget" class="gl-simple-donation-widget"></div>
                             <!-- end donation widget -->
@@ -59,10 +60,10 @@ permalink: /give/
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
-    
+
 </body>
+

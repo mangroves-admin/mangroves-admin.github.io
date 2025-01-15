@@ -17,7 +17,7 @@ permalink: /reach/
     <div id="wrapper">
         <div class="right-border-box" id="reach-border-box">
 
-            <div class="section-title" id="think-section-title">
+            <div class="section-title" id="reach-subpage-title">
                 <h3>Reach</h3>
             </div>
 

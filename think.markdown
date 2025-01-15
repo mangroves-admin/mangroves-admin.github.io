@@ -19,7 +19,7 @@ permalink: /think/
         <div class="info-block" id="basal-block">
             <div class="right-border-box" id="basal-border-box">
             
-                <div class="section-title" id="think-section-title">
+                <div class="section-title" id="think-subpage-title">
                     <h3>Think</h3>
                 </div>
                

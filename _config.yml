@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mangroves -- a collaboratory for surging life
 #baseurl: /mangroves.github.io/ # the subpath of your site, e.g. /blog
 baseurl: ''
-url: https://mangroves-admin.github.io
+url: https://mangroves-admin.github.io/home/
 twitter_username: jekyllrb
 github_username:  mangroves-admin
 

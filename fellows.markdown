@@ -61,8 +61,8 @@ permalink: /fellows/
           {% endfor %}
 
           <div class="reading-list-links" id="2122-reading-list-links">
-            <h4><a href="/fellows/reading-list-2122.html" target="_blank">Reading List (with links)</a></h4>
-            <h4><a href="/content/pilot-fellowship/reading-list-2122.pdf" target="_blank">Reading List (PDF)</a></h4>
+            <h4><a href="../fellows/reading-list-2122.html" target="_blank">Reading List (with links)</a></h4>
+            <h4><a href="../content/pilot-fellowship/reading-list-2122.pdf" target="_blank">Reading List (PDF)</a></h4>
           </div>
 
         </div>
@@ -99,8 +99,8 @@ permalink: /fellows/
           {% endfor %}
 
           <div class="reading-list-links" id="2223-reading-list-links">
-            <h4><a href="/fellows/reading-list-2223.html" target="_blank">Reading List (with links)</a></h4>
-            <h4><a href="/content/pilot-fellowship/reading-list-2223.pdf" target="_blank">Reading List (PDF)</a></h4>
+            <h4><a href="../fellows/reading-list-2223.html" target="_blank">Reading List (with links)</a></h4>
+            <h4><a href="../content/pilot-fellowship/reading-list-2223.pdf" target="_blank">Reading List (PDF)</a></h4>
           </div>
 
         </div>

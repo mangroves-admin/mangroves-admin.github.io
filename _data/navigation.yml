@@ -1,15 +1,15 @@
 - name: Home
-  link: home/
+  link: ./
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /think/
+  link: ./think/
 - name: Do
   id: do-nav
-  link: /do/
+  link: ./do/
 - name: Meet
-  link: /meet/
+  link: ./meet/
 - name: Give
-  link: /give/
+  link: ./give/
 - name: Reach
-  link: /reach/
+  link: ./reach/

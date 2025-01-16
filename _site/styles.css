@@ -1010,7 +1010,7 @@ p {
   padding: 1em 0.5em 1em 0;
   margin-right: 0.5em;
   margin-bottom: 1em;
-  max-width: 60em;
+  /* max-width: 60em; */
   display: flex;
   align-items: center;
   flex-direction: row;

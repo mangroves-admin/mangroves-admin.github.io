@@ -10,6 +10,6 @@
 - name: Meet
   link: /mangroves-test-website/meet/
 - name: Give
-  link: /mangroves-test-website/give/
+  link: ../give/
 - name: Reach
-  link: /mangroves-test-website/reach/
+  link: ../reach/

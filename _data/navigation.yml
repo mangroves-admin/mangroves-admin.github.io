@@ -1,9 +1,9 @@
 - name: Home
-  link: /home/
+  link: /mangroves-test-website/home/
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /think/
+  link: /mangroves-test-website/think/
 - name: Do
   id: do-nav
   link: /do/

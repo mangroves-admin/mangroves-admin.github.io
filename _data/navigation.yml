@@ -6,10 +6,10 @@
   link: /mangroves-test-website/think/
 - name: Do
   id: do-nav
-  link: /do/
+  link: /mangroves-test-website/do/
 - name: Meet
-  link: /meet/
+  link: /mangroves-test-website/meet/
 - name: Give
-  link: /give/
+  link: /mangroves-test-website/give/
 - name: Reach
-  link: /reach/
+  link: /mangroves-test-website/reach/

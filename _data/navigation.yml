@@ -1,14 +1,14 @@
 - name: Home
-  link: /mangroves-test-website/home/
+  link: ../home/
 # - name: About
 #   link: /about.html
 - name: Think
-  link: /mangroves-test-website/think/
+  link: ../think/
 - name: Do
   id: do-nav
-  link: /mangroves-test-website/do/
+  link: ../do/
 - name: Meet
-  link: /mangroves-test-website/meet/
+  link: ../meet/
 - name: Give
   link: ../give/
 - name: Reach

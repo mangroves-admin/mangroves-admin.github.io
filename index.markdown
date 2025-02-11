@@ -77,13 +77,38 @@ permalink: /home/
                     <h4>Going</h4>
                 </div>
                 {% for item in site.data.do %}
-                    <div class="do-item">
+                    <!-- <div class="do-item">
                         <div class="do-title-home">
                             <h3>{{ item.title }}</h3>
                         </div>
                         <div class="do-info" id="do-homepage-copy">
                             <p>{{ item.copy }}</p>
                             <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
+                        </div>
+                    </div> -->
+                     <div class="three-column">
+                        <div class="margin-column left-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                            </div>
+                        </div>
+                        <div class="think-info-wrapper">
+                           <div class="do-title-home">
+                            <h3>{{ item.title }}</h3>
+                        </div>
+                        <div class="think-info" id="do-homepage-copy">
+                            <p>{{ item.copy }}</p>
+                            <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
+                        </div>
+                        </div>
+                        <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
                         </div>
                     </div>
                 {% endfor %}
@@ -95,10 +120,34 @@ permalink: /home/
         <div class="info-block" id="stretching-forth">
             <div class="right-border-box">
                 {% for item in site.data.stretching-forth %}
-                <div class="do-item" id="stretching-forth-text">
+                <!-- <div class="do-item" id="stretching-forth-text">
                         <h3>{{ item.title }}</h3>
                         <p>{{ item.copy }}</p>
-                </div>
+                </div> -->
+                <div class="three-column">
+                        <div class="margin-column left-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                            </div>
+                        </div>
+                        <!-- <div class="think-info-wrapper">
+                           <div class="do-title-home">
+                            <h3>{{ item.title }}</h3>
+                        </div> -->
+                        <div class="do-item" id="stretching-forth-text">
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.copy }}</p>
+                        </div>
+                        <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
+                        </div>
+                    </div>
                 {% endfor %}
                  <div id="blue-flower-contact">
                 </div>
@@ -109,16 +158,17 @@ permalink: /home/
             <div class="right-border-box" id="meet-border-box">
                 <div class="intro" id="meet-text">
                     {% for item in site.data.meet %}
-                    <div class="section-title" id="meet-item-title">
+                     <div class="do-item" id="stretching-forth-text">
+                        <div class="section-title" id="meet-item-title">
                         <h3>{{ item.title }}</h3>
-                    </div>
-                    <div class="do-item" id="meet-item-inside">
+                        </div>
+                        <div class="do-item" id="give-item-inside">
                         <div class="do-info">
                             <p>{{ item.copy }}</p>
                             <a href="{{ item.url }}" target="_blank"><h4>Read more |</h4></a>
                         </div>
                     </div>
-                {% endfor %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

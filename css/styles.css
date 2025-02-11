@@ -24,6 +24,11 @@
   src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf ');
 }
 
+@font-face {
+  font-family: 'Ubuntu-Italic';
+  src: url('../design/fonts/Ubuntu/Ubuntu-Italic.ttf ');
+}
+
 :root {
   
   --fs-xl: ;
@@ -940,6 +945,7 @@ p {
 
 #do-section-title {
   margin-bottom: 1em;
+  max-width: 55%;
 }
 
 #do-section-title h3 {
@@ -981,7 +987,7 @@ p {
   color: #5a86ff;
   font-weight: 600;
   font-size: var(--fs-200);
-  margin-top: -5px;
+  /* margin-top: -5px; */
   margin-right: 10px;
 }
 
@@ -1002,6 +1008,9 @@ p {
 
 .marginal-blurb p {
   font-size: var(--fs-250);
+  /* font-family: "Ubuntu-Italic"; */
+  font-style: italic;
+  z-index: 9;
 }
 
 .three-column {
@@ -1012,7 +1021,7 @@ p {
   margin-bottom: 1em;
   /* max-width: 60em; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: row;
 }
 
@@ -1082,7 +1091,7 @@ p {
   color: #5a86ff;
   font-weight: 600;
   font-size: var(--fs-200);
-  margin-top: -5px;
+  /* margin-top: -5px; */
 }
 
 .do-info p {
@@ -1197,6 +1206,10 @@ p {
 
 #meet-item-inside, #give-item-inside, #reach-item-inside {
   margin-bottom: 0;
+  max-width: 60em;
+  background-color: transparent;
+  padding: 0em 3em;
+  z-index: 1;
 }
 
 #reach-section {

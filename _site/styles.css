@@ -1001,7 +1001,7 @@ p {
 }
 
 .marginal-blurb p {
-  font-size: var(--fs-250);
+  font-size: var(--fs-800) !important;
 }
 
 .three-column {

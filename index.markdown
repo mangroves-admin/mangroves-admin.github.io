@@ -251,7 +251,6 @@ permalink: /home/
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>   
     </div>
-</body>
+<!-- </body> -->

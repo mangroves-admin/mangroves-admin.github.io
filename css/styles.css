@@ -125,7 +125,7 @@
   }
 
   .think-info, .do-info {
-    max-width: 60em;
+    /* max-width: 60em; */
   }
 
   .do-info img {
@@ -979,7 +979,7 @@ p {
 }
 
 .think-info {
-  width: 100%;
+  width: 60vw;
 }
 
 .think-info h4 {

@@ -27,7 +27,15 @@ permalink: /think/
                     
 
                     {% for item in site.data.basal-thought %}
-                    <div class="think-item">
+                    <div class="three-column">
+                        <div class="margin-column left-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                            </div>
+                        </div>
+                        <div class="think-info">
                             <div class="think-title">
                                 <h3>{{ item.title }}</h3>
                             </div>
@@ -36,7 +44,15 @@ permalink: /think/
                             </div>
                             <div class="think-info">
                                 <p>{{ item.copy }}</p>
+                        </div>
+                        </div>
+                        <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
                             </div>
+                        </div>
                     </div>
                     {% endfor %}
                 </div>
@@ -53,7 +69,15 @@ permalink: /think/
             <div class="right-border-box" id="periblem-border-box">
                 <div class="think-page-section" id="periblem-vs-problem">
                     {% for item in site.data.periblem-vs-problem %}
-                    <div class="think-item">
+                    <div class="three-column">
+                        <div class="margin-column left-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                            </div>
+                        </div>
+                        <div class="think-item">
                         <div class="think-info" id="periblem-info">
                             <div class="think-title">
                                 <h3>{{ item.title }}</h3>
@@ -69,6 +93,15 @@ permalink: /think/
                             </div>
                         </div>
                     </div>
+                        <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
+                        </div>
+                    </div>
+                   
                     {% endfor %}
                 </div>
             </div>
@@ -78,7 +111,15 @@ permalink: /think/
             <div class="right-border-box" id="counterdesign-border-box">
                 <div class="think-page-section" id="deep-counterdesign">
                     {% for item in site.data.deep-counterdesign %}
-                    <div class="think-item">
+                    <div class="three-column">
+                        <div class="margin-column left-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                            </div>
+                        </div>
+                        <div class="think-item">
                             <div class="think-title">
                                 <h3>{{ item.title }}</h3>
                             </div>
@@ -89,6 +130,14 @@ permalink: /think/
                                 </div>
                                 <p>{{ item.copy }}</p>
                             </div>
+                        </div>
+                        <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
+                        </div>
                     </div>
                     {% endfor %}
                 </div>

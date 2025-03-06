@@ -1,4 +1,4 @@
-- name: Ameen Ahmed
+- name: Ameen Ahmed - Toronto, Canada/Bengaluru, India
   background: ../design/img/bio-headshots/ameen-ahmed.jpg
   bio: "Ameen Ahmed is a curator, artist, writer, and researcher from Bangalore, India, and
         Toronto, Canada. His current research interests revolve around \"magic\", which he
@@ -6,17 +6,29 @@
         corporate agents of \"progress\" and \"development\". This is part of a larger interest in
         stories and storytelling, whether those stories are disseminated through media, or
         through visual, political, or architectural means."
+  left-blurb-1: ""
+  left-blurb-1-color: "rgb(0,0,0,)"
+  left-blurb-2: 
+  left-blurb-2-color: "rgb(0,0,0)"
+  left-blurb-3: 
+  left-blurb-3-color: "rgb(0,0,0)"
+  right-blurb-1: "we move like avant-garde dancers"
+  right-blurb-1-color: "rgb(128, 0, 47)"
+  right-blurb-2: ""
+  right-blurb-2-color: "rgb(139, 255, 93)"
+  right-blurb-3:
+  right-blurb-3-color: "rgb(0,0,0)"
 
-- name: Duff Allen
+- name: Duff Allen - Woodstock, NY, USA
   background: ../design/img/bio-headshots/duff-allen.jpg
   bio: "Duff Allen is a writer living in upstate New York. His work is driven by an underlying and
         indomitable happy despair that regards storytelling as the light seen through the
         keyhole, even if the door is quite heavy and bolted shut. He teaches writing at Bard
         College."
 
-- name: Massimo Angrilli
+- name: Massimo Angrilli - Pescara, Italy
   background: ../design/img/bio-headshots/massimo-angrilli.jpg
-  bio: "Architect and Phd, he studied at the Architecture Faculties of Pescara and Paris-Tolbiac,
+  bio: "Architect and PhD, he studied at the Architecture Faculties of Pescara and Paris-Tolbiac,
         he received a PhD in Urbanism at the Inter-university Doctorate of Rome-Pescara in
         2000, with a thesis entitled \"Green Urban Network\", with landscape architect Michael
         Hough (University of Toronto) as external tutor. He is
@@ -28,7 +40,7 @@
         Hough), author of papers published in national and international scientific magazines."
 
 
-- name: Cris Culton
+- name: Cris Culton - Durham, NC, USA
   background: ../design/img/bio-headshots/cris-culton.jpg
   bio: "Cris takes an artistic-historical approach in thinking about how we create knowledge.
         Originally from Los Angeles, they attended UC Santa Cruz, earning a degree in history.
@@ -37,7 +49,7 @@
         Cris is fascinated with the power that poetry, art, music, and the beach have in moving
         our world."
 
-- name: Vanessa Hein
+- name: Vanessa Hein - Chicago, USA
   background: ../design/img/bio-headshots/vanessa-hein.jpg
   bio: "I am a born and raised east coast HipHop head and educational anthropologist. My son is
         undoubtedly my greatest love. Music is my vitality and culture is my universe. I have a
@@ -48,7 +60,7 @@
         widest variety of experiences one could engage in, I am constantly seeking growth of
         mind, body, and soul."
   
-- name: Nasr Ibrahim
+- name: Nasr Ibrahim - Durham, NC, USA/Cairo, Egypt 
   background: ../design/img/bio-headshots/nasr-ibrahim.jpg
   bio: "Mr. Nasr Ibrahim has ten years of experience in financial evaluation, commercial
         banking, loan guarantee schemes, access to finance, women's economic empowerment,
@@ -62,7 +74,7 @@
         graduate assistant for the MIDP admissions team and a MIDP student ambassador at
         Duke University."
   
-- name: Meli Blake Kimathi
+- name: Meli Blake Kimathi - Durham, NC, USA
   background: ../design/img/bio-headshots/meli-blake-kimathi.jpg
   bio: "Meli Kimathi labors at the intersections of race, gender, and culture to activate wisdom,
         words, and ways for community solidarity. Broadly interested in mental health
@@ -71,18 +83,18 @@
         Her doctorate is forthcoming from UNC-Chapel Hill, where her engaged scholarship
         explores the healing work of DJs through African diaspora music in live party spaces."
   
-- name: Karna Morey
+- name: Karna Morey - Barcelona, Spain/Durham, NC, USA
   background: ../design/img/bio-headshots/karna-morey.jpg
   bio: "Karna Morey is a physicist, with expertise in both astrophysics and condensed matter
         physics. He is broadly interested in interdisciplinary research methods in theoretical and
         experimental physics, especially projects that use statistics and data analysis to work at
         the intersection of the two. He is also passionate about anti-racism and feminism within
-        academia and the broader world and has been involved in a number of diversity, equity,
+        academia and the broader world, and has been involved in a number of diversity, equity,
         and inclusion initiatives (DEI). He is currently working at the University of Barcelona as a
         visiting researcher. Outside of physics, Karna enjoys running, classical guitar, cooking,
         and hiking!"
   
-- name: Adenike Oladosu
+- name: Adenike Oladosu - Abuja, Nigeria
   background: ../design/img/bio-headshots/adenike-oladosu.jpg
   bio: "Oladosu Adenike Titilope is the founder of I Lead Climate Action Initiative that advocate
         for the restoration of Lake Chad and a green democracy. She specializes in peace,
@@ -93,7 +105,7 @@
         empowered thousands of women through her initiative of giving women and girls
         access to the use and control of resources."
   
-- name: Michal Osterweil
+- name: Michal Osterweil - Carrboro, NC, USA
   background: ../design/img/bio-headshots/michal-osterweil.jpg
   bio: "Michal teaches in the Curriculum in Global Studies at UNC Chapel Hill. She believes that
         learning how to live into a resilient future requires a pedagogy that considers theory,
@@ -104,7 +116,7 @@
         healing modalities and embodiment practices, seeking to integrate them into her
         teaching."
   
-- name: Zolani Prince Shapiro Tyalimpi
+- name: Zolani Prince Shapiro Tyalimpi - Greene, NY, USA/Askeaton, South Africa
   background: ../design/img/bio-headshots/zolani-tyalimpi.jpg
   bio: "A Mangrovian 22-23 Cultural Activist, working at Page Seed as an assembler of seed
         orders for American growers, the State, and her neighbors. His progression in life is and

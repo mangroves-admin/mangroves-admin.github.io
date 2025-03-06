@@ -282,6 +282,11 @@ f
     display: block;
   }
 
+  #three-column-fellows-2223 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
   #fellows-2223-info-img {
     float: right;
     margin: 1em 0 0 3em;
@@ -314,6 +319,10 @@ f
     justify-content: center;
     flex-wrap: nowrap;
     max-width: 90%;
+  }
+
+  .fellow {
+    width: 100% !important;
   }
 
   .initiative {

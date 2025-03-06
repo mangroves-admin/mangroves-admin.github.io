@@ -83,18 +83,30 @@ permalink: /fellows/
                 <h4><a href="../content/pilot-fellowship/reading-list-2223.pdf" target="_blank">Reading List (PDF)</a></h4>
           </div>
         </div>
+      </div>
         
 
-        <div class="info-block">
+      <div class="info-block">
           <!-- <div class="right-border-box-dark"> -->
-          <div class="think-item" id="fellows">
-
-            <div id="fellows-2223">
-              <div class="section-title" id="fellows-2223-bios-title">
+            <div class="think-item">
+              <div class="section-title " id="fellows-2223-bios-title">
                 <h3>Mangroves Pilot Fellows 2022-2023</h3>
               </div>
+            </div>
+            
+            <div id="fellows-2223">
 
               {% for item in site.data.fellows %}
+              <div class="three-column">
+
+                <div class="margin-column left-margin">
+                  <div class="marginal-blurb">
+                    <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                    <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                    <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                  </div>
+                </div>
+
                 <div class="fellow">
                   <div class="fellow-headshot" style="background-image: url( {{ item.background }} );">
                     <!-- <img src="{{ item.background }}"> -->
@@ -105,17 +117,26 @@ permalink: /fellows/
                     <p>{{ item.bio }}</p>
                   </div>
                 </div>
+
+                 <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
+                        </div>
+              </div>
               {% endfor %}
             </div>
-          </div>
-        </div>
+      </div>
+      </div>
 
 
 
         <!-- </div> -->
-      </div>
       <!-- </div> -->
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
       <!-- </div> -->
 
 
@@ -157,9 +178,9 @@ permalink: /fellows/
               <div class="think-item" id="summary-2122-section">
               </div>
 
-                <!-- <div class="fellows-subpage-title">
+                <div class="fellows-subpage-title">
                     <h3>{{ item.title }}</h3>
-                </div> -->
+                </div>
                 <div class="fellows-subpage-info">
                   <p>{{ item.copy }}</p>
                 </div>

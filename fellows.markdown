@@ -23,6 +23,125 @@ permalink: /fellows/
         </div>
       </div>
     </div>
+
+
+
+    <div class="right-border-box-dark">
+      <div class="info-block" id="summary-2122-info-block">
+        <div class="think-item" id="summary-2122-section">
+          <div class="section-title" id="fellows2425-item-title">
+            <h3>2024-25: Intelligence</h3>
+          </div>
+<!-- 
+            <div class="guest-discussants">
+              <h4>Guest Discussants:</h4>
+              <p>Dilip da Cunha (ubiquitous wetness) - Arturo Escobar and Michal Osterweil (relationality) -  Bruce Lawrence (Ibn Khaldun's historic cycles) - Daniel Richter (critical zone science) - Antonio Tamburrino (Carless Rome)</p>
+            </div> -->
+
+            <div class="intro-image-wrapper">
+              <div class="intro-text" id="fellows-2425-image">
+                <img src="/design/img/fellowship-screenshots/fellowship-intelligence.png" alt="fellows-2223-screenshot">
+              </div>
+            </div>
+        </div>
+
+
+        {% for item in site.data.fellows-summary-24-25 %}
+          <div class="three-column-fellows">
+            <div class="margin-column left-margin">
+              <div class="marginal-blurb">
+                <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+              </div>
+            </div>
+
+            <div class="think-info-wrapper fellows-wrapper">
+
+              <!-- <div class="think-item fellows-summary-section" id="summary-2425-section">
+              </div> -->
+
+                <div class="fellows-subpage-title">
+                    <h3>{{ item.title }}</h3>
+                </div>
+                <div class="fellows-subpage-info">
+                  <p>{{ item.copy }}</p>
+                </div>
+            </div>
+
+              <div class="margin-column right-margin">
+                <div class="marginal-blurb">
+                  <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                  <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                  <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                </div>
+              </div>
+          </div>
+        {% endfor %}
+
+        <div class="think-item" id="summary-2425-section">
+          <div class="reading-list-links" id="2425-reading-list-links">
+                <h4><a href="../fellows/reading-list-2223.html" target="_blank">Reading List (with links)</a></h4>
+                <h4><a href="../content/pilot-fellowship/reading-list-2223.pdf" target="_blank">Reading List (PDF)</a></h4>
+          </div>
+        </div>
+      </div>
+        
+
+      <div class="info-block">
+          <!-- <div class="right-border-box-dark"> -->
+            <div class="think-item">
+              <div class="section-title " id="fellows-2425-bios-title">
+                <h3>Mangroves Pilot Fellows 2024-25</h3>
+              </div>
+            </div>
+            
+            <div id="fellows-2425">
+
+              {% for item in site.data.fellows-24-25 %}
+              <div class="three-column">
+
+                <div class="margin-column left-margin">
+                  <div class="marginal-blurb">
+                    <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
+                    <p style="color: {{ item.left-blurb-2-color }}">{{ item.left-blurb-2 }}</p>
+                    <p style="color: {{ item.left-blurb-3-color }}">{{ item.left-blurb-3 }}</p>
+                  </div>
+                </div>
+
+                <div class="fellow">
+                  <div class="fellow-headshot" style="background-image: url( {{ item.background }} );">
+                    <!-- <img src="{{ item.background }}"> -->
+                    <!-- </div> -->
+                  </div>
+                  <div class="fellow-bio">
+                    <h3>{{ item.name }}</h3>
+                    <p>{{ item.bio }}</p>
+                  </div>
+                </div>
+
+                 <div class="margin-column right-margin">
+                            <div class="marginal-blurb">
+                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                            </div>
+                        </div>
+              </div>
+              {% endfor %}
+            </div>
+      </div>
+      </div>
+
+
+
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+      <!-- </div> -->
+
+
     
     <div class="right-border-box-dark">
       <div class="info-block" id="summary-2122-info-block">
@@ -54,10 +173,10 @@ permalink: /fellows/
               </div>
             </div>
 
-            <div class="think-info-wrapper">
+            <div class="think-info-wrapper fellows-wrapper">
 
-              <div class="think-item" id="summary-2223-section">
-              </div>
+              <!-- <div class="think-item fellows-summary-section" id="summary-2223-section">
+              </div> -->
 
                 <div class="fellows-subpage-title">
                     <h3>{{ item.title }}</h3>
@@ -90,7 +209,7 @@ permalink: /fellows/
           <!-- <div class="right-border-box-dark"> -->
             <div class="think-item">
               <div class="section-title " id="fellows-2223-bios-title">
-                <h3>Mangroves Pilot Fellows 2022-2023</h3>
+                <h3>Mangroves Pilot Fellows 2022-23</h3>
               </div>
             </div>
             
@@ -173,10 +292,10 @@ permalink: /fellows/
               </div>
             </div>
 
-            <div class="think-info-wrapper">
+            <div class="think-info-wrapper fellows-wrapper">
 
-              <div class="think-item" id="summary-2122-section">
-              </div>
+              <!-- <div class="think-item" id="summary-2122-section">
+              </div> -->
 
                 <div class="fellows-subpage-title">
                     <h3>{{ item.title }}</h3>
@@ -206,7 +325,7 @@ permalink: /fellows/
 
             <div id="fellows-2122-text">
               <div class="section-title" id="fellows-2122-bios-title">
-                <h3>Mangroves Pilot Fellows 2021-2022</h3>
+                <h3>Mangroves Pilot Fellows 2021-22</h3>
               </div>
 
               <div id="fellows-2122-bios">

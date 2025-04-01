@@ -261,8 +261,16 @@ f
     margin: 2em 3em;
   }
 
-  #fellows-setup, #summary-2122-section, #summary-2223-section {
-    padding: 0;
+  #fellows-setup, #summary-2122-section, #summary-2223-section, #summary-2425-section {
+    padding: 0
+  }
+
+  .fellows-summary-section {
+    margin-bottom: 0 !important;
+  }
+
+  .fellows-wrapper {
+    width: 100% !important;
   }
 
   #fellows-2122 {
@@ -282,36 +290,36 @@ f
     display: block;
   }
 
-  #three-column-fellows-2223 {
+  #three-column-fellows-2223, #three-column-fellows-2425 {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #fellows-2223-info-img {
+  #fellows-2223-info-img, #fellows-2425-info-img {
     float: right;
     margin: 1em 0 0 3em;
     padding: 0;
     display: block;
   }
 
-  #fellows-2122-image, #fellows-2223-image {
+  #fellows-2122-image, #fellows-2223-image, #fellows-2425-image {
     width: 100%;
   }
 
-  #fellows-2122-image img, #fellows-2223-image img {
+  #fellows-2122-image img, #fellows-2223-image img, #fellows-2425-image img {
     width: 90%;
   }
 
-  #fellows-2122-info-img img, #fellows-2223-info-img img {
+  #fellows-2122-info-img img, #fellows-2223-info-img img, #fellows-2425-info-img img {
     width: 33vw;
   }
 
-  #fellows-2122-bios {
+  #fellows-2122-bios, #fellows-2223-bios, #fellows-2425-bios {
     display: block !important;
   }
 
   .fellow, .faculty, .initiative {
-    margin: 0em 0em 4em 0em;
+    /* margin: 0em 0em 4em 0em; */
     padding-left: 2em;
     clear: left;
     display: flex;
@@ -320,6 +328,7 @@ f
     flex-wrap: nowrap;
     max-width: 90%;
   }
+
 
   .fellow {
     width: 100% !important;
@@ -366,7 +375,7 @@ f
     padding-left: 2em;
   }
 
-  #fellows2122-item-title h3, #fellows2223-item-title h3 {
+  #fellows2122-item-title h3, #fellows2223-item-title h3, #fellows2425-item-title h3 {
     font-size: var(--fs-400);
   }
 
@@ -1019,6 +1028,18 @@ p {
   padding: 1em 0.5em 1em 0;
   margin-right: 0.5em;
   margin-bottom: 1em;
+  /* max-width: 60em; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.three-column-fellows {
+  max-width: 100% !important;
+  width: 100% !important;
+  /* padding: 1em 0.5em 1em 0; */
+  margin-right: 0.5em;
+  /* margin-bottom: 1em; */
   /* max-width: 60em; */
   display: flex;
   align-items: center;

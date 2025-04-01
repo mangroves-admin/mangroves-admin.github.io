@@ -270,10 +270,18 @@
     padding: 0;
   }
 
+  .fellows-wrapper {
+    width: 100% !important;
+  }
+
   #fellows-2122 {
     display: flex;
     flex-direction: row;
     padding-bottom: 2em;
+  }
+
+  #fellows-2122-bios-copy, #fellows-2122-bios-title {
+    padding-left: 5em;
   }
 
   #fellows-2122-text {
@@ -316,7 +324,7 @@
   }
 
   .fellow, .faculty, .initiative {
-    margin: 0em 0em 4em 0em;
+    /* margin: 0em 0em 4em 0em; */
     padding-left: 2em;
     clear: left;
     display: flex;
@@ -1031,6 +1039,18 @@ p {
   /* max-width: 60em; */
   display: flex;
   /* align-items: center; */
+  flex-direction: row;
+}
+
+.three-column-fellows {
+  max-width: 100% !important;
+  width: 100% !important;
+  /* padding: 1em 0.5em 1em 0; */
+  margin-right: 0.5em;
+  /* margin-bottom: 1em; */
+  /* max-width: 60em; */
+  display: flex;
+  align-items: center;
   flex-direction: row;
 }
 

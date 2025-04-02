@@ -1022,6 +1022,10 @@ p {
   flex-direction: column;
 }
 
+.margin-column {
+  height: 100%;
+}
+
 .marginal-blurb p {
   font-size: var(--fs-800) !important;
 }

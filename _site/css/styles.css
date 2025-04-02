@@ -492,6 +492,7 @@
   #rome-questions {
     padding: 0 2em;
     margin: 2em 0 1em 0;
+    width: 100%;
   }
 
   #connival-main, #connival-proceedings {
@@ -1022,6 +1023,11 @@ p {
   align-items: center;
   flex-direction: column;
 }
+
+.margin-column {
+  height: 100%;
+}
+
 
 .marginal-blurb p {
   font-size: var(--fs-250);

@@ -1127,12 +1127,29 @@ text-transform: uppercase;
 }
 
 #rome-border-box-1, #rome-border-box-3 {
-  padding-right: 1em;
+  padding-right: calc(1em - 1px);
+  flex-direction: row;
   /* border: 1px solid red; */
 }
 
 #carless-intro-wrapper {
   padding-right: 1em;
+}
+
+#carless-rome-three-column {
+  width: 100% !important;
+  background: #151739;
+  margin: 0;
+  padding: 0;
+}
+
+#carless-rome-right-margin {
+  padding: 1em;
+  /* border: 1px solid red; */
+}
+
+#carless-rome-left-margin {
+  padding: 3em;
 }
 
 #rome-border-box-2 {
@@ -1154,6 +1171,7 @@ text-transform: uppercase;
 }
 
 #rome-main-copy-1 {
+  width: 100% !important;
   background-color: #151739;
 }
 
@@ -1233,8 +1251,17 @@ text-transform: uppercase;
   padding: 1em 1em 0 2em;
 }
 
+#approach-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #approach-copy h3 {
   margin: 1em 0 0.25em 0;
+  text-transform: uppercase;
+  font-size: var(--fs-400);
+  color: #5a86ff;
 }
 
 #approach-copy h5 {

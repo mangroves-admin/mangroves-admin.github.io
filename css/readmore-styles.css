@@ -276,7 +276,9 @@ p {
 
 #meet-section-title {
   margin: 1em 1em 0 0;
-  text-align: center;
+  /* text-align: center; */
+  max-width: 80vw;
+  width: 100%;
 }
 
 #boards-section-title h3 {

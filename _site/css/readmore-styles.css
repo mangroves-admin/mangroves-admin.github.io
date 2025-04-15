@@ -342,11 +342,6 @@ p {
   font-size: var(--fs-200);
 }
 
-.faculty-bio p a {
-  text-decoration: none;
-  color: #f2f4d4;
-}
-
 #directors-border-box {
   background-color: #390061;
 }
@@ -436,10 +431,6 @@ p {
 
 #give-border-box h3, #give-body p {
   color: #080A24;
-}
-
-.give-margin {
-  padding: 1em !important;
 }
 
 #give-main-section {

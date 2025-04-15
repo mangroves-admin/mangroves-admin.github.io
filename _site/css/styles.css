@@ -913,7 +913,8 @@ p {
 
 .section-title {
   margin-right: 1em;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 60vw;
   text-align: left;
   /* height: 5em; */
   
@@ -958,7 +959,7 @@ p {
 
 #think-section-title {
     /* align with main text in three-column "marginal blurbs" layout  */
-    max-width: 55%;
+    /* max-width: 55%; */
 }
 
 #do-section-title {
@@ -1231,6 +1232,7 @@ p {
 
 #meet-item-title, #give-item-title, #reach-item-title {
   /* height: 3em; */
+  width: 40em;
   display: flex;
   align-items: center;
 }

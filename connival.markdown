@@ -18,21 +18,44 @@ permalink: /connival/
   <div id="wrapper">
     <div class="info-block" id="connival-block">
       <div class="right-border-box right-border-box-dark" id="right-border-box-connival">
-        <h4>"Connival on Growth," TBA, Rome - a Spicy Hint:</h4>
+        <h4>"Connival on Growth," November 2026, Rome - a Spicy Hint:</h4>
 
-        <div class="responsive-two-columns" id="connival-main">
-          <div id="connival-column-1-1">
-            <p>{{ site.data.connival.copy }}</p>
-          </div>
-          <div id="connival-column-1-2">
-            <div class="image-with-credit" id="connival-main-img-container">
-              <img src="/design/img/subpage-img/rome-houses.jpg" />
+        <div class="three-column">
+
+          <div class="margin-column left-margin">
+            <div class="marginal-blurb">
+              <p style="color: rgb(193, 19, 19)"><br><br><br>conniving to grow otherwise</p>
+              <p style="color: rgb(1,1,1)"></p>
+              <p style="color: rgb(1,1,1)"></p>
             </div>
-            <div class="photo-credit" id="give-photo-credit">
-                  <p>David Liu</p>
-              </div>
           </div>
-        </div>
+
+
+          <div class="responsive-two-columns" id="connival-main">
+            <div id="connival-column-1-1">
+              <p>{{ site.data.connival.copy }}</p>
+            </div>
+            <div id="connival-column-1-2">
+              <div class="image-with-credit" id="connival-main-img-container">
+                <img src="/design/img/subpage-img/rome-houses.jpg" />
+              </div>
+              <div class="photo-credit" id="give-photo-credit">
+                    <p>David Liu</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="margin-column right-margin">
+            <div class="marginal-blurb">
+              <p style="color: rgb(0, 103, 26)"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>to come out growing, not groaning</p>
+                <p style="color: rgb(1,1,1)"></p>
+                <p style="color: rgb(1,1,1)"></p>
+              </div>
+            </div>
+          </div>
+
+
+      
       </div>
 
       <div class="right-border-box right-border-box-dark" id="right-border-box-proceedings">

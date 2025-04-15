@@ -276,7 +276,9 @@ p {
 
 #meet-section-title {
   margin: 1em 1em 0 0;
-  text-align: center;
+  /* text-align: center; */
+  max-width: 80vw;
+  width: 100%;
 }
 
 #boards-section-title h3 {
@@ -338,6 +340,11 @@ p {
 .faculty-bio p {
   margin: 0.5em 0 1em 0;
   font-size: var(--fs-200);
+}
+
+.faculty-bio p a {
+  text-decoration: none;
+  color: #f2f4d4;
 }
 
 #directors-border-box {
@@ -429,6 +436,10 @@ p {
 
 #give-border-box h3, #give-body p {
   color: #080A24;
+}
+
+.give-margin {
+  padding: 1em !important;
 }
 
 #give-main-section {

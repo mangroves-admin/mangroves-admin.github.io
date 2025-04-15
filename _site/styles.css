@@ -279,10 +279,6 @@ f
     padding-bottom: 2em;
   }
 
-  #fellows-2122-bios-copy, #fellows-2122-bios-title {
-    padding-left: 5em;
-  }
-
   #fellows-2122-text {
     width: 50%;
   }
@@ -912,7 +908,8 @@ p {
 
 .section-title {
   margin-right: 1em;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 60vw;
   text-align: left;
   /* height: 5em; */
   
@@ -1020,10 +1017,6 @@ p {
   max-width: 60em;
   align-items: center;
   flex-direction: column;
-}
-
-.margin-column {
-  height: 100%;
 }
 
 .marginal-blurb p {

@@ -297,6 +297,11 @@
     padding: 2em 1em 2em 0;
   }
 
+  #fellows-summary-2122-three-column {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   #fellows-setup {
     max-width: 80em;
     width: 80vw;

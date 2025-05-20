@@ -278,7 +278,7 @@ permalink: /fellows/
 
 
          {% for item in site.data.fellows-summary-21-22 %}
-          <div class="three-column">
+          <div class="three-column" id="fellows-summary-2122-three-column">
             <div class="margin-column left-margin">
               <div class="marginal-blurb">
                 <p style="color: {{ item.left-blurb-1-color }}">{{ item.left-blurb-1 }}</p>
@@ -295,8 +295,8 @@ permalink: /fellows/
                 <div class="fellows-subpage-title">
                     <h3>{{ item.title }}</h3>
                 </div>
-                <div class="fellows-subpage-info">
-                  <p>{{ item.copy }}</p>
+                <div class="fellows-subpage-info" id="fellows-2122-main-copy">
+                  {{ item.copy }}
                 </div>
             </div>
 

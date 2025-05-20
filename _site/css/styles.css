@@ -1320,6 +1320,7 @@ p {
 
 #give-item-title h3 {
   color: #5a86ff !important;
+  padding-bottom: 1em;
 }
 
 #meet-item-inside, #give-item-inside, #reach-item-inside {

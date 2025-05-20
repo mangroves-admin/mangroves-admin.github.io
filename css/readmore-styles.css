@@ -1200,6 +1200,7 @@ text-transform: uppercase;
 
 #rome-main-copy-1 p {
   font-size: var(--fs-200);
+  padding-bottom: 2em;
 }
 
 #rome-main-copy-2 {
@@ -1243,6 +1244,7 @@ text-transform: uppercase;
 
 #rome-column-2-1-1 p, #rome-column-2-1-2 p {
   font-size: var(--fs-250) !important;
+  padding-bottom: 2em;
 }
 
 #rome-column-2-1-2 {

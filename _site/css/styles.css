@@ -237,8 +237,8 @@
   justify-content: center;
   /* border: 1x solid red; */
   padding: 0;
-  margin: 0 0 3em 0;
-}
+  margin: 0 0 0em 0;
+  }
 
   #give-image {
     width: 60%;
@@ -286,10 +286,18 @@
   #fellows-setup {
     max-width: 80em;
     width: 80vw;
-    margin: 2em 3em;
   }
 
   #fellows-setup, #summary-2122-section, #summary-2223-section {
+    padding: 0;
+  }
+
+  .reading-list-links h4 {
+    margin: 0 0 1em 0;
+  }
+
+  #reading-list-2425, #reading-list-2223, #reading-list-2122 {
+    margin: 0;
     padding: 0;
   }
 
@@ -301,10 +309,11 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 2em;
+    width: 60em;
   }
 
   #fellows-2122-bios-copy, #fellows-2122-bios-title {
-    padding-left: 5em;
+    padding-right: 5em;
   }
 
   #fellows-2122-text {
@@ -400,7 +409,7 @@
   }
 
   .fellow-previous-year {
-    padding-left: 2em;
+    padding-left: 1em;
   }
 
   #fellows2122-item-title h3, #fellows2223-item-title h3 {
@@ -410,6 +419,7 @@
   #responses-copy {
     padding: 0 4em 0 0;
     /* max-width: 40em; */
+    width: 92%;
   }
 
   #responses-img, #depth-of-being-painting {
@@ -446,7 +456,7 @@
   }
 
   #depth-of-being-painting {
-    padding: 2.5em 0 0 0;
+    padding: 6em 0 0 0;
     width: 60%;
     float: right;
   }
@@ -1097,7 +1107,7 @@ p {
 .three-column-fellows {
   max-width: 100% !important;
   width: 100% !important;
-  /* padding: 1em 0.5em 1em 0; */
+  padding: 1em 0em 1em 0em;
   margin-right: 0.5em;
   /* margin-bottom: 1em; */
   /* max-width: 60em; */
@@ -1108,7 +1118,7 @@ p {
 
 .think-info-wrapper {
   width: 100%;
-  padding: 0.5em;
+  /* padding: 0.5em; */
 }
 
 .margin-column {

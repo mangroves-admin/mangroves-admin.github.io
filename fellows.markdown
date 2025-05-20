@@ -32,11 +32,6 @@ permalink: /fellows/
           <div class="section-title" id="fellows2425-item-title">
             <h3>2024-25: Intelligence</h3>
           </div>
-<!-- 
-            <div class="guest-discussants">
-              <h4>Guest Discussants:</h4>
-              <p>Dilip da Cunha (ubiquitous wetness) - Arturo Escobar and Michal Osterweil (relationality) -  Bruce Lawrence (Ibn Khaldun's historic cycles) - Daniel Richter (critical zone science) - Antonio Tamburrino (Carless Rome)</p>
-            </div> -->
 
             <div class="intro-image-wrapper">
               <div class="intro-text" id="fellows-2425-image">
@@ -79,7 +74,7 @@ permalink: /fellows/
           </div>
         {% endfor %}
 
-        <div class="think-item" id="summary-2425-section">
+        <div class="think-item" id="reading-list-2425">
           <div class="reading-list-links" id="2425-reading-list-links">
                 <h4><a href="../fellows/reading-list-2223.html" target="_blank">Reading List (with links)</a></h4>
                 <h4><a href="../content/pilot-fellowship/reading-list-2223.pdf" target="_blank">Reading List (PDF)</a></h4>
@@ -196,7 +191,7 @@ permalink: /fellows/
           </div>
         {% endfor %}
 
-        <div class="think-item" id="summary-2122-section">
+        <div class="think-item" id="reading-list-2223">
           <div class="reading-list-links" id="2223-reading-list-links">
                 <h4><a href="../fellows/reading-list-2223.html" target="_blank">Reading List (with links)</a></h4>
                 <h4><a href="../content/pilot-fellowship/reading-list-2223.pdf" target="_blank">Reading List (PDF)</a></h4>
@@ -315,10 +310,11 @@ permalink: /fellows/
           </div>
         {% endfor %}
           
-
-          <div class="reading-list-links" id="2122-reading-list-links">
-            <h4><a href="../fellows/reading-list-2122.html" target="_blank">Reading List (with links)</a></h4>
-            <h4><a href="../content/pilot-fellowship/reading-list-2122.pdf" target="_blank">Reading List (PDF)</a></h4>
+          <div class="think-item" id="reading-list-2122">
+            <div class="reading-list-links" id="2122-reading-list-links">
+              <h4><a href="../fellows/reading-list-2122.html" target="_blank">Reading List (with links)</a></h4>
+              <h4><a href="../content/pilot-fellowship/reading-list-2122.pdf" target="_blank">Reading List (PDF)</a></h4>
+            </div>
           </div>
 
           <div id="fellows-2122">

@@ -115,7 +115,7 @@ f
 
   
 
-  .intro-text, .info-block, .right-border-box, .section-title, .think-item, .give-item, .think-info, .do-item, .do-info, .meet-item, .meet-info {
+  .intro-text, .info-block, .right-border-box, .section-title, .think-item, .give-item, .do-item, .meet-item, .meet-info {
     width: 70vw;
   }
 
@@ -991,7 +991,7 @@ p {
   font-style: italic;
 }
 
-.think-info {
+.think-info, .do-info {
   width: 60vw;
 }
 

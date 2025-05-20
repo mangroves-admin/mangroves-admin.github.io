@@ -601,7 +601,7 @@ margin: 0.5em 0;
 
 #fellows-body p {
   font-size: var(--fs-200);
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
 }
 
 #fellows-intro-block {
@@ -616,6 +616,10 @@ margin: 0.5em 0;
 
 #summary-2223-section {
   padding-top: 0;
+}
+
+#summary-2223-section p {
+  padding-bottom: 2em;
 }
 
 #fellows-setup h3, #fellows-setup p {

@@ -29,6 +29,11 @@
   src: url('../design/fonts/Ubuntu/Ubuntu-Italic.ttf ');
 }
 
+@font-face {
+  font-family: 'Ubuntu-Italic';
+  src: url('../design/fonts/Ubuntu/Ubuntu-Italic.ttf ');
+}
+
 :root {
   
   --fs-xl: ;
@@ -42,6 +47,7 @@
   --fs-100: 18px;
 
   --px-600: 240vw;
+  --px-400: 100vw;
   --px-400: 100vw;
 
   --ht-400: 10em;
@@ -63,8 +69,10 @@
 
     --px-600: 24em;
     --px-400: 12em;
+    --px-400: 12em;
 
     --ht-400: 10em;
+    --ht-200: 30px;
     --ht-200: 30px;
   }
 
@@ -159,6 +167,11 @@
     display: flex !important;
   }
 
+  .margin-column {
+    /* show margins on desktop */
+    display: flex !important;
+  }
+
   .section-title h3 {
     font-size: var(--fs-400) !important;
   }
@@ -187,9 +200,9 @@
   }
 
   /* kill this to get back to 1-column layout if desired */
-   #board-of-directors, #advisory-board, #personnel {
-   flex-wrap: nowrap;
-    width: 100%;
+    #board-of-directors, #advisory-board, #personnel {
+    flex-wrap: nowrap;
+      width: 100%;
   }
 
    #meet-figuration {
@@ -207,6 +220,7 @@
   #directors-col-1, #directors-col-2, #advisory-col-1, #advisory-col-2, #personnel-col-1, #personnel-col-2 {
     margin-right: 4em;
   }
+
 
   #give-main-section {
   padding: 3em 0.5em 1em 0;
@@ -504,7 +518,7 @@
   .rome-column ul, .rome-column ol {
     margin-top: 0;
   }
-
+  
 
   #rome-column-2-1-1 p, #rome-column-2-1-2 p {
     font-size: var(--fs-300);
@@ -905,6 +919,8 @@ p {
 
 .responsive-two-columns h2 {
   text-transform: uppercase;
+  margin-bottom: -10px;
+  /* margin-top: 10px; */
   padding-bottom: 0;
   /* margin-top: 10px; */
 }
@@ -973,6 +989,7 @@ p {
   text-align: left;
   /* height: 5em; */
   
+  
 }
 
 
@@ -1019,6 +1036,7 @@ p {
 
 #do-section-title {
   margin-bottom: 1em;
+  max-width: 55%;
   max-width: 55%;
 }
 
@@ -1877,6 +1895,7 @@ h3 {
 
 
 }
+
 
 
 

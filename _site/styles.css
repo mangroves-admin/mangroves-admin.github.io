@@ -24,6 +24,11 @@
   src: url('../design/fonts/gowun-dodum/Gowun_Dodum/GowunDodum-Regular.ttf ');
 }
 
+@font-face {
+  font-family: 'Ubuntu-Italic';
+  src: url('../design/fonts/Ubuntu/Ubuntu-Italic.ttf ');
+}
+
 :root {
   
   --fs-xl: ;
@@ -121,6 +126,16 @@ f
 
   .think-info, .do-info {
     /* max-width: 60em; */
+  }
+
+  .do-info img {
+    display: block !important;
+  }
+
+  .do-subpage-img {
+    float: left;
+    width: 20em;
+    padding: 0 3em 1em 0;
   }
 
   .do-info img {
@@ -1000,7 +1015,7 @@ p {
   color: #5a86ff;
   font-weight: 600;
   font-size: var(--fs-200);
-  margin-top: -5px;
+  /* margin-top: -5px; */
   margin-right: 10px;
 }
 

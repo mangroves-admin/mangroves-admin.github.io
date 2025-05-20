@@ -172,6 +172,10 @@
     display: flex !important;
   }
 
+  .section-title {
+    max-width: 60vw;
+  }
+
   .section-title h3 {
     font-size: var(--fs-400) !important;
   }
@@ -990,7 +994,7 @@ p {
 .section-title {
   margin-right: 1em;
   /* max-width: 100%; */
-  max-width: 60vw;
+  /* max-width: 60vw; */
   text-align: left;
   /* height: 5em; */
   

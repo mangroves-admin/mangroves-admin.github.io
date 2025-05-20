@@ -18,16 +18,17 @@ permalink: /meet/
 
         <div class="info-block" id="meet-intro">
             <div class="right-border-box">
-
-            <div class="section-title" id="meet-section-title">
-                <h3>Meet</h3>
-            </div>
-
-                <div class="meet-item" id="meet-intro-boards">
-                    <div class="section-subtitle" id="boards-section-title">
-                        <h3>Figuration</h3>
+                <div class="meet-item" id="meet-figuration">  
+                    <div class="section-title" id="meet-section-title">
+                        <h3>Meet</h3>
                     </div>
-                    <p>Our Board of Directors oversees strategy, governance, and audit of the Collaboratory through dialogue with our Instigator and Board of Advisors and other Officers, in quarterly meetings, on annual reports, and through other communications. The Instigator and other staff report to the Board of Directors, but also serve the broader public in trust. As we grow, we’ll also be enlarging our boards and staff as needed.</p>
+
+                    <div class="meet-item" id="meet-intro-boards">
+                        <div class="section-subtitle" id="boards-section-title">
+                            <h3>Figuration</h3>
+                        </div>
+                        <p>Our Board of Directors oversees strategy, governance, and audit of the Collaboratory through dialogue with our Instigator and Board of Advisors and other Officers, in quarterly meetings, on annual reports, and through other communications. The Instigator and other staff report to the Board of Directors, but also serve the broader public in trust. As we grow, we’ll also be enlarging our boards and staff as needed.</p>
+                    </div>
                 </div>
             </div>
         </div>

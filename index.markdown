@@ -158,7 +158,7 @@ permalink: /home/
             <div class="right-border-box" id="meet-border-box">
                 <div class="intro" id="meet-text">
                     {% for item in site.data.meet %}
-                     <div class="do-item" id="stretching-forth-text">
+                     <div class="do-item" id="meet-text">
                         <div class="section-title" id="meet-item-title">
                         <h3>{{ item.title }}</h3>
                         </div>

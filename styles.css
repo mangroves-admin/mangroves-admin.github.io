@@ -1058,10 +1058,11 @@ p {
   padding: 0em 3.5em;
   /* display: flex; */
   justify-content: center;
+  border: 1px solid red;
 }
 
 .right-margin {
-  /* border: 1px solid green; */
+  border: 1px solid green;
 }
 
 .left-margin {

@@ -116,12 +116,12 @@ permalink: /fellows/
                 </div>
 
                  <div class="margin-column right-margin">
-                            <div class="marginal-blurb">
-                                <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
-                                <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
-                                <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
-                            </div>
-                        </div>
+                    <div class="marginal-blurb">
+                      <p style="color: {{ item.right-blurb-1-color }}">{{ item.right-blurb-1 }}</p>
+                      <p style="color: {{ item.right-blurb-2-color }}">{{ item.right-blurb-2 }}</p>
+                      <p style="color: {{ item.right-blurb-3-color }}">{{ item.right-blurb-3 }}</p>
+                    </div>
+                  </div>
               </div>
               {% endfor %}
             </div>
@@ -359,7 +359,6 @@ permalink: /fellows/
 
           <div id="responses-copy">
             <div id="responses-img">
-
                   <div class="response-photo-with-credit">
                     <img src="/design/img/subpage-img/fellows-skyshot.jpg" alt="trees-skyshot">
                     <div class="photo-credit" id="responses-photo-credit">
@@ -384,10 +383,15 @@ permalink: /fellows/
                     <h4>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;{{ item.name }}</h4>
                   </div>
                 {% endfor %}
-              </div>
+            </div>
           </div>
       </div>
     </div>
+
+
+
+
+
   </div>
 </body>      
 

@@ -334,6 +334,10 @@ f
     width: 100% !important;
   }
 
+  #fellows-responses {
+    width: 60em;
+  }
+
   .initiative {
     margin-bottom: 1.5em;
   }
@@ -1225,6 +1229,7 @@ p {
 
 #give-item-title h3 {
   color: #5a86ff !important;
+  margin: 0 0 1em 0;
 }
 
 #meet-item-inside, #give-item-inside, #reach-item-inside {
